@@ -7,3 +7,7 @@
 --Inizialization: Need to create a virtual environment, with Docker &/or poetry, in order to solve dependencies ....
 
 --Create a database (PostgreSQL?) to retain the login information, the lines information and so ....
+
+
+Para ver la organizacion del proyecto:
+[a link] (https://docs.python-guide.org/writing/structure/)
