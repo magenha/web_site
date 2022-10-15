@@ -6,7 +6,9 @@
 -To do:
 --Inizialization: Need to create a virtual environment, with Docker &/or poetry, in order to solve dependencies ....
 
---Create a database (PostgreSQL?) to retain the login information, the lines information and so ....
+--The login-form page was written (or copied!) from this videos of "Modern Web"
+[a link] (https://www.youtube.com/watch?v=Lcih8lCY19k&ab_channel=ModernWeb)
+[a link] (https://www.youtube.com/watch?v=I3ZNqmPBOPQ&t=154s&ab_channel=ModernWeb)
 
 
 Para ver la organizacion del proyecto:
