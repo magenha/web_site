@@ -197,18 +197,20 @@ h3{
     text-align: center;
     padding-top: 50px;
 }
-.campus-col{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-.campus-col img{
-    width: 100%;    
+
+.campus-col {
+    flex: 50%;
+    padding: 5px;
 }
 
-.layer{
+.campus-col img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}  
+
+.layer1{
     background: transparent;
     text-align: center;
     height: 100%;
