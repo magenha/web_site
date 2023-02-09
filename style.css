@@ -39,10 +39,9 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: #fff;
+    color: #030303;
     text-decoration: none;
-    font-size: 13px;
-
+    font-size: 20px;
 }
 
 .nav-links ul li::after{
@@ -71,16 +70,17 @@ nav img{
 
 .text-box h1{
     font-size: 62px;
+    color: #fae100;
 }
 
 .text-box h2{
     font-size: 40px;
-    color: #fad000;
+    color: #fae100;
 }
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
 }
 
@@ -141,6 +141,36 @@ nav .fa{
 }
 
 
+.text-box table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    position: center;
+    font-style: normal;
+}
+
+.text-box tr {
+    color: #030303;
+}
+
+.text-box table{
+    border: 1px solid;
+    border-collapse: collapse;
+    position: center;
+    font-style: normal;
+    color: hsl(0, 0%, 99%);
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.statistics {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url(./images/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 /* ------------------ course  ----------------*/
 .course{
     width: 80%;
@@ -181,6 +211,7 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    color: #0011fa;
 }
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
