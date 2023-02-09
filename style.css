@@ -191,33 +191,31 @@ h3{
     }
 }
 
-.campus{
+.supporting{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.campus-col {
+.supporting-col {
     flex: 50%;
     padding: 5px;
 }
 
-.campus-col img {
+.supporting img {
     float: left;
     width:  100px;
     height: 100px;
     object-fit: cover;
+    padding-bottom:0.5em;
 }  
 
-.layer1{
+.supporting img figcaption{
     background: transparent;
+    color: black;
     text-align: center;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
+    padding: 2px;
+    display: block;
 }
 
