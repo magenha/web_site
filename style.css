@@ -71,12 +71,12 @@ nav img{
 
 .text-box h1{
     font-size: 62px;
-    color: #fae100;
+    color: #ffee00;
 }
 
 .text-box h2{
     font-size: 40px;
-    color: #fae100;
+    color: #ffee00;
 }
 
 .text-box p{
@@ -113,7 +113,7 @@ nav .fa{
     }
     .text-box h2{
         font-size: 15px;
-        color: #fad000;
+        color: #df4d14;
     }
     .nav-links ul li{
         display: block;
@@ -154,12 +154,12 @@ nav .fa{
 }
 .text-box-scroll h1{
     font-size: 62px;
-    color: #fae100;
+    color: #000000;
 }
 
 .text-box-scroll h2{
     font-size: 40px;
-    color: #fae100;
+    color: #000000;
 }
 
 .text-box-scroll p{
