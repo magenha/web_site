@@ -1,10 +1,10 @@
 New website project!
 
 
-# Requires Docker-compose to build ad raise image
+# Blog dynamics requires npm and node
 
-pip install docker
+sudo apt install npm
 
-pip install docker-compose
+nodejs
 
 #
