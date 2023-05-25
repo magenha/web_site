@@ -10,7 +10,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url(./images/background.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9)), url(./images/background.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -83,7 +83,9 @@ nav img{
     margin: 10px 0 40px;
     font-size: 16px;
     color: #fff;
+    text-align: center;
 }
+
 
 .text-box-scroll ul{
     list-style-type: upper-roman;
@@ -280,6 +282,7 @@ h3{
     margin: 10px 0;
     color: #0011fa;
 }
+
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -314,3 +317,20 @@ h3{
     display: block;
 }
 
+.whoarewe {
+    font-size: 24px;
+    color: yellow;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url(./About/images/background02.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .whoarewe h2{
+    font-size: 24px;
+    color: yellow;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url(./About/images/background02.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
