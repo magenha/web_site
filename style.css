@@ -365,7 +365,7 @@ p{
 .resources-main-panel {
   display: grid;
   background-color: #919191;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 50px;
   justify-items: center;
@@ -373,7 +373,7 @@ p{
 
 .resources-card {
   width: 100%;
-  max-width: 300px;
+  max-width: 250px;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;
@@ -483,4 +483,105 @@ p{
 .number-lines p{
   color: #e1f436;
   padding-left: 40%;
+}
+
+
+
+/* CSS for smaller screens */
+@media only screen and (max-width: 768px) {
+  .header {
+    height: auto;
+  }
+  nav img {
+    width: 20%;
+  }
+  .nav-links {
+    display: none;
+    /* This will hide the navigation links on smaller screens */
+  }
+  .nav-links ul {
+    text-align: center;
+  }
+  .nav-links ul li {
+    display: block;
+    padding: 5px;
+  }
+  .nav-links ul li::after {
+    display: none;
+    /* Remove the underline on smaller screens */
+  }
+}
+
+/* CSS for smaller screens */
+@media only screen and (max-width: 768px) {
+  .home-introduction .text h1 {
+    font-size: 40px;
+    padding-bottom: 5%;
+  }
+  .home-introduction .text p {
+    font-size: 30px;
+  }
+  .home-mission h1 {
+    font-size: 40px;
+    padding-bottom: 1%;
+  }
+  .home-mission p {
+    font-size: 20px;
+    padding-bottom: 1%;
+  }
+  .home-about_services .about h1 {
+    font-size: 40px;
+  }
+  .home-about_services .about p {
+    font-size: 20px;
+    padding-bottom: 5%;
+  }
+  .home-about_services .services h1 {
+    font-size: 40px;
+  }
+  .home-about_services .services ul {
+    font-size: 20px;
+  }
+  .home-affiliations h1 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .collab-column h3 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .collab-column p {
+    font-size: 16px;
+  }
+  .footer p {
+    font-size: 16px;
+  }
+}
+
+
+
+/* CSS for smaller screens */
+@media only screen and (max-width: 768px) {
+  .footer nav {
+    margin-bottom: 10px;
+  }
+  .nav-links ul {
+    text-align: center;
+  }
+  .footer ul li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px; /* Adjust the spacing for smaller screens */
+  }
+  .social-media-icons a i {
+    width: 20px;
+    height: 20px;
+    /* Add additional styles as needed */
+  }
 }
