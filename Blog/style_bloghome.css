@@ -353,7 +353,7 @@ h3{
 }
 
 .welcome-header h1 {
-    font-size: 36px;
+    font-size: 70px;
     font-weight: bold;
     color:black;
 }
@@ -499,4 +499,63 @@ h3{
   
   .references li {
     margin-bottom: 5px;
+  }
+
+
+
+
+  /**************FOOTER*************************/
+
+.footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(255, 255, 255, 0.9)), url(../images/init_portal.jpg);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer nav {
+    margin-bottom: 10px;
+  }
+  .nav-links{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  
+  .footer ul li a {
+    text-decoration: none;
+    color: #fffefe;
+  }
+  
+  .footer p {
+    margin-top: 5px;
+    display: flex;
+    color: #ffffff;
+  }
+
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px; /* Add some space between the footer content and the social media icons */
+  }
+  
+  .social-media-icons a i {
+    width: 30px;
+    height: 30px;
+    /* Add additional styles as needed */
   }
