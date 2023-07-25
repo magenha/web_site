@@ -495,10 +495,7 @@ p{
   nav img {
     width: 20%;
   }
-  .nav-links {
-    display: none;
-    /* This will hide the navigation links on smaller screens */
-  }
+
   .nav-links ul {
     text-align: center;
   }
