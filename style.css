@@ -582,3 +582,44 @@ p{
     /* Add additional styles as needed */
   }
 }
+
+
+
+/* OUR RESEARCH TABLE   */
+
+.pending-research{
+  background-color: #919191;
+  background-position: left;
+  background-size: cover;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 2%;
+}
+
+.pending-research h1 {
+  font-size: 50px;
+  padding-bottom: 5%;
+}
+
+.pending-research p {
+  font-size: 20px;
+}
+
+.flag {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the image fits within the container */
+  border: 2px solid #f44336; /* Add a border with a color, you can adjust the color code */
+  border-radius: 30%; /* Make the flag circular */
+  
+  top: 10px; /* Adjust the vertical position as needed */
+  right: 10px; /* Adjust the horizontal position as needed */
+}
+
+.avatar {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fits within the circular shape */
+  margin-right: 20px; /* Add some spacing to the right of the avatar */
+}
