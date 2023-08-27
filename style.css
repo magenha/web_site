@@ -623,3 +623,110 @@ p{
   object-fit: cover; /* Ensure the image fits within the circular shape */
   margin-right: 20px; /* Add some spacing to the right of the avatar */
 }
+
+
+
+
+/*Genealogy Good practices*/
+.Good-Practices {
+  background-color: #919191;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+}
+
+h1 {
+  padding-left: 5%;
+  font-size: 50px;
+  color: #000;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.table-of-contents {
+  border: 1px solid #555;
+  padding: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.table-of-contents h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.table-of-contents ul {
+  list-style-type: none;
+  padding: 0;
+  counter-reset: section;
+}
+
+.table-of-contents li {
+  margin-bottom: 5px;
+  counter-increment: section;
+}
+
+.table-of-contents li::before {
+  content: counter(section) ". ";
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.table-of-contents a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.table-of-contents a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* Common styling for paragraphs and list items */
+p, li {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Styling for main lists within paragraphs */
+p ul {
+  list-style-type: disc;
+  padding-left: 5%;
+}
+
+/* Styling for sublists within paragraphs */
+ol, ul ul {
+  list-style-type: circle;
+  padding-left: 10%;
+}
+
+
+
+/*Sourcs by country*/
+
+.Sources {
+  background-color: #919191;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+
+.books-table {
+  margin: 0 auto; /* Automatically center the table horizontally */
+  width: 80%; /* Set the width of the table */
+}
+
