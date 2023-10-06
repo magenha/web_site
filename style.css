@@ -59,6 +59,16 @@ nav img{
     width: 100%;
 }
 
+.language-selector {
+  margin-left: auto; /* Pushes it to the right */
+  color: #4d4b4b;
+}
+
+.language-selector label {
+  margin-right: 10px; /* Adds some spacing between label and select */
+}
+
+
 /********************HOME INTRODUCTION*********************************/
 
 .home-introduction {

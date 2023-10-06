@@ -3,8 +3,9 @@
     <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <title>RESOURCES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>HERRAMIENTAS</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,45 +15,47 @@
 <body>
 <section class="header">
     <nav>
-        <a href="../index.html"><img src="../images/logo.png"></a>
+        <a href="../index-es.html"><img src="../images/logo.png"></a>
+        
         <div class="nav-links" id="navLinks">
-
             <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="">SIGN-IN</a></li>
-                <li><a href="../Resources/index-resources.html">RESOURCES</a></li>
-                <li><a href="../Blog/index-blog.html">BLOG</a></li>
-                <li><a href="../Contact/index-contact.html">CONTACT & SUPPORT</a></li>
+                <li><a href="../index-es.html">INICIO</a></li>
+                <li><a href="">ACCESO</a></li>
+                <li><a href="../Resources/index-resources-es.html">HERRAMIENTAS</a></li>
+                <li><a href="../Blog/index-blog-es.html">BLOG</a></li>
+                <li><a href="../Contact/index-contact-es.html">CONTACTO Y DONACIONES</a></li>
             </ul>
         </div>
         <div class="language-selector">
             <label for="language-select"></label>
             <select id="language-select" onchange="changeLanguage()">
-              <option value="en">English</option>
+              
               <option value="es">Español</option>
+              <option value="en">English</option>
               <!-- Add more language options as needed -->
             </select>
-          </div>
+        </div>
     </nav>
+    
 </section>
 
     <!--------------------------------CONTENT------------------------------------------->
     <section class="haplogr-table">
 
-            <h1>Table of most common haplogroups for Cuba</h1>
-            <p>The following is a table of the most common haplogroups obtained for Cuba.
-                If you wish to see other country's information, <a href="./index-resources-haplos-home.html" > GO BACK </a>. 
+            <h1>Tabla con los haplogrupos más comunes para Cuba</h1>
+            <p>La siguiente es una tabla con los haplogrupos más comunes obtenidos para Cuba.
+                Si usted desea ver la información de los haplogrupos en otros países, <a href="./index-resources-haplos-home-es.html" > REGRESE </a>.
                 <br>
-                For this country, our database tracks: <br>
-                Lineages of <span id="bigger-color">mt</span>:<span id="bigger"> 8459</span> <br>
-                Lineages of <span id="bigger-color">Y</span>: <span id="bigger"> 2963</span> <br>
-                Last update: October 06., 2023<table class="center">
+                Para este país, nuestros datos contienen: <br>
+                Linajes <span id="bigger-color">maternos mt-DNA</span>:<span id="bigger">8459</span> <br>
+                Linajes <span id="bigger-color">paternos Y-DNA</span>: <span id="bigger">2963</span> <br>
+                Última actualización 06 de octubre de 2023<table class="center">
                 <tr>
-                    <th>rank </th>
-                    <th> mt haplogroup </th>
-                    <th> abundance (%) </th>
-                    <th> Y haplogroup </th>
-                    <th> abundance (%) </th>
+                    <th> grado </th>
+                    <th> haplogrupo mt </th>
+                    <th> abundancia (%) </th>
+                    <th> haplogrupo Y </th>
+                    <th> abundancia (%) </th>
                 </tr>
     <tr>
 <th>1</th>
@@ -1994,26 +1997,26 @@
     
 <!--------------------------------FOOTER------------------------------------------->
 
-
 <section class="footer">
     <div>
         <nav>
             <div class="nav-links" id="nav-links">
             <ul>
-                <li><a href="../terms-conditions.html">TERMS & CONDITIONS</a></li>
-                <li><a href="../faqs.html">FAQs</a></li>
-                <li><a href="../Contact/index-contact.html">DONATE</a></li>
+                <li><a href="../terms-conditions-es.html">TERMINOS Y CONDICIONES</a></li>
+                <li><a href="../faqs-es.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="../Contact/index-contact-es.html">DONAR</a></li>
             </ul>
         </div>
         </nav>
     </div>
-    <p>MAGENHA 2023 All rights reserved</p>
-    <p>Made by Samuel Martinez Alcala</p>
+    <p>MAGENHA 2023 Todos los derechos reservados</p>
+    <p>Página hecha por Samuel Martinez Alcala</p>
+
     <div class="social-media-icons">
         <a href="https://www.facebook.com/magenha" target="_blank">
           <i class="fab fa-facebook"></i>
         </a>
-        <a href="https://www.twitter.com/https://twitter.com/magenhaproject" target="_blank">
+        <a href="https://twitter.com/magenhaproject" target="_blank">
           <i class="fab fa-twitter"></i>
         </a>
         <a href="https://www.reddit.com/user/magenha/" target="_blank">
@@ -2023,11 +2026,13 @@
             <i class="fab fa-linkedin"></i>
           </a>
           <a href="https://www.instagram.com/magenhaproject/" target="_blank">
-            <i class="fab fa-in"></i>
+            <i class="fab fa-instagram"></i>
           </a>
         <!-- Add more social media icons and links as needed -->
     </div>
 </section>
+
+
 
 <!-- Add JavaScript -->
 <script>
@@ -2039,8 +2044,7 @@
         if (selectedLanguage === 'en') {
             newURL = 'index-resources-haplos-CU.html';
         } else if (selectedLanguage === 'es') {
-            newURL = 
-'index-resources-haplos-CU-es.html';
+            newURL = 'index-resources-haplos-CU-es.html';
         }
 
         // Navigate to the new URL
@@ -2051,3 +2055,4 @@
 
 </body>    
 </html>
+    
