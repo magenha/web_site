@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Portal de inicio - MAGENHA</title>
+    <title>GENEALOGIA</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,17 +13,25 @@
 <body>
 <section class="header">
     <nav>
-        <a href="./index.html"><img src="images/logo.png"></a>
+        <a href="./index-es.html"><img src="images/logo.png"></a>
         
         <div class="nav-links" id="navLinks">
             <ul>
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="">SIGN-IN</a></li>
-                <li><a href="./Resources/index-resources.html">RESOURCES</a></li>
-                <li><a href="./Blog/index-blog.html">BLOG</a></li>
-                <li><a href="./Contact/index-contact.html">CONTACT & SUPPORT</a></li>
+                <li><a href="./index-es.html">INICIO</a></li>
+                <li><a href="">ACCESO</a></li>
+                <li><a href="./Resources/index-resources-es.html">HERRAMIENTAS</a></li>
+                <li><a href="./Blog/index-blog-es.html">BLOG</a></li>
+                <li><a href="./Contact/index-contact-es.html">CONTACTO Y DONACIONES</a></li>
             </ul>
         </div>
+        <div class="language-selector">
+            <label for="language-select"></label>
+            <select id="language-select" onchange="changeLanguage()">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+              <!-- Add more language options as needed -->
+            </select>
+          </div>
     </nav>
 </section>
 
@@ -31,56 +39,56 @@
 
 
 <section class="pending-research">
-    <h1>Genealogy research service of MAGENHA</h1>
+    <h1>Servicio de investigación genealógica de MAGENHA</h1>
     <div class="table-of-contents" style="text-align: center;">
-        <h3 style="text-align: center;">Index</h3>
+        <h3 style="text-align: center;">Contenido</h3>
         <ul>
-            <li><a href="#forms">Forms</a></li>
-            <li><a href="#terms-conditions">Terms & Conditions</a></li>            
+            <li><a href="#forms">Formularios</a></li>
+            <li><a href="#terms-conditions">Términos y condiciones</a></li>            
         </ul>
     </div>
 
-    <h2 id="forms" style="text-align: center; padding-top: 10%; font-size: 70px;">Forms</h2>
-    <p>The following links lead to forms intended to collect the applicant's data, and those required to locate the document.</p>
-    <p>Select the type of document you wish to request, and complete the information on the form. Remember that these are only parish documents in Cuba.</p>
-    <p>If you provide accurate data, this will ensure the success of the search, and shorten the delivery time. We recommend to consult our list of burial records in our <a href="https://patreon.com/magenha">Patreon</a>. Also, consult our suggestions of <a href="./Resources/index-sources.html#CU">documentary sources in Cuba</a>.</p>
-    <p>Disclaimer: We can only work in the parishes indicated on the form. If you want to know more, you can <a href="./Contact/index-contact.html">contact us</a>.</p>
+    <h2 id="forms" style="text-align: center; padding-top: 10%; font-size: 70px;">Formularios</h2>
+    <p>Los siguientes enlaces conducen a los formularios destinados a recoger los datos del solicitante, y a los necesarios para localizar el documento.</p>
+    <p>Seleccione el tipo de documento que desea solicitar y complete la información del formulario. Recuerde que estos son sólo documentos parroquiales en Cuba.</p>
+    <p>Si proporcionas datos precisos, esto asegurará el éxito de la búsqueda y acortará el tiempo de entrega. Recomendamos consultar nuestro listado de registros de entierro en nuestro <a href="https://patreon.com/magenha">Patreon</a>. También consulte nuestras sugerencias de <a href="./Resources/index-sources.html#CU">documentación en Cuba</a>.</p>
+    <p>Descargo de responsabilidad: Sólo podemos trabajar en las parroquias indicadas en el formulario. Si desea saber más, puede <a href="./Contact/index-contact.html">escribirnos</a>.</p>
 
     <ol>
-        <li>Baptism records form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXb0Ri3Scfjm4RDHyvsOhoF1SqTX84Wr16WIC_oOgI3JlNpQ/viewform">English</a> , <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6LyertQM-Q2rmGv2tbFc-8WJLsnS7ol475L6VLHiGt_ZsFg/viewform">Spanish</a></li>
-        <li>Burial records form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSflJtvmsxlNWhe0GvNEXj6TkoaHnmChtSFgUw24e7u4u60wIA/viewform">English</a> , <a href="https://docs.google.com/forms/d/e/1FAIpQLSdR68c_xvQnsq7J7fBBhZu_9r4cC9zqLBh02VrD4d4jIJ-NHg/viewform">Spanish</a></li>
-        <li>Marriage records form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSc51ewFFKWG2OHg9dOTJb-OFay9gZ_jjLC-_bg6itVa6hHxDg/viewform">English</a> , <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScDk_zfK-xfikJ6DSzMxseX2QfGS8X4zptWLSzKkhzbZiOwmA/viewform">Spanish</a></li>
-        <li>Testament records form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ4mZfeVEqTbpBgq2fVhkXVafiBl0qLZ5bopZjor9apCThrg/viewform">English</a> , <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRF0J0ny0y5jqYMHeOnkWuzhB3IER34egO2JIJ8QjPXv2lSA/viewform">Spanish</a></li>
+        <li>Formulario de solicitud de bautismo: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXb0Ri3Scfjm4RDHyvsOhoF1SqTX84Wr16WIC_oOgI3JlNpQ/viewform">Inglés</a> , <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6LyertQM-Q2rmGv2tbFc-8WJLsnS7ol475L6VLHiGt_ZsFg/viewform">Español</a></li>
+        <li>Formulario de solicitud de entierros: <a href="https://docs.google.com/forms/d/e/1FAIpQLSflJtvmsxlNWhe0GvNEXj6TkoaHnmChtSFgUw24e7u4u60wIA/viewform">Inglés</a> , <a href="https://docs.google.com/forms/d/e/1FAIpQLSdR68c_xvQnsq7J7fBBhZu_9r4cC9zqLBh02VrD4d4jIJ-NHg/viewform">Español</a></li>
+        <li>Formulario de solicitud de matrimonios: <a href="https://docs.google.com/forms/d/e/1FAIpQLSc51ewFFKWG2OHg9dOTJb-OFay9gZ_jjLC-_bg6itVa6hHxDg/viewform">Inglés</a> , <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScDk_zfK-xfikJ6DSzMxseX2QfGS8X4zptWLSzKkhzbZiOwmA/viewform">Español</a></li>
+        <li>Formulario de solicitud de testamentos: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ4mZfeVEqTbpBgq2fVhkXVafiBl0qLZ5bopZjor9apCThrg/viewform">Inglés</a> , <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRF0J0ny0y5jqYMHeOnkWuzhB3IER34egO2JIJ8QjPXv2lSA/viewform">Español</a></li>
     </ol>
     
-    <h2 id="terms-conditions" style="text-align: center;">Terms and conditions of the service</h2>
-    <p>In order to obtain funds to carry out our investigations, and to buy DNA kits, MAGENHA offers a genealogical search service for documents in Cuba.</p>
-    <p>The interested person must provide data in the forms at the end.</p>
-    <p>Below are the terms and conditions of use of the service.</p>
+    <h2 id="terms-conditions" style="text-align: center;">Términos y condiciones del servicio.</h2>
+    <p>Con el fin de obtener fondos para realizar nuestras investigaciones y comprar kits de ADN, MAGENHA ofrece un servicio de búsqueda genealógica de documentos en Cuba.</p>
+    <p>La persona interesada deberá facilitar sus datos en los formularios al final.</p>
+    <p>A continuación se detallan los términos y condiciones de uso del servicio.</p>
 
 
-    <h3>PAYMENTS AND REFUNDS</h3>
+    <h3>PAGOS Y REEMBOLSOS</h3>
     <ol>
-        <li>Once we have results on the research, we will reach you and schedule the payment.</li>
-        <li>We will not provide research results until payment is made in full.</li>
-        <li>It will only be charged if the investigation has results and not otherwise.</li>
-        <li>The amount will be told in advance in the contact email, but it will be between 37-50% of the cost with genealogist services in Cuba.</li>
-        <li>Payments will be received using our <a href="./Contact/index-contact.html">donation button</a> via PayPal.</li> 
+        <li>Una vez que tengamos los resultados de la investigación, nos comunicaremos con usted y programaremos el pago.</li>
+        <li>No proporcionaremos los resultados de la investigación hasta que el pago se haya realizado en su totalidad.</li>
+        <li>Sólo se cobrará si la investigación tiene resultados y no en caso contrario.</li>
+        <li>El monto se informará con anticipación en el correo electrónico de contacto, pero será entre el 37-50% del costo con servicios genealogistas en Cuba.</li>
+        <li>Los pagos serán recibidos a través de nuestro <a href="./Contact/index-contact.html">botón de donaciones</a> via PayPal. Si es necesario, se puede gestionar otro método de recibo de los honorarios.</li> 
     </ol>
     
-    <h3>Research and completion time</h3>
-    <p>Given that these investigations will be included in our investigations as a project, it is not possible to specify a time for the completion of each order. It depends on the place where the document should be consulted and the volume of searches of our fundamental lines of investigation.</p>
+    <h3>Tiempo de investigación y finalización.</h3>
+    <p>Dado que estas investigaciones se incluirán en nuestras investigaciones como un proyecto, no es posible especificar un tiempo para la finalización de cada pedido. Depende del lugar donde se debe consultar el documento y del volumen de búsquedas de nuestras líneas fundamentales de investigación.</p>
     
-    <h3>Sharing information</h3>
-    <p>The person receives a transcript of the document, or a parish certificate</p>
-    <p>Each document delivered by MAGENHA will contain a watermark, since when they are searched by the project, they become part of our documentary collection.</p>
-    <p>We allow others (e.g., family history societies, journalists) to reproduce content published in our blog posts as long as they comply with the following policies:</p>
+    <h3>Compartiendo información</h3>
+    <p>La persona recibe una transcripción del documento o un certificado parroquial.</p>
+    <p>Cada documento entregado por MAGENHA contendrá una marca de agua, ya que al ser buscados por el proyecto pasan a formar parte de nuestro fondo documental.</p>
+    <p>Permitimos que otros (por ejemplo, sociedades de historia familiar, periodistas) reproduzcan el contenido publicado en las publicaciones de nuestro blog siempre que cumplan con las siguientes políticas:</p>
     <ol>
-        <li>Printed materials and presentations: Others may reproduce content from our blog posts in printed materials and presentations as long as they provide credit to Mapa Genealogico de Haplogrupos by including a link to https://www.magenha.org (or a direct link to the original blog post) in their publication or presentation.</li>
-        <li>Internet and electronic communications: Others may reproduce content from our blog posts on the Internet or in electronic communications as long as they include a link to our original blog post. Reproductions should constitute (1) select quotations and/or readers’ original summaries with (2) a link to the post rather than extensive reproductions of the post’s contents (i.e., more than two paragraphs).</li>
+        <li>Materiales impresos y presentaciones: Otros pueden reproducir el contenido de las publicaciones de nuestro blog en materiales impresos y presentaciones siempre que proporcionen crédito a Mapa Genealógico de Haplogrupos al incluir un enlace a https://www.magenha.org (o un enlace directo al publicación original del blog) en su publicación o presentación.</li>
+        <li>Internet y comunicaciones electrónicas: otros pueden reproducir contenido de las publicaciones de nuestro blog en Internet o en comunicaciones electrónicas siempre que incluyan un enlace a nuestra publicación de blog original. Las reproducciones deben constituir (1) citas seleccionadas y/o resúmenes originales de los lectores con (2) un enlace a la publicación en lugar de reproducciones extensas del contenido de la publicación (es decir, más de dos párrafos).</li>
     </ol>
-    <h3>Modifications of the terms and conditions of use</h3>
-    <p>We reserve the right at any time and at our sole discretion to modify these Terms and Conditions of Use. Modifications will be posted online or communicated to you via email or regular mail. We likewise reserve the right to refuse service to any potential client at our sole discretion</p>
+    <h3>Modificaciones de los términos y condiciones de uso</h3>
+    <p>Nos reservamos el derecho en cualquier momento y a nuestro exclusivo criterio de modificar estos Términos y condiciones de uso. Las modificaciones se publicarán en línea o se le comunicarán por correo electrónico o correo postal. Asimismo, nos reservamos el derecho de rechazar el servicio a cualquier cliente potencial a nuestro exclusivo criterio.</p>
     
     
 
@@ -88,23 +96,24 @@
 
 </section>
 
-<!--------------------------------FOOTER------------------------------------------->
 
+<!--------------------------------FOOTER------------------------------------------->
 
 <section class="footer">
     <div>
         <nav>
             <div class="nav-links" id="nav-links">
             <ul>
-                <li><a href="./terms-conditions.html">TERMS & CONDITIONS</a></li>
-                <li><a href="./faqs.html">FAQs</a></li>
-                <li><a href="./Contact/index-contact.html">DONATE</a></li>
+                <li><a href="./terms-conditions-es.html">TERMINOS Y CONDICIONES</a></li>
+                <li><a href="./faqs-es.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="./Contact/index-contact-es.html">DONAR</a></li>
             </ul>
         </div>
         </nav>
     </div>
-    <p>MAGENHA 2023 All rights reserved</p>
-    <p>Made by Samuel Martinez Alcala</p>
+    <p>MAGENHA 2023 Todos los derechos reservados</p>
+    <p>Página hecha por Samuel Martinez Alcala</p>
+
     <div class="social-media-icons">
         <a href="https://www.facebook.com/magenha" target="_blank">
           <i class="fab fa-facebook"></i>
@@ -124,6 +133,27 @@
         <!-- Add more social media icons and links as needed -->
     </div>
 </section>
+
+
+
+<!-- Add JavaScript -->
+<script>
+    function changeLanguage() {
+        const selectedLanguage = document.getElementById('language-select').value;
+        let newURL = '';
+
+        // Determine the new URL based on the selected language
+        if (selectedLanguage === 'en') {
+            newURL = 'research-service.html';
+        } else if (selectedLanguage === 'es') {
+            newURL = 'research-service-es.html';
+        }
+
+        // Navigate to the new URL
+        window.location.href = newURL;
+    }
+</script>
+
 
 </body>    
 </html>
