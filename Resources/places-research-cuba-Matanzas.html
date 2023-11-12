@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>RESEARCH</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="../index.html"><img src="../images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="">SIGN-IN</a></li>
+                <li><a href="../Resources/index-resources.html">RESOURCES</a></li>
+                <li><a href="../Blog/index-blog.html">BLOG</a></li>
+                <li><a href="../Contact/index-contact.html">CONTACT & SUPPORT</a></li>
+            </ul>
+        </div>
+        <div class="language-selector">
+            <label for="language-select"></label>
+            <select id="language-select" onchange="changeLanguage()">
+              <option value="en">English</option>
+              <option value="es">Español</option>
+              <!-- Add more language options as needed -->
+            </select>
+          </div>
+    </nav>
+</section>
+
+<!--------------------------------CONTENT------------------------------------------->
+<section class="Sources">
+
+    <h1> Places in Haban Archbishop where we had carried out genealogycal research </h1>
+    <p>As our main goal is to search in parish record, here we show some of the main parishes where we research.</p> 
+    <p>Would you like to <a href="./places-research-cuba.html">GO BACK</a>?</p>
+    <div class="table-of-contents">
+        <h3 style="text-align: center;">Index</h3>
+        <ul>
+            <li><a href="">Matanzas - Cabezas</a></li>
+            <li><a href="">Matanzas - Catedral de Matanzas</a></li>
+            <li><a href="">Matanzas - Versalles</a></li>
+            <li><a href="">Matanzas - Pedro Betancourt</a></li>
+        </ul>
+    </div>
+    
+    <div class="place-card">
+        <div>
+          <h3>Matanzas - Cabezas</h3>
+          <p>Cabezas, also known as San Antonio de Cabezas, is a historic Cuban village. Founded in 1822 around the San Antonio church, it was once an autonomous municipality encompassing neighboring villages. Located on the border of Matanzas and Mayabeque provinces, Cabezas sits on a plain north of the Zapata Swamp. Today, it remains a vital part of the region, connected by the Circuito Sur highway and the Havana-Güines-Cienfuegos railway.</p>
+    
+          
+          <img src="../images/parishes/Matanzas-Cabezas.jpg">
+    
+        </div>
+      </div>
+
+      <div class="place-card">
+        <div>
+          <h3>Matanzas - Pedro Betancourt</h3>
+          <p>Pedro Betancourt, formerly known as Corral Falso de Macurijes, is a Cuban municipality and town with a rich history. Founded in 1833, it was named after the Spanish-Cuban patriot Pedro Estanislao Betancourt Dávalos, a Major-General in the Cuban independence war against the Spanish Crown. The parish of the town, called Santa Catarina Mártir de Macurijes, has historical records dating back to 1695. Pedro Betancourt shares its history with the southern regions of Mayabeque, particularly with current San Nicolás de Bari and Nueva Paz. This area witnessed the growth of the sugar industry in the early 19th century and was the site of significant rebellions during the era of slavery. In 1901, it was renamed Pedro Betancourt in honor of the General. The town has played a pivotal role in the political and labor movements, with the founding of the first Communist Party cell in 1931 and notable actions in the struggle against tyranny.</p>
+          
+          <img src="../images/parishes/Matanzas-pedroBetancourt.jpg">
+    
+        </div>
+      </div>
+    
+    
+    </section>
+
+
+
+
+
+</section>
+<!--------------------------------FOOTER------------------------------------------->
+
+
+<section class="footer">
+    <div>
+        <nav>
+            <div class="nav-links" id="nav-links">
+            <ul>
+                <li><a href="../terms-conditions.html">TERMS & CONDITIONS</a></li>
+                <li><a href="../faqs.html">FAQs</a></li>
+                <li><a href="../Contact/index-contact.html">DONATE</a></li>
+            </ul>
+        </div>
+        </nav>
+    </div>
+    <p>MAGENHA 2023 All rights reserved</p>
+    <p>Made by Samuel Martinez Alcala</p>
+    <div class="social-media-icons">
+        <a href="https://www.facebook.com/magenha" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com/https://twitter.com/magenhaproject" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.reddit.com/user/magenha/" target="_blank">
+            <i class="fab fa-reddit"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/magenha-magenha-b5a405271/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/magenhaproject/" target="_blank">
+            <i class="fab fa-in"></i>
+          </a>
+        <!-- Add more social media icons and links as needed -->
+    </div>
+</section>
+
+<!-- Add JavaScript -->
+<script>
+    function changeLanguage() {
+        const selectedLanguage = document.getElementById('language-select').value;
+        let newURL = '';
+
+        // Determine the new URL based on the selected language
+        if (selectedLanguage === 'en') {
+            newURL = './our-research.html';
+        } else if (selectedLanguage === 'es') {
+            newURL = './our-research-es.html';
+        }
+
+        // Navigate to the new URL
+        window.location.href = newURL;
+    }
+</script>
+
+
+</body>    
+</html>

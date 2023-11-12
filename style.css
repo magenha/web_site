@@ -740,3 +740,43 @@ ol, ul ul {
   width: 80%; /* Set the width of the table */
 }
 
+.place-card {
+  display: flex;
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center; /* Vertically center the elements */
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.place-card img {
+  height: 500px;
+  width: auto; /* Let the width adjust to maintain aspect ratio */
+  border-radius: 8px;
+
+}
+
+.place-card h3 {
+  font-size: 25px;
+  margin: 10px 0;
+  color: rgb(255, 255, 255);
+}
+
+.place-card p {
+  font-size: 18px;
+  color: white;
+}
+
+.place-card a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.place-card a:hover {
+  color: #f44336;
+}
