@@ -3,198 +3,104 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Portal de inicio - MAGENHA</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<body>
-<section class="header">
-    <nav>
-        <a href="./index.html"><img src="images/logo.png"></a>
-        
-        <div class="nav-links" id="navLinks">
-
-            <ul>
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="">SIGN-IN</a></li>
-                <li><a href="./Resources/index-resources.html">RESOURCES</a></li>
-                <li><a href="./Blog/index-blog.html">BLOG</a></li>
-                <li><a href="./Contact/index-contact.html">CONTACT & SUPPORT</a></li>
-            </ul>
-        </div>
-        <div class="language-selector">
-            <label for="language-select"></label>
-            <select id="language-select" onchange="changeLanguage()">
-              <option value="en">English</option>
-              <option value="es">Español</option>
-              <!-- Add more language options as needed -->
-            </select>
-          </div>
-    </nav>
+    <title>MAGENHA</title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iK6T8iZdrU3Q5mZfWxPEicB7fD3u9H9z9Lw1a9/cWoP5Bsm81EYg2JREk" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     
-</section>
+<body>
+  
+  <section class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href=""><img src="logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link disabled" href="">Home</a>
+          <a class="nav-item nav-link disabled" href="">Sign-in</a>
+          <a class="nav-item nav-link disabled" href="#">Resources</a>
+          <a class="nav-item nav-link disabled" href="">Blog</a>
+          <a class="nav-item nav-link disabled" href="">Contact & Support</a>
+          <a class="nav-item nav-link" href="https://www.paypal.com/donate?hosted_button_id=QRPEHRYLQJQQW">Donate</a>
+        </div>
+      </div>
+    </nav>
+  </section>
 
 <!--------------------------------CONTENT------------------------------------------->
-
-<section class="home-introduction">
-    <div class="text">
-        <h1>MAPA GENEALÓGICO DE HAPLOGRUPOS (MAGENHA)</h1>
-        <p>UNIFIYING GENEALOGY AND GENETICS</p>
-        <p>See our <a href="./Resources/our-research.html#results">RESULTS</a>, our <a href="./Resources/our-research.html#current">CURRENT</a>, and <a href="./Resources/our-research.html#pending-tests">PENDING</a> research.</p>
-    </div>
-
-    <div class="tenor-gif-embed" data-postid="16377704" 
-    data-share-method="host" data-aspect-ratio="0.765625" 
-    data-width="30%">
-    <a href="https://tenor.com/view/dna-spinning-structure-gif-16377704">
-        Dna Spinning GIF
-    </a>from <a href="https://tenor.com/search/dna-gifs">Dna GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-    
+<section class="content">
+    <img src="logo.png">
+  <h>Website under construction</h>
+  <p>Please contact us: <a>contactmagenha@gmail.com</a></p>
 </section>
 
-<section class="home-mission">
-    <h1>Our goal: </h1>
-    <p>Our research project aims to uncover and document the genetic ancestry of diverse
-        populations in Latin America, Spain, Portugal and Africa. By conducting extensive
-        genealogical research and DNA testing, we seek to provide valuable insights into the
-        historical migration patterns, origin stories, and genetic diversity of various communities.
-        Our mission is to make this knowledge accessible and free to all, especially those with
-        limited resources. Through collaboration with volunteers and donors, we strive to advance
-        our research, expand our database, and promote a deeper understanding of human
-        genetic heritage.</p>
-    <p>To support our mission, we kindly encourage individuals to consider making a donation
-        towards our research project.</p>
-        <form action="https://www.paypal.com/donate" method="post" target="_top" style="padding-top: 20px; padding-bottom: 20px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-            <input type="hidden" name="hosted_button_id" value="QRPEHRYLQJQQW" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" style="width: 120px; height: 36px;"/>
-            <img alt="" border="0" src="https://www.paypal.com/en_AR/i/scr/pixel.gif" width="1" height="1" />
-        </form>
-        <p>Consider supporting us, so we can obtain more haplogroups and their genealogies <a href="./Contact/index-contact.html">(link for donations)</a> </p>.
-        <p>You can use our <a href="../research-service.html#forms">Genealogy services in Cuba</a> to obtain parish records and that way you help us develop our goals.</p>
-        <p style="text-align: center;"><a href="./research-service.html#forms"><img class="avatar" src="./images/service.jpeg" style="border-radius: 0%; width: 300px; height: 300px;"></a></p>
-</section>
-
-<section class="home-about_services">
-    <div class="about">
-    <h1>ABOUT US</h1>
-    <p>MAGENHA is a project initiated by Samuel Martínez Alcalá in 2022</p>
-    <p style="font-style: italic;">Motivated by our deep passion for genealogy and genetics, we embarked on this project with the belief
-        that these disciplines hold the key to captivating discoveries, shaping the
-        genetic identity of Cuba, the Canary Islands, pre-Columbian America, and Africa.</p>
-    </div>
-    <div class="services">
-        <h1>INFORMATION</h1>
-        <ul>
-            <li>GENEALOGY: We perform a discrete genealogical research service aimed to support our investigations and DNA tests <a href="./research-service.html#forms">(Learn more)</a>. Disclaimer: We do not manage documents for legal purposes. <a href="./research-service.html#forms"><img class="avatar" src="./images/service.jpeg" style="border-radius: 0%; width: 300px; height: 300px;"></a></li>
-            <li>SUBSCRIPTION: No membership is required to use all our
-                <a href="./Resources/index-resources.html">RESOURCES</a></li>
-            <li>EVENTS: We aim to have regular meetings with historians
-                and scientists</li>
-            <li>GENETICS: We do not provide DNA sequencing services</li>
-            <li>DATA: All data we have is available on our <a href="./Resources/index-resources.html">RESOURCES SECTION</a></li>
-            </ul>
-    </div>
-</section>
-
-<section class="home-affiliations">
-    <h1>OUR AFFILIATIONS WITH ORGANIZATIONS</h1>
-    <div class="collaboration-suppporters">
-        <div class="collab-column">
-            <h3>Cuban Genealogy Club</h3>
-            <p>One of the most prestigious asociations that promote Cuban Genealogy.</p>
-            <a href="https://www.cubangenclub.org/"><img src="./images/logo_CGC-removebg-preview.png" alt="Cuban Genealogy Club" width="300" height="250"></a>
-
-        </div>
-        <div class="collab-column">
-            <h3>SEGEHECA</h3>
-            <p>The Sociedad de Estudios Genealogicos y Heraldicos de Canarias offered support to our goals. We have common interest in the DNA of Canarian aboriginal population: the guanches.</p>
-            <a href="https://www.segeheca.com/"><img src="./images/logo_SEGEHECA.png" alt="SEGEHECA" width="300" height="300"></a>
-        </div>
-        <div class="collab-column">
-            <h3>Arzobispado de la Habana</h3>
-            <p>The Archbishopric of Havana, through a written permit, allows us to investigate its parishes and funds.</p>
-            <a href="https://arquidiocesisdelahabana.org/nueva/"><img src="./images/obisp-Habana.png" alt="ARZ HABANA" style="width: 200px; height: 200px;"></a>
-        </div>
-        <div class="collab-column">
-            <h3>Obispado de Pinar del Rio</h3>
-            <p>The Bishopric of Pinar del Rio, through a written permit, allows us to investigate its parishes and funds.</p>
-            <a href="https://www.facebook.com/diocesispinar/"><img src="./images/obisp-Pinar.jpeg" alt="ARZ PINAR" style="width: 200px; height: 200px;"></a>
-        </div>
-        <div class="collab-column">
-            <h3>Obispado de Matanzas</h3>
-            <p>The Bishopric of Matanzas, through a written permit, allows us to investigate its parishes and funds.</p>
-            <a href="https://www.facebook.com/diocesisdematanzas/"><img src="./images/obisp-matanzas.png" alt="ARZ MTZ" style="width: 350px; height: 200px;"></a>
-        </div>
-        <div class="collab-column">
-            <h3>Archivo Nacional de Cuba</h3>
-            <p>The National Archive of CUBA (ANC) accepted our request to access documentary funds and investigate. We mostly consult censuses and notarial protocols.</p>
-            <a href="https://www.facebook.com/archivonacional.decuba/"><img src="./images/anc.jpg" alt="ANC" style="width: 300px; height: 200px;"></a>
-        </div>
-    </div>
-
-</section>
 
 
 <!--------------------------------FOOTER------------------------------------------->
-
-<section class="footer">
-    <div>
-        <nav>
-            <div class="nav-links" id="nav-links">
-            <ul>
-                <li><a href="./terms-conditions.html">TERMS & CONDITIONS</a></li>
-                <li><a href="./faqs.html">FAQs</a></li>
-                <li><a href="./Contact/index-contact.html">DONATE</a></li>
-            </ul>
-        </div>
-        </nav>
+  <section class="">
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #3d3d3d;">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: CTA -->
+        <section class="">
+          <p class="d-flex justify-content-center align-items-center">
+            <!----<span class="me-3">Register</span>  ---------->
+            <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded me-2">
+              <a href="">Terms & Conditions</a>
+            </button>
+            <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded me-2">
+              <a href="">FAQs</a>
+            </button>
+            <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded me-2">
+              <a href="https://www.paypal.com/donate?hosted_button_id=QRPEHRYLQJQQW">Donate</a>
+          </button>
+          </p>
+        </section>
+        <!-- Section: CTA -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        MAGENHA 2023 All rights reserved:
+        <a class="text-white" href="https://magenha.org/">magenha.org</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </section>
+  <section class="d-flex justify-content-center p-4 border-bottom" style="background-color: #858383;">
+    <div class="d-flex justify-content-center align-items-center">
+      <a href="https://www.facebook.com/magenha" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/magenhaproject" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://magenha.org" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="https://www.instagram.com/magenhaproject/" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/magenha-magenha-b5a405271/" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.reddit.com/user/magenha/" class="me-4 text-reset">
+        <i class="fab fa-reddit"></i>
+      </a>
     </div>
-    <p>MAGENHA 2023 All rights reserved</p>
-    <p>Made by Samuel Martinez Alcala</p>
-
-    <div class="social-media-icons">
-        <a href="https://www.facebook.com/magenha" target="_blank">
-          <i class="fab fa-facebook"></i>
-        </a>
-        <a href="https://twitter.com/magenhaproject" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://www.reddit.com/user/magenha/" target="_blank">
-            <i class="fab fa-reddit"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/magenha-magenha-b5a405271/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://www.instagram.com/magenhaproject/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-        <!-- Add more social media icons and links as needed -->
-    </div>
-</section>
-
-
-
-<!-- Add JavaScript -->
-<script>
-    function changeLanguage() {
-        const selectedLanguage = document.getElementById('language-select').value;
-        let newURL = '';
-
-        // Determine the new URL based on the selected language
-        if (selectedLanguage === 'en') {
-            newURL = 'index.html';
-        } else if (selectedLanguage === 'es') {
-            newURL = 'index-es.html';
-        }
-
-        // Navigate to the new URL
-        window.location.href = newURL;
-    }
-</script>
-
-
-</body>    
+  </section>
+  <!-- Section: Social media -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
