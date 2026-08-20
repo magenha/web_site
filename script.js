@@ -34,7 +34,7 @@ if (navToggle && siteNavigation) {
     if (event.key === "Escape") closeNavigation();
   });
 
-  const desktopNavigation = window.matchMedia("(min-width: 1121px)");
+  const desktopNavigation = window.matchMedia("(min-width: 1201px)");
   const handleDesktopNavigation = (event) => {
     if (event.matches) closeNavigation();
   };

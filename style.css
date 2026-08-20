@@ -2025,7 +2025,7 @@ h3 {
   transform: translateY(0);
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1200px) {
   .utility-bar {
     display: none;
   }

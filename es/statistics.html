@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore las observaciones archivadas de haplogrupos de ADN-Y y ADNmt de MAGENHA por país, rama detallada y grupo principal.">
+  <meta name="theme-color" content="#173f41">
+  <title>Estadísticas de haplogrupos por país | MAGENHA</title>
+  <link rel="canonical" href="https://magenha.org/es/statistics.html">
+  <link rel="alternate" hreflang="en" href="https://magenha.org/statistics.html">
+  <link rel="alternate" hreflang="es" href="https://magenha.org/es/statistics.html">
+  <link rel="alternate" hreflang="x-default" href="https://magenha.org/statistics.html">
+  <link rel="icon" type="image/png" href="../logo.png">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../statistics.css">
+  <script src="../script.js" defer></script>
+  <script src="../statistics.js" defer></script>
+</head>
+<body class="statistics-page">
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="utility-bar">
+      <div class="shell utility-bar__inner">
+        <p>Genealogía, linajes uniparentales e historia pública</p>
+        <a href="mailto:contactmagenha@gmail.com">contactmagenha@gmail.com</a>
+      </div>
+    </div>
+    <div class="shell nav-wrap">
+      <a class="brand" href="index.html" aria-label="Inicio de MAGENHA">
+        <img src="../logo.png" alt="" width="48" height="58">
+        <span class="brand__wordmark">MAGENHA</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-label-open="Abrir navegación" data-label-close="Cerrar navegación">
+        <span class="sr-only">Abrir navegación</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#our-purpose">Nuestra misión</a>
+        <a href="service.html#how-we-work">Investigación</a>
+        <a href="service.html#lineage-program">Linajes de ADN</a>
+        <a href="statistics.html" aria-current="page">Estadísticas</a>
+        <a href="service.html#terms">Términos</a>
+        <a href="https://magenha.blogspot.com/">Blog</a>
+        <a class="site-nav__language" href="../statistics.html" hreflang="en" lang="en" aria-label="View this page in English">EN</a>
+        <a class="nav-cta" href="service.html#contact">Enviar una consulta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main
+    id="main-content"
+    data-statistics-app
+    data-language="es"
+    data-statistics-url="../MAGENHA_DATA/haplogroup_statistics/statistics.json"
+    data-map-url="../MAGENHA_DATA/haplogroup_statistics/countries.geojson"
+  >
+    <section class="statistics-hero">
+      <div class="shell statistics-hero__grid">
+        <div class="statistics-hero__copy reveal">
+          <p class="eyebrow eyebrow--light">Observaciones archivadas de haplogrupos</p>
+          <h1>Explore linajes entre países.</h1>
+          <p>Este explorador recupera las antiguas estadísticas de MAGENHA por país y haplogrupo dentro del sitio público estático, sin servidor, cuenta ni solicitudes a mapas de terceros.</p>
+          <a class="button button--paper" href="#country-explorer">Explorar los datos</a>
+        </div>
+        <dl class="statistics-summary reveal reveal--delay" aria-label="Resumen del conjunto de datos">
+          <div>
+            <dt data-summary-observations>—</dt>
+            <dd>observaciones de linaje</dd>
+          </div>
+          <div>
+            <dt data-summary-countries>—</dt>
+            <dd>países y territorios</dd>
+          </div>
+          <div>
+            <dt data-summary-haplogroups>—</dt>
+            <dd>haplogrupos detallados publicados</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="statistics-intro shell">
+      <div>
+        <p class="eyebrow">Lea el archivo con cautela</p>
+        <h2>Patrones de estos datos, no estimaciones poblacionales.</h2>
+      </div>
+      <div>
+        <p>Las observaciones proceden principalmente de exportaciones de DNA Relatives de 23andMe donadas voluntariamente, complementadas por un pequeño número de linajes documentados por MAGENHA. Forman una muestra de conveniencia con una representación cubana especialmente alta.</p>
+        <p>Los porcentajes describen únicamente este archivo. No deben interpretarse como prevalencia nacional, encuesta representativa ni prueba sobre la ascendencia de una persona.</p>
+        <p>Por privacidad, los desgloses por país y tipo requieren al menos 30 observaciones, y cada celda mostrada requiere al menos 5. También pueden ocultarse celdas adicionales para impedir que se recuperen recuentos raros mediante restas; por eso, un espacio sin datos puede significar cero o un valor oculto y las filas visibles pueden no sumar el 100&nbsp;%.</p>
+      </div>
+    </section>
+
+    <div class="statistics-status shell" data-statistics-status role="status" aria-live="polite">
+      <span class="statistics-status__spinner" aria-hidden="true"></span>
+      <p>Cargando las estadísticas archivadas…</p>
+    </div>
+
+    <div data-statistics-content hidden>
+      <section class="statistics-section shell" id="country-explorer" aria-labelledby="country-explorer-title">
+        <div class="statistics-section__heading">
+          <div>
+            <p class="eyebrow">Perfil por país</p>
+            <h2 id="country-explorer-title">Vea los linajes observados en un lugar.</h2>
+          </div>
+          <div class="statistics-control statistics-control--country">
+            <label for="country-select">País o territorio</label>
+            <select id="country-select" data-country-select disabled>
+              <option>Cargando…</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="country-profile" data-country-profile>
+          <div class="country-profile__header">
+            <div>
+              <p class="country-profile__code" data-country-code>—</p>
+              <h3 data-country-name>—</h3>
+            </div>
+            <dl class="country-profile__metrics">
+              <div>
+                <dt data-country-y-total>—</dt>
+                <dd>observaciones de ADN-Y</dd>
+              </div>
+              <div>
+                <dt data-country-mt-total>—</dt>
+                <dd>observaciones de ADNmt</dd>
+              </div>
+            </dl>
+          </div>
+          <p class="statistics-notice" data-country-notice hidden></p>
+
+          <div class="country-lineages">
+            <article class="lineage-card" data-country-panel="YDNA">
+              <div class="lineage-card__heading">
+                <p class="lineage-card__label">Línea paterna directa</p>
+                <h3>ADN-Y</h3>
+                <p data-country-type-summary="YDNA"></p>
+              </div>
+              <h4>Grupos principales</h4>
+              <div class="statistics-table-wrap">
+                <table class="statistics-table">
+                  <caption class="sr-only" data-country-table-caption="YDNA-group">Grupos principales de ADN-Y observados en el país seleccionado</caption>
+                  <thead>
+                    <tr><th scope="col">Grupo</th><th scope="col">Cantidad</th><th scope="col">Porcentaje</th></tr>
+                  </thead>
+                  <tbody data-country-groups="YDNA"></tbody>
+                </table>
+              </div>
+              <details class="lineage-details">
+                <summary>Ver haplogrupos detallados de ADN-Y</summary>
+                <div class="statistics-table-wrap">
+                  <table class="statistics-table">
+                    <caption class="sr-only" data-country-table-caption="YDNA-haplogroup">Haplogrupos detallados de ADN-Y observados en el país seleccionado</caption>
+                    <thead>
+                      <tr><th scope="col">Haplogrupo</th><th scope="col">Cantidad</th><th scope="col">Porcentaje</th></tr>
+                    </thead>
+                    <tbody data-country-haplogroups="YDNA"></tbody>
+                  </table>
+                </div>
+              </details>
+            </article>
+
+            <article class="lineage-card" data-country-panel="mtDNA">
+              <div class="lineage-card__heading">
+                <p class="lineage-card__label">Línea materna directa</p>
+                <h3>ADNmt</h3>
+                <p data-country-type-summary="mtDNA"></p>
+              </div>
+              <h4>Grupos principales</h4>
+              <div class="statistics-table-wrap">
+                <table class="statistics-table">
+                  <caption class="sr-only" data-country-table-caption="mtDNA-group">Grupos principales de ADNmt observados en el país seleccionado</caption>
+                  <thead>
+                    <tr><th scope="col">Grupo</th><th scope="col">Cantidad</th><th scope="col">Porcentaje</th></tr>
+                  </thead>
+                  <tbody data-country-groups="mtDNA"></tbody>
+                </table>
+              </div>
+              <details class="lineage-details">
+                <summary>Ver haplogrupos detallados de ADNmt</summary>
+                <div class="statistics-table-wrap">
+                  <table class="statistics-table">
+                    <caption class="sr-only" data-country-table-caption="mtDNA-haplogroup">Haplogrupos detallados de ADNmt observados en el país seleccionado</caption>
+                    <thead>
+                      <tr><th scope="col">Haplogrupo</th><th scope="col">Cantidad</th><th scope="col">Porcentaje</th></tr>
+                    </thead>
+                    <tbody data-country-haplogroups="mtDNA"></tbody>
+                  </table>
+                </div>
+              </details>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="statistics-section statistics-section--distribution" id="lineage-distribution" aria-labelledby="lineage-distribution-title">
+        <div class="shell">
+          <div class="statistics-section__heading statistics-section__heading--stacked">
+            <div>
+              <p class="eyebrow eyebrow--light">Distribución del linaje</p>
+              <h2 id="lineage-distribution-title">Compare un haplogrupo entre países.</h2>
+              <p>El mapa enlaza los datos mediante códigos de país, por lo que los nombres largos o traducidos no pueden romper la correspondencia. Los territorios pequeños sin polígonos visibles a baja resolución aparecen como puntos.</p>
+            </div>
+            <form class="distribution-controls" data-distribution-form>
+              <div class="statistics-control">
+                <label for="lineage-type">Linaje</label>
+                <select id="lineage-type" data-lineage-type disabled>
+                  <option value="YDNA">ADN-Y · paterno</option>
+                  <option value="mtDNA">ADNmt · materno</option>
+                </select>
+              </div>
+              <div class="statistics-control">
+                <label for="lineage-level">Detalle</label>
+                <select id="lineage-level" data-lineage-level disabled>
+                  <option value="haplogroup">Haplogrupo detallado</option>
+                  <option value="group">Grupo principal</option>
+                </select>
+              </div>
+              <div class="statistics-control" data-lineage-selector-wrap="haplogroup">
+                <label for="haplogroup-select">Haplogrupo</label>
+                <select id="haplogroup-select" data-haplogroup-select disabled></select>
+              </div>
+              <div class="statistics-control" data-lineage-selector-wrap="group" hidden>
+                <label for="group-select">Grupo principal</label>
+                <select id="group-select" data-group-select disabled></select>
+              </div>
+              <div class="statistics-control">
+                <label for="sample-threshold">Observaciones mínimas por país</label>
+                <select id="sample-threshold" data-sample-threshold disabled>
+                  <option value="30" selected>30 observaciones</option>
+                  <option value="100">100 observaciones</option>
+                </select>
+              </div>
+            </form>
+          </div>
+
+          <div class="distribution-results">
+            <div class="distribution-results__heading">
+              <div>
+                <p class="distribution-results__kicker" data-distribution-kicker>—</p>
+                <h3 data-distribution-title>—</h3>
+              </div>
+              <p data-distribution-summary aria-live="polite"></p>
+            </div>
+
+            <div class="map-card">
+              <div class="map-frame" data-map-frame>
+                <svg class="world-map" data-world-map viewBox="0 0 1000 510" role="group" aria-labelledby="map-title map-description">
+                  <title id="map-title">Mapa de distribución de haplogrupos</title>
+                  <desc id="map-description">Los países se colorean según el porcentaje publicado del haplogrupo seleccionado entre observaciones del mismo tipo. Use Tab para consultar cada país; las coincidencias publicadas también aparecen después en una tabla.</desc>
+                  <rect class="world-map__ocean" width="1000" height="510" rx="8" aria-hidden="true"></rect>
+                  <g data-map-polygons></g>
+                  <g data-map-markers></g>
+                </svg>
+                <div class="map-tooltip" id="map-tooltip" data-map-tooltip role="tooltip" hidden></div>
+              </div>
+              <div class="map-legend" aria-hidden="true">
+                <span>Menor porcentaje</span><i></i><span>Mayor porcentaje</span>
+              </div>
+              <p class="map-note">Los países por debajo del mínimo de observaciones seleccionado quedan sin color. Un país apto sin color puede tener cero coincidencias o un recuento oculto. Los puntos identifican lugares con datos que no disponen de un polígono útil a esta escala. Las fronteras proceden de Natural Earth y no expresan una postura de MAGENHA sobre territorios en disputa.</p>
+            </div>
+
+            <div class="distribution-table-card">
+              <div class="statistics-table-wrap">
+                <table class="statistics-table statistics-table--distribution">
+                  <caption data-distribution-caption>Clasificación por país</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">País</th>
+                      <th scope="col">Coincidencias</th>
+                      <th scope="col">Observaciones del mismo tipo</th>
+                      <th scope="col">Porcentaje</th>
+                    </tr>
+                  </thead>
+                  <tbody data-distribution-rows></tbody>
+                </table>
+              </div>
+              <p class="statistics-empty" data-distribution-empty hidden>No hay coincidencias publicadas entre los países que alcanzan el mínimo de observaciones.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="methodology-section shell" id="methodology">
+        <div class="methodology-section__heading">
+          <p class="eyebrow">Método y límites</p>
+          <h2>Qué significan los porcentajes.</h2>
+        </div>
+        <div class="methodology-grid">
+          <article>
+            <span>01</span>
+            <h3>Perfiles por país</h3>
+            <p>Cada porcentaje publicado de ADN-Y se divide por las observaciones de ADN-Y de ese país. Los porcentajes publicados de ADNmt se dividen por separado por el total de ADNmt del país.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Mapa de distribución</h3>
+            <p>Para el linaje elegido, las coincidencias publicadas de un país se dividen únicamente por observaciones del mismo tipo de ADN en ese país. El control de observaciones mínimas se aplica a ese denominador.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Control de divulgación</h3>
+            <p>El archivo público contiene solo recuentos agregados. Omite conjuntos país/tipo con menos de 30 observaciones, celdas con menos de 5 y las celdas complementarias necesarias para impedir que se reconstruyan valores raros a partir de los totales. No incluye nombres, enlaces a perfiles, ADN sin procesar, listas de coincidencias ni datos de cuentas de pruebas.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Interpretación</h3>
+            <p>El muestreo es voluntario y no aleatorio. El parentesco, el desequilibrio geográfico, los patrones de declaración y las muestras pequeñas pueden afectar los porcentajes.</p>
+          </article>
+        </div>
+        <p class="methodology-source" data-methodology-source></p>
+      </section>
+    </div>
+
+    <noscript>
+      <div class="statistics-noscript shell">
+        <h2>Este explorador necesita JavaScript.</h2>
+        <p>El sitio es estático, pero el navegador necesita JavaScript para calcular las tablas y dibujar el mapa a partir de los archivos agregados locales.</p>
+      </div>
+    </noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--footer" href="index.html">
+          <img src="../logo.png" alt="" width="42" height="51">
+          <span class="brand__wordmark">MAGENHA</span>
+        </a>
+        <p>Mapa Genealógico de Haplogrupos</p>
+      </div>
+      <div>
+        <h2>Investigación</h2>
+        <a href="service.html#how-we-work">Cómo trabajamos</a>
+        <a href="service.html#research-regions">Zonas de investigación</a>
+        <a href="service.html#lineage-program">Programa de linajes de ADN</a>
+        <a href="statistics.html">Estadísticas de haplogrupos</a>
+        <a href="service.html#contact">Formulario de primer contacto</a>
+      </div>
+      <div>
+        <h2>Información</h2>
+        <a href="service.html#terms">Términos y condiciones</a>
+        <a href="service.html#legal-use">Aviso sobre usos legales</a>
+        <a href="https://magenha.blogspot.com/">Blog de MAGENHA</a>
+        <a href="../statistics.html" hreflang="en" lang="en">English</a>
+        <a href="service.html#contact">Contacto</a>
+      </div>
+      <div>
+        <h2>Siga el proyecto</h2>
+        <a href="https://www.youtube.com/@MAGENHAProject">YouTube</a>
+        <a href="https://www.youtube.com/watch?v=4pRHZPy0zCg&amp;list=PL4ZLJXcvcaiEcSIA3eUzVTVPy1C7Av0yt">Podcast de MAGENHA</a>
+        <a href="https://www.patreon.com/magenha">Patreon</a>
+        <a href="https://www.facebook.com/magenha">Facebook</a>
+        <a href="https://www.instagram.com/magenhaproject/">Instagram</a>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <p>© <span data-current-year>2026</span> MAGENHA. Todos los derechos reservados.</p>
+      <a href="https://www.paypal.com/donate?hosted_button_id=QRPEHRYLQJQQW">Apoye el proyecto</a>
+    </div>
+  </footer>
+</body>
+</html>

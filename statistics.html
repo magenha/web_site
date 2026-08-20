@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore MAGENHA’s archived Y-DNA and mtDNA haplogroup observations by country, detailed branch, and major group.">
+  <meta name="theme-color" content="#173f41">
+  <title>Haplogroup Statistics by Country | MAGENHA</title>
+  <link rel="canonical" href="https://magenha.org/statistics.html">
+  <link rel="alternate" hreflang="en" href="https://magenha.org/statistics.html">
+  <link rel="alternate" hreflang="es" href="https://magenha.org/es/statistics.html">
+  <link rel="alternate" hreflang="x-default" href="https://magenha.org/statistics.html">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="statistics.css">
+  <script src="script.js" defer></script>
+  <script src="statistics.js" defer></script>
+</head>
+<body class="statistics-page">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="utility-bar">
+      <div class="shell utility-bar__inner">
+        <p>Genealogy, uniparental lineages &amp; public history</p>
+        <a href="mailto:contactmagenha@gmail.com">contactmagenha@gmail.com</a>
+      </div>
+    </div>
+    <div class="shell nav-wrap">
+      <a class="brand" href="index.html" aria-label="MAGENHA home">
+        <img src="logo.png" alt="" width="48" height="58">
+        <span class="brand__wordmark">MAGENHA</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-label-open="Open navigation" data-label-close="Close navigation">
+        <span class="sr-only">Open navigation</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#our-purpose">Our mission</a>
+        <a href="service.html#how-we-work">Research</a>
+        <a href="service.html#lineage-program">DNA lineages</a>
+        <a href="statistics.html" aria-current="page">Statistics</a>
+        <a href="service.html#terms">Terms</a>
+        <a href="https://magenha.blogspot.com/">Blog</a>
+        <a class="site-nav__language" href="es/statistics.html" hreflang="es" lang="es" aria-label="Ver esta página en español">ES</a>
+        <a class="nav-cta" href="service.html#contact">Start an inquiry</a>
+      </nav>
+    </div>
+  </header>
+
+  <main
+    id="main-content"
+    data-statistics-app
+    data-language="en"
+    data-statistics-url="MAGENHA_DATA/haplogroup_statistics/statistics.json"
+    data-map-url="MAGENHA_DATA/haplogroup_statistics/countries.geojson"
+  >
+    <section class="statistics-hero">
+      <div class="shell statistics-hero__grid">
+        <div class="statistics-hero__copy reveal">
+          <p class="eyebrow eyebrow--light">Archived haplogroup observations</p>
+          <h1>Explore lineages across countries.</h1>
+          <p>This browser-based explorer brings MAGENHA’s earlier country and haplogroup statistics into the static public site—without a server, an account, or third-party map requests.</p>
+          <a class="button button--paper" href="#country-explorer">Explore the data</a>
+        </div>
+        <dl class="statistics-summary reveal reveal--delay" aria-label="Dataset summary">
+          <div>
+            <dt data-summary-observations>—</dt>
+            <dd>lineage observations</dd>
+          </div>
+          <div>
+            <dt data-summary-countries>—</dt>
+            <dd>countries and territories</dd>
+          </div>
+          <div>
+            <dt data-summary-haplogroups>—</dt>
+            <dd>published detailed haplogroups</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="statistics-intro shell">
+      <div>
+        <p class="eyebrow">Read the archive carefully</p>
+        <h2>Patterns in this dataset—not population estimates.</h2>
+      </div>
+      <div>
+        <p>The observations come mainly from voluntarily donated 23andMe DNA Relatives exports, supplemented by a small number of documented MAGENHA lineages. They form a convenience sample with especially strong Cuban representation.</p>
+        <p>Percentages below describe only this archive. They should not be treated as national prevalence, a representative survey, or evidence of ancestry for any individual.</p>
+        <p>For privacy, country/type breakdowns require at least 30 observations and displayed cells require at least 5. Additional cells may be withheld to prevent rare counts being recovered by subtraction, so a blank can mean zero or withheld and visible rows may not total 100%.</p>
+      </div>
+    </section>
+
+    <div class="statistics-status shell" data-statistics-status role="status" aria-live="polite">
+      <span class="statistics-status__spinner" aria-hidden="true"></span>
+      <p>Loading the archived statistics…</p>
+    </div>
+
+    <div data-statistics-content hidden>
+      <section class="statistics-section shell" id="country-explorer" aria-labelledby="country-explorer-title">
+        <div class="statistics-section__heading">
+          <div>
+            <p class="eyebrow">Country profile</p>
+            <h2 id="country-explorer-title">See the lineages observed in one place.</h2>
+          </div>
+          <div class="statistics-control statistics-control--country">
+            <label for="country-select">Country or territory</label>
+            <select id="country-select" data-country-select disabled>
+              <option>Loading…</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="country-profile" data-country-profile>
+          <div class="country-profile__header">
+            <div>
+              <p class="country-profile__code" data-country-code>—</p>
+              <h3 data-country-name>—</h3>
+            </div>
+            <dl class="country-profile__metrics">
+              <div>
+                <dt data-country-y-total>—</dt>
+                <dd>Y-DNA observations</dd>
+              </div>
+              <div>
+                <dt data-country-mt-total>—</dt>
+                <dd>mtDNA observations</dd>
+              </div>
+            </dl>
+          </div>
+          <p class="statistics-notice" data-country-notice hidden></p>
+
+          <div class="country-lineages">
+            <article class="lineage-card" data-country-panel="YDNA">
+              <div class="lineage-card__heading">
+                <p class="lineage-card__label">Direct paternal line</p>
+                <h3>Y-DNA</h3>
+                <p data-country-type-summary="YDNA"></p>
+              </div>
+              <h4>Major groups</h4>
+              <div class="statistics-table-wrap">
+                <table class="statistics-table">
+                  <caption class="sr-only" data-country-table-caption="YDNA-group">Y-DNA major groups observed in the selected country</caption>
+                  <thead>
+                    <tr><th scope="col">Group</th><th scope="col">Count</th><th scope="col">Share</th></tr>
+                  </thead>
+                  <tbody data-country-groups="YDNA"></tbody>
+                </table>
+              </div>
+              <details class="lineage-details">
+                <summary>View detailed Y-DNA haplogroups</summary>
+                <div class="statistics-table-wrap">
+                  <table class="statistics-table">
+                    <caption class="sr-only" data-country-table-caption="YDNA-haplogroup">Detailed Y-DNA haplogroups observed in the selected country</caption>
+                    <thead>
+                      <tr><th scope="col">Haplogroup</th><th scope="col">Count</th><th scope="col">Share</th></tr>
+                    </thead>
+                    <tbody data-country-haplogroups="YDNA"></tbody>
+                  </table>
+                </div>
+              </details>
+            </article>
+
+            <article class="lineage-card" data-country-panel="mtDNA">
+              <div class="lineage-card__heading">
+                <p class="lineage-card__label">Direct maternal line</p>
+                <h3>mtDNA</h3>
+                <p data-country-type-summary="mtDNA"></p>
+              </div>
+              <h4>Major groups</h4>
+              <div class="statistics-table-wrap">
+                <table class="statistics-table">
+                  <caption class="sr-only" data-country-table-caption="mtDNA-group">mtDNA major groups observed in the selected country</caption>
+                  <thead>
+                    <tr><th scope="col">Group</th><th scope="col">Count</th><th scope="col">Share</th></tr>
+                  </thead>
+                  <tbody data-country-groups="mtDNA"></tbody>
+                </table>
+              </div>
+              <details class="lineage-details">
+                <summary>View detailed mtDNA haplogroups</summary>
+                <div class="statistics-table-wrap">
+                  <table class="statistics-table">
+                    <caption class="sr-only" data-country-table-caption="mtDNA-haplogroup">Detailed mtDNA haplogroups observed in the selected country</caption>
+                    <thead>
+                      <tr><th scope="col">Haplogroup</th><th scope="col">Count</th><th scope="col">Share</th></tr>
+                    </thead>
+                    <tbody data-country-haplogroups="mtDNA"></tbody>
+                  </table>
+                </div>
+              </details>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="statistics-section statistics-section--distribution" id="lineage-distribution" aria-labelledby="lineage-distribution-title">
+        <div class="shell">
+          <div class="statistics-section__heading statistics-section__heading--stacked">
+            <div>
+              <p class="eyebrow eyebrow--light">Lineage distribution</p>
+              <h2 id="lineage-distribution-title">Compare one haplogroup across countries.</h2>
+              <p>Map joins use country codes, so long or translated country names cannot break the match. Small territories without visible low-resolution polygons appear as point markers.</p>
+            </div>
+            <form class="distribution-controls" data-distribution-form>
+              <div class="statistics-control">
+                <label for="lineage-type">Lineage</label>
+                <select id="lineage-type" data-lineage-type disabled>
+                  <option value="YDNA">Y-DNA · paternal</option>
+                  <option value="mtDNA">mtDNA · maternal</option>
+                </select>
+              </div>
+              <div class="statistics-control">
+                <label for="lineage-level">Detail</label>
+                <select id="lineage-level" data-lineage-level disabled>
+                  <option value="haplogroup">Detailed haplogroup</option>
+                  <option value="group">Major group</option>
+                </select>
+              </div>
+              <div class="statistics-control" data-lineage-selector-wrap="haplogroup">
+                <label for="haplogroup-select">Haplogroup</label>
+                <select id="haplogroup-select" data-haplogroup-select disabled></select>
+              </div>
+              <div class="statistics-control" data-lineage-selector-wrap="group" hidden>
+                <label for="group-select">Major group</label>
+                <select id="group-select" data-group-select disabled></select>
+              </div>
+              <div class="statistics-control">
+                <label for="sample-threshold">Minimum country observations</label>
+                <select id="sample-threshold" data-sample-threshold disabled>
+                  <option value="30" selected>30 observations</option>
+                  <option value="100">100 observations</option>
+                </select>
+              </div>
+            </form>
+          </div>
+
+          <div class="distribution-results">
+            <div class="distribution-results__heading">
+              <div>
+                <p class="distribution-results__kicker" data-distribution-kicker>—</p>
+                <h3 data-distribution-title>—</h3>
+              </div>
+              <p data-distribution-summary aria-live="polite"></p>
+            </div>
+
+            <div class="map-card">
+              <div class="map-frame" data-map-frame>
+                <svg class="world-map" data-world-map viewBox="0 0 1000 510" role="group" aria-labelledby="map-title map-description">
+                  <title id="map-title">Haplogroup distribution map</title>
+                  <desc id="map-description">Countries are shaded by the published share of the selected haplogroup among same-type observations. Use Tab to inspect each country; published matches also follow in a table.</desc>
+                  <rect class="world-map__ocean" width="1000" height="510" rx="8" aria-hidden="true"></rect>
+                  <g data-map-polygons></g>
+                  <g data-map-markers></g>
+                </svg>
+                <div class="map-tooltip" id="map-tooltip" data-map-tooltip role="tooltip" hidden></div>
+              </div>
+              <div class="map-legend" aria-hidden="true">
+                <span>Lower share</span><i></i><span>Higher share</span>
+              </div>
+              <p class="map-note">Countries below the selected observation threshold are left unshaded. An unshaded eligible country can have zero matches or a withheld count. Point markers identify data locations without a usable polygon at this map scale. Boundaries follow Natural Earth and do not express a MAGENHA position on disputed territories.</p>
+            </div>
+
+            <div class="distribution-table-card">
+              <div class="statistics-table-wrap">
+                <table class="statistics-table statistics-table--distribution">
+                  <caption data-distribution-caption>Country ranking</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Country</th>
+                      <th scope="col">Matching</th>
+                      <th scope="col">Same-type observations</th>
+                      <th scope="col">Share</th>
+                    </tr>
+                  </thead>
+                  <tbody data-distribution-rows></tbody>
+                </table>
+              </div>
+              <p class="statistics-empty" data-distribution-empty hidden>No published matches appear among countries reaching the observation threshold.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="methodology-section shell" id="methodology">
+        <div class="methodology-section__heading">
+          <p class="eyebrow">Method &amp; limits</p>
+          <h2>What the percentages mean.</h2>
+        </div>
+        <div class="methodology-grid">
+          <article>
+            <span>01</span>
+            <h3>Country profiles</h3>
+            <p>Each published Y-DNA share is divided by that country’s Y-DNA observation count. Each published mtDNA share is divided separately by that country’s mtDNA count.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Distribution map</h3>
+            <p>For the chosen lineage, a country’s published matching count is divided only by observations of the same DNA type in that country. The minimum-observation control applies to that denominator.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Disclosure controls</h3>
+            <p>The public file contains aggregate counts only. It omits country/type sets below 30 observations, cells below 5, and complementary cells needed to stop rare values being reconstructed from totals. It includes no names, profile links, raw DNA, match lists, or testing-account information.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Interpretation</h3>
+            <p>Sampling is voluntary and non-random. Relatedness, geographic imbalance, reporting patterns, and small samples can all affect the percentages.</p>
+          </article>
+        </div>
+        <p class="methodology-source" data-methodology-source></p>
+      </section>
+    </div>
+
+    <noscript>
+      <div class="statistics-noscript shell">
+        <h2>JavaScript is needed for this explorer.</h2>
+        <p>The site itself is static, but the browser needs JavaScript to calculate tables and draw the map from the local aggregate files.</p>
+      </div>
+    </noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--footer" href="index.html">
+          <img src="logo.png" alt="" width="42" height="51">
+          <span class="brand__wordmark">MAGENHA</span>
+        </a>
+        <p>Mapa Genealógico de Haplogrupos</p>
+      </div>
+      <div>
+        <h2>Research</h2>
+        <a href="service.html#how-we-work">How we work</a>
+        <a href="service.html#research-regions">Research areas</a>
+        <a href="service.html#lineage-program">DNA lineage program</a>
+        <a href="statistics.html">Haplogroup statistics</a>
+        <a href="service.html#contact">First-contact form</a>
+      </div>
+      <div>
+        <h2>Information</h2>
+        <a href="service.html#terms">Terms &amp; conditions</a>
+        <a href="service.html#legal-use">Legal-purpose notice</a>
+        <a href="https://magenha.blogspot.com/">MAGENHA Blog</a>
+        <a href="es/statistics.html" hreflang="es" lang="es">Español</a>
+        <a href="service.html#contact">Contact</a>
+      </div>
+      <div>
+        <h2>Follow the project</h2>
+        <a href="https://www.youtube.com/@MAGENHAProject">YouTube</a>
+        <a href="https://www.youtube.com/watch?v=4pRHZPy0zCg&amp;list=PL4ZLJXcvcaiEcSIA3eUzVTVPy1C7Av0yt">MAGENHA Podcast</a>
+        <a href="https://www.patreon.com/magenha">Patreon</a>
+        <a href="https://www.facebook.com/magenha">Facebook</a>
+        <a href="https://www.instagram.com/magenhaproject/">Instagram</a>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <p>© <span data-current-year>2026</span> MAGENHA. All rights reserved.</p>
+      <a href="https://www.paypal.com/donate?hosted_button_id=QRPEHRYLQJQQW">Support the project</a>
+    </div>
+  </footer>
+</body>
+</html>
