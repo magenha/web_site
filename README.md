@@ -52,3 +52,38 @@ methodology, map provenance, and optional path arguments.
 ## Publish
 
 Commit reviewed changes to `stare-branch` and push that branch to GitHub. Keep `CNAME` unchanged so the custom domain continues to work.
+
+## Spain documentary research (ES/EN)
+
+- `spain.html` / `es/spain.html`: independent Spain service, 38 FAQs,
+  Spain-specific terms and the existing browser-only email composer.
+- `spain.css` / `spain.js`: country navigation, accessible disclosures and
+  locality/province coverage search. Shared branding, navigation, page index,
+  form styles and mail draft/copy handling remain in `style.css` / `script.js`.
+- `MAGENHA_DATA/spain_coverage.json`: public allowlist containing only province,
+  locality and an available status. No contacts, archive inventories, coordinates,
+  internal notes, rates or access arrangements are included.
+
+Cuba remains at `service.html` / `es/service.html`, with its existing content and
+terms. The shared Research navigation groups Cuba and Spain; both service pages also
+offer a country selector. The language switch preserves the section anchor.
+
+Coverage is a conservative snapshot of confirmed operational availability, not a
+promise of document survival, access or appointments. Province search lists
+covered localities and does not assert province-wide coverage. Unlisted places
+require individual assessment; failed data loading is not reported as no coverage.
+The current export uses nine confirmed diocesan availability rules, including
+Sevilla, Cádiz y Ceuta and Jerez de la Frontera. Locality names
+must match the internal place catalogue and coordinates within 3 km, uniquely;
+ambiguous matches and conditional availability rules are excluded.
+
+To refresh from a separately maintained internal explorer, run:
+
+```bash
+python3 scripts/build_spain_coverage.py /path/to/internal/explorador.html MAGENHA_DATA/spain_coverage.json
+```
+
+Keep the input outside this public repository. Rebuild the internal explorer from
+exported availability changes first: browser-only edits are not read. Review the
+public diff and operational availability before publishing. The exporter writes
+only its explicit public field allowlist; it does not copy the original explorer.

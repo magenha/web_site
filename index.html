@@ -38,7 +38,7 @@
       <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
         <a href="index.html" aria-current="page">Home</a>
         <a href="#our-purpose">Our mission</a>
-        <a href="service.html#how-we-work">Research</a>
+        <details class="research-nav"><summary>Research</summary><div class="research-nav__links"><a href="service.html">Cuba</a><a href="spain.html">Spain</a></div></details>
         <a href="service.html#lineage-program">DNA lineages</a>
         <a href="statistics.html">Statistics</a>
         <a href="service.html#terms">Terms</a>
@@ -58,7 +58,8 @@
         <div class="button-row">
           <a class="button button--primary" href="service.html">Explore our research service</a>
           <a class="text-link" href="service.html#contact">Tell us what you are looking for <span aria-hidden="true">→</span></a>
-        </div>
+        <a class="text-link" href="#support">Support Rootscast <span aria-hidden="true">↓</span></a>
+          </div>
         <div class="hero__note">
           <span class="hero__note-mark" aria-hidden="true">01</span>
           <p>MAGENHA is more than a document-finding service: every case can strengthen a wider, evidence-based understanding of families, places, migrations, and lineages.</p>
@@ -222,22 +223,18 @@
       </div>
     </section>
 
-    <section class="mission-section" id="outreach">
-      <div class="shell mission-card outreach-card reveal">
-        <div>
-          <p class="eyebrow">Outreach &amp; education</p>
-          <h2>Research matters more when people can enter the conversation.</h2>
-        </div>
-        <div>
-          <p>You do not need to be a research client to support MAGENHA. Subscribe, watch, comment, and share our educational work on genealogy, genetics, archaeology, and population history.</p>
-          <div class="outreach-links">
-            <a href="https://www.youtube.com/@MAGENHAProject"><span>Channel</span><strong>MAGENHA on YouTube</strong><i aria-hidden="true">↗</i></a>
-            <a href="https://www.youtube.com/watch?v=4pRHZPy0zCg&amp;list=PL4ZLJXcvcaiEcSIA3eUzVTVPy1C7Av0yt"><span>Playlist</span><strong>MAGENHA Podcast</strong><i aria-hidden="true">↗</i></a>
-            <a href="https://magenha.blogspot.com/"><span>Articles</span><strong>MAGENHA Blog</strong><i aria-hidden="true">↗</i></a>
+    <section class="mission-section" id="outreach"><div class="shell">
+<div class="education-panel support-panel" id="support">
+            <p class="eyebrow eyebrow--light">Help keep knowledge accessible</p>
+            <h3>Subscribe. Join in. Support Rootscast.</h3>
+            <p>Your support helps MAGENHA share genealogy, genetics and population history, and bring new conversations to Rootscast, our podcast. You do not need to be a research client to take part.</p>
+            <div class="support-options">
+              <article><h4>YouTube</h4><p>Subscribe to our channel for free, watch the conversations and share them. To support our outreach and Rootscast with a small monthly contribution, choose “Join” on the channel.</p><div class="support-actions"><a href="https://www.youtube.com/@MAGENHAProject">Subscribe on YouTube ↗</a><a href="https://www.youtube.com/@MAGENHAProject/join">Join the channel ↗</a></div></article>
+              <article><h4>Patreon</h4><p>Become a monthly supporter to get a closer look at Rootscast, help choose future guests and suggest questions for them. Membership benefits include discounts on genealogical research in Cuba and/or Spain, subject to the applicable membership and assignment conditions. We may also organise live events.</p><div class="support-actions"><a href="https://www.patreon.com/c/magenha">Subscribe on Patreon ↗</a></div></article>
+            </div>
+            <div class="support-resources"><a href="https://www.youtube.com/watch?v=4pRHZPy0zCg&amp;list=PL4ZLJXcvcaiEcSIA3eUzVTVPy1C7Av0yt">Listen to Rootscast ↗</a><a href="https://magenha.blogspot.com/">Read the blog ↗</a></div>
           </div>
-        </div>
-      </div>
-    </section>
+</div></section>
 
     <section class="cta-section shell">
       <div class="cta-card reveal">
@@ -260,7 +257,8 @@
           <span class="brand__wordmark">MAGENHA</span>
         </a>
         <p>Mapa Genealógico de Haplogrupos</p>
-      </div>
+      <a href="#support">Support Rootscast</a>
+    </div>
       <div>
         <h2>Research</h2>
         <a href="service.html#how-we-work">How we work</a>
@@ -280,15 +278,15 @@
       <div>
         <h2>Follow the project</h2>
         <a href="https://www.youtube.com/@MAGENHAProject">YouTube</a>
-        <a href="https://www.youtube.com/watch?v=4pRHZPy0zCg&amp;list=PL4ZLJXcvcaiEcSIA3eUzVTVPy1C7Av0yt">MAGENHA Podcast</a>
-        <a href="https://www.patreon.com/magenha">Patreon</a>
+        <a href="https://www.youtube.com/watch?v=4pRHZPy0zCg&amp;list=PL4ZLJXcvcaiEcSIA3eUzVTVPy1C7Av0yt">Rootscast</a>
+        <a href="https://www.patreon.com/c/magenha">Patreon</a>
         <a href="https://www.facebook.com/magenha">Facebook</a>
         <a href="https://www.instagram.com/magenhaproject/">Instagram</a>
       </div>
     </div>
     <div class="shell footer-bottom">
       <p>© <span data-current-year>2026</span> MAGENHA. All rights reserved.</p>
-      <a href="https://www.paypal.com/donate?hosted_button_id=QRPEHRYLQJQQW">Support the project</a>
+      <a class="donate-button" href="https://www.paypal.com/donate?hosted_button_id=QRPEHRYLQJQQW">Donate</a>
     </div>
   </footer>
 </body>

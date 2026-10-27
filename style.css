@@ -2577,3 +2577,54 @@ h3 {
     transform: none;
   }
 }
+
+/* Research groups both country services in the shared navigation. */
+.site-nav .research-nav { position: relative; padding: 0; border: 0; }
+.site-nav .research-nav summary {
+  margin: 0;
+  color: var(--ink-900);
+  font-family: var(--sans);
+  font-size: .86rem;
+  font-weight: 700;
+  line-height: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.research-nav__links {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + .75rem);
+  left: -.9rem;
+  min-width: 10rem;
+  padding: .5rem;
+  border: 1px solid var(--line);
+  background: var(--paper-pale);
+  box-shadow: var(--shadow);
+}
+.research-nav__links a { display: block; padding: .6rem .75rem; font-size: .9rem; text-decoration: none; }
+.research-nav__links a:hover, .research-nav__links a[aria-current] { background: var(--teal-soft); }
+@media (max-width: 1200px) {
+  .site-nav .research-nav { border-bottom: 1px solid var(--line); }
+  .site-nav .research-nav summary { padding: 1rem 0; font-family: var(--serif); font-size: 1.55rem; font-weight: 500; }
+  .research-nav__links { position: static; margin-bottom: 1rem; box-shadow: none; }
+}
+
+/* Cuba FAQs: scoped to preserve other pages and shared navigation. */
+.cuba-faq details { border-bottom: 1px solid var(--line); padding: 1rem 0; }
+.cuba-faq summary { cursor: pointer; color: var(--ink-900); font-weight: 700; line-height: 1.5; }
+.cuba-faq details[open] summary { margin-bottom: .75rem; }
+.cuba-faq details p { margin-bottom: .25rem; }
+
+/* Outreach memberships share the existing education panel treatment. */
+.support-section { padding-block: 3rem; }
+.support-panel .support-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; margin-block: 2rem; }
+.support-options article { min-width: 0; padding-top: 1.25rem; border-top: 1px solid rgba(255, 253, 248, .3); }
+.support-options h4 { margin: 0 0 .75rem; color: var(--white); font-family: var(--serif); font-size: 1.65rem; font-weight: 500; }
+.support-options p { color: #d6dfd8; font-size: .95rem; }
+.support-actions { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; }
+.support-panel .support-resources { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; }
+.footer-bottom .donate-button { display: inline-block; padding: .35rem .85rem; border: 1px solid currentColor; text-decoration: none; }
+@media (max-width: 700px) {
+  .support-panel .support-options { grid-template-columns: minmax(0, 1fr); }
+}
+.support-panel .support-resources { flex-direction: row; }

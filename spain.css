@@ -1,0 +1,20 @@
+/* Country navigation and Spain-specific progressive enhancements. */
+.country-nav { display: flex; flex-wrap: wrap; gap: .5rem 2rem; padding-block: 1rem; font-size: .85rem; }
+.country-nav a { padding-block: .4rem; }
+.country-nav [aria-current="page"] { color: var(--teal); font-weight: 800; text-decoration-thickness: 3px; }
+.spain-page .fee-card h2 { font-size: clamp(1.9rem, 3vw, 2.8rem); }
+.spain-page details { border-bottom: 1px solid var(--line); padding: 1rem 0; }
+.spain-page summary { cursor: pointer; font-weight: 700; color: var(--ink-900); line-height: 1.5; }
+.spain-page details[open] summary { margin-bottom: .75rem; }
+.spain-page details p { margin-bottom: .25rem; }
+.spain-page .faq-group { margin-top: 2.5rem; }
+.spain-page .review-note { margin-top: 1.5rem; padding: 1rem; border-left: 3px solid var(--copper); background: var(--paper); font-size: .9rem; }
+.coverage-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .75rem; margin-block: 1.5rem; }
+.coverage-form label { grid-column: 1 / -1; }
+.coverage-results { max-height: 22rem; overflow: auto; padding-left: 1.5rem; }
+.coverage-results:empty { display: none; }
+.spain-page .article-content { min-width: 0; }
+@media (max-width: 600px) {
+  .coverage-form { grid-template-columns: minmax(0, 1fr); }
+  .country-nav { gap: .5rem 1rem; }
+}

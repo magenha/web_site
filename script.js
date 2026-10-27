@@ -4,6 +4,7 @@ const navToggle = document.querySelector(".nav-toggle");
 const siteNavigation = document.querySelector(".site-nav");
 
 function closeNavigation() {
+  document.querySelectorAll(".research-nav[open]").forEach(menu => { menu.open = false; });
   if (!navToggle || !siteNavigation) return;
   navToggle.setAttribute("aria-expanded", "false");
   siteNavigation.classList.remove("is-open");
@@ -156,8 +157,15 @@ if (inquiryForm) {
     return option ? option.textContent.trim() : "";
   };
 
+  const serviceFields = () => ["spain", "cuba"].includes(inquiryForm.dataset.service) ? [
+    `${isSpanish ? "Servicio" : "Service"}: MAGENHA Research — ${inquiryForm.dataset.service === "cuba" ? "Cuba" : (isSpanish ? "España" : "Spain")}`,
+    `${isSpanish ? "País de residencia" : "Country of residence"}: ${getValue("country")}`,
+    `${isSpanish ? "Finalidad" : "Purpose"}: ${getSelectedText("purpose")}`
+  ] : [];
+
   const buildInquiry = () => [
     language.heading,
+    ...serviceFields(),
     "",
     `${language.languageLabel}: ${language.languageValue}`,
     `${language.name}: ${getValue("name")}`,
@@ -223,3 +231,17 @@ if (inquiryForm) {
     }
   });
 }
+
+// Native disclosures support keyboard and touch without custom menu roles.
+document.querySelectorAll(".research-nav").forEach(menu => {
+  document.addEventListener("click", event => {
+    if (!menu.contains(event.target)) menu.open = false;
+  });
+  menu.addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+      event.stopPropagation();
+      menu.open = false;
+      menu.querySelector("summary").focus();
+    }
+  });
+});

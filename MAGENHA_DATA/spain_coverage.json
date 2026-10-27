@@ -1,0 +1,7995 @@
+{
+  "version": 1,
+  "localities": [
+    {
+      "province": "Asturias",
+      "locality": "Abamia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Abiegos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ablaña de Abajo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ables",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Abándames",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Acebal",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Acellana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Aces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Adralés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Aguino",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Agüera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Agüeras",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Agüés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Alava",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Albandi",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Alesga",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Alevia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Alguerdo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Alienes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Allence",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Alles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Almurfe",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Amandi",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ambiedes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ambrés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ambás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Amieva",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Anayo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Andrín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Andés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Anleo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Anés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Aramil",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Aramil de Arriba",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arancedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arangas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Araniego",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arbás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arbón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arcallana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arcos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ardesaldo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ardisana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arenas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Argamé",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arganza",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Argañosa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Argüelles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Argüero",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arlós",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arroes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Arrojo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Artedosa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Asiego",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Avilés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ayones",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Baiña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ballota",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Balmonte",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Balmori",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Barca",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Barcia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Barres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Barrio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Barro",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Barros",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bayas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bayo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bañugues",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bedriñana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Beleño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bello",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Belmonte",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Beloncio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bendones",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Berbes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Berbio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Berció",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Berducedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Berguño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bermiego",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bernueces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Berodia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Besullo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Biedes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bierces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Biescas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bimeda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bimenes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Blimea",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Boal",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bobes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bobia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bocines",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bode",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bodenaya",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bonielles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Boo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Boquerizo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Borines",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Borres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Box",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Braña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Brañalonga",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Brañas de Arriba",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Brañes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Breceña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Buellas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Buelna",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bueres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bullaso",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bulnes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bustantigo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bustiello",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Busto",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bárcena",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Bárzana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Báscones",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cabañaquinta",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Caborana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cabruñana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cabueñes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Caces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cadanes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cadavedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Caldones",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Caldueño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Caleao",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Calleras",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Camarmeña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Camoca de Arriba",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Campiello",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Campo de Caso",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Campo de la Iglesia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Campomanes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Camuño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Canal",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cancienes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Candanal",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Candás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Canero",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cangas del Narcea",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Caranga",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carangas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Caravia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carballo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carbayín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carbaínos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carceda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carcedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cardo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Careñes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carrandi",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carranzo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carrea",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carreña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Carrió",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cartavio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Casares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Casielles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Casomera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Casorvía",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Castañedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Castiello",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Castrillón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Castro",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Caunedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cayarga",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cayés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cazanes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cazo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ceceda de Arriba",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cecos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cedemonio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Celada",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Celles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Celorio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Celón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cenero",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cereceda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cermoño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cerredo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ciañu",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cibuyo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cienfuegos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Clavillas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Coalla",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Coaña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Coañana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Coballes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cogolló",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Collada",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Collado",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Collera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Colloto",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Collía",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Colombres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Columbiello",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Colunga",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Con",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Condado",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Conforcos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Congostinas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Contrueces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Corias",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cornellana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Coro",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Corros",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Corés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Coto",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Covadonga",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Coya",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cuadroveña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cuclillos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cue",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cuenya",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cuero",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cuerres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cuevas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cuérigo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cuñaba",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Cárabanzo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Degaña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Dego",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Deva",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Doiras",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "El Moro",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "El Pedregal",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "El Pino",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "El Río",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Entralgo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Entreviñas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Escoredo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Espinaredo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Faedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Fano",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Fastias",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Feleches",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Felgueras",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Fenolleda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ferreros",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ferroñes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Figaredo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Figueras",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Folgueras",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Foz",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Francos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Fresneda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Fresnedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Fresno",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Fuentes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Fíos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Gallegos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Genestaza",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Genestoso",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Gestoso",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Gijón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Gillón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Gobiendes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Godos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Godán",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Govezanes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Grado",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Gramedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Granda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Grandas de Salime",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Grases",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Grazanes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Grullos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Guiar",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Gurullés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Gédrez",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Gúa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Heres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Herías",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Hevia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Hontoria",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Huerces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Idarga",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Illano",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Illas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Inclán",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Infiesto",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Inguanzo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Jarceley",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Junco",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Borbolla",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Calzada",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Caridad",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Carrera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Carriona",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Corrada",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Corredoría",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Espina",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Felguerina",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Figal",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Focella",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Isla",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Llama",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Lloraza",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Marea",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Mata",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Mesa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Montaña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Peral",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Plaza",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "La Riera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Labra",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lada",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ladines",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lago",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Larna",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Larón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Las Cruces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Las Estacas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Las Morteras",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Las Villas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Laspra",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lastres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Latores",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lavandera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lavares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lebredo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Leces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Leiguarda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Leorio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Les Vegues",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Libardón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lieres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Limanes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Limés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Linares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lindes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llamas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llamero",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llamoso",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llanera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llanes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llanos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llanos de Somerón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llanuces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llaranes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llenín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llerandi",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Llonín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lodeña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Logrezana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lomes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Loredo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Loriana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lorío",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Los Barreros/Barredos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Los Callejos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Los Campos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Los Carriles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Los Veneros",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Luanco",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Luarca",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Luerces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lugo de Llanera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lugones",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lugás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Luiña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Lué",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Mallecina",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Malleza",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Manjoya",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Manzaneda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Mar",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Marcenado",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Marentes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Margolles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Martul",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Maza",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Meredo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Meres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Merillés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Merodio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Merás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Meré",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Mieldes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Mier",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Mieres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Mirallo de Arriba",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Miranda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Miravalles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Miudes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Miyares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Miño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Mohías",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Moldes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Molejón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Molleda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Monasterio del Coto",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Montouto",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Montovo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Moreda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Murias",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Muriellos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Muros de Nalón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Muñalén",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Muñás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Muñó",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Muñón Fondero",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Naranco",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Naraval",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Narciandi",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Narganes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Natahoyo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Nava",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Navarro",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Naveces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Navelgas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Naves",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Navia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Naviego",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Nembro",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Nevares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Nieres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Nieva",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Nimbra",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Niévares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Noceda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Nonide",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Nora",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Noreña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Noriega",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Novellana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Nueva",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Obona",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Oceño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Oles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Olloniego",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ondes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Oneta",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Onón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Orlé",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ortigueira",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Otur",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ouría",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ovanes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Oviedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Oviñana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Palombar",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pandenes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pando",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Panes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Paramíos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Parana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Paranza",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Parlero",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Parres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pastur",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pedrera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pedroveya",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pelúgano",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pendones",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pendueles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pendás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pereda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Perlora",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Perluces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pernús",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Perueño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pervera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pesoz",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pesquerín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Peñaflor",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Peñafuente",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Peñerudes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Peón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Piantón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Piedeloro",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Piedramuelle",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pigüeces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pigüeña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pillarno",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pimiango",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pineda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pintoria",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pintueles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pivierda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Piñera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Piñeres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Poago",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Podes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pola de Laviana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pola de Lena",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pola de Siero",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pola de Somiedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Polavieja",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ponte",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ponticiella",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Poo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Porceyo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Porciles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Porley",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Porrúa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Posada",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Posada de Rengos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pozón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Prado",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Prados",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Prahúa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Prendonés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Presno",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Priandi",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Priero",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Priesca",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Priorio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Proacina",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Proaza",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pronga",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pruvia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pría",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Puelles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Puente de los Fierros",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Puertas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Puerto",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Puerto de Vega",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Pumarín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Purón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Páramo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ques",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Quiloño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Quimarán",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Quintana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Quintes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Quinzanas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rales",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rano",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ranón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rañeces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rebollada",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Regla de Perandones",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rellanos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Restiello",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Riañu",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ribadesella",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ricabo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Riello",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Roces",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rodical",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rodiles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ronda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rondiella",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rozadas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rozadiella",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rozagás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Rubiano",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ruedes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ruenes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ríospaso",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Salas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Salcedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sales",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Salime",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Salinas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sama",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sames",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Antonio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Claudio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Clemente",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Damías",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Fructuoso",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Juan de la Arena",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Justo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Martín de Arango",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Martín de Lodón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Martín de Semproniana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Martín de Valledor",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Pedro de Paredes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Román",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "San Tirso",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sangoñedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santa Bárbara",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santa Coloma",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santa Cruz de Llanera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santa Eulalia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santa Marina de Oblanca",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santa Rosa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santianes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santibáñez de Murias",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santo Adriano del Monte",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santo Emiliano",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santullano",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Santurio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sariego",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Seana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Seares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Selgas de Arriba",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Selorio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sena",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Serandinas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Serantes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Seroiro",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Serrapio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Serín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Siejo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sierra",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sietes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Silva",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sisterna",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sobrado",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sobrecastiellu",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sobrefoz",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sograndio de Arriba",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Solís",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Somió",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sorriba",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sorribas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sotiello",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Soto de Luiña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Soto de Rei",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Soto de los Infantes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Soto del Barco",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Sotres",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Suares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tablado",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tacones",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tainás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Taja",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Taladrid",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tamón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tanes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tapia de Casariego",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Taramundi",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Taranes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tarna",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tazones",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tebongo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Telledo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tene",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tielve",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tineo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tiuya/Tuilla",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tiñana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tobes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tol",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tolinas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tolivia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Torazo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Torce",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tormaleo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tornón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tozo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Trabada",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Trasmonte",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Trasona",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Traspando",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Trelles",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tremañes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tresali",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Trescares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tresgrandas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Trevías",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Triongo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Troncedo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Trubia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tudela Agüeria",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tuiza",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Turia",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Turiellos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tuña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tuñón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Tíos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ucio",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Udrión",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ujo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Urbiés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Urria",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Valdebárzana",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Valdemora",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Valdepares",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Valdesoto",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Valdornón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Valduno",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Valle de Lago",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vallés",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vallín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Valsera",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vega",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vega de Ouría",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vega de Poja",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vega de Rengos",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vegadeo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Veigas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Venta Nueva",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Ventosa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Veriña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Viabaño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vibaño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vidiago",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vidural",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Viego",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Viella",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vigaña",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vigil",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villacibrán",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villacondide",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villafría",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villagrufe",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villalegre",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villamar",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villamarzo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villamarín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villamayor",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villamejín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villandás",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villanueva",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villapañada",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villapedre",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villapérez",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villar",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villar de Vildas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villardeveyo",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villarmental",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villarpedre",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villatresmil",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villavaler",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villavaser",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villaverde",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villaviciosa",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villazón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Villoría",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Vioño",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Viñas",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Viñón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Yernes",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Zardaín",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Zardón",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Zureda",
+      "status": "available"
+    },
+    {
+      "province": "Asturias",
+      "locality": "Éndriga",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Arenys de Mar",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Arenys de Munt",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Canet de Mar",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Cornudella de Montsant",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Fogars de Tordera",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Gaià",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Hortsavinyà",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "La Costa",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Malgrat de Mar",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Martorell",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Montseny",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Palafolls",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Pineda de Mar",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Sant Cebrià de Vallalta",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Sant Iscle de Vallalta",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Sant Marçal",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Sant Pol de Mar",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Sant Sadurní d'Anoia",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "Valmanyá",
+      "status": "available"
+    },
+    {
+      "province": "Barcelona",
+      "locality": "el Clot",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Abadiño",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Akorda",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Albiz",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Amorebieta",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Amoroto",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Andra Mari",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Arbatzegi",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Areatza",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Arrigorriaga",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Aulesti",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Bakio",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Balmaseda",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Barakaldo",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Basauri",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Bedaroa",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Bedia",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Begoñalde",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Berango",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Bermeo",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Berriatua",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Bilbao",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Boroa",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Derio",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Durango",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Elexalde",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Elorrio",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Erandio",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Ereño",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Ermua",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Errigoiti",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Etxano",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Fika",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Forua",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Fruiz",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Galdakao",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Gamiz",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Garai",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Gatika",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Gernika-Lumo",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Getxo",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Gizaburuaga",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Goierria Ziortza",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Gordexola",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Gorozika",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Herrera",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Ibarruri",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Igorre",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Ispaster",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Iurreta",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Izurtza",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Karrantza Harana / Valle de Carranza",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Kortezubi",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Lanestosa",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Larrabetzu",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Leioa",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Lekeitio",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Lezama",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Loiu",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Mallabia",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Markina-Xemein",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Mañaria",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Mendexa",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Mundaka",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Mungia",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Natxitua",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Ondarroa",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Otxandio",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Plentzia",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Pobeña",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Portugalete",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "San Andres",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "San Esteban",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "San Martin / San Martín de Tours",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Santiago",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Santo Tomás de Olabarrieta",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Santurtzi",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Sestao",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Sopela",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Sopuerta",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Sukarrieta",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Treto",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Ugarte",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Urduña / Orduña",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Zaldibar",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Zalla",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Zamudio",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Zaratamo",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Zeanuri",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Zelaia",
+      "status": "available"
+    },
+    {
+      "province": "Bizkaia",
+      "locality": "Zollo-Elexalde",
+      "status": "available"
+    },
+    {
+      "province": "Burgos",
+      "locality": "Calzada",
+      "status": "available"
+    },
+    {
+      "province": "Burgos",
+      "locality": "Castildelgado",
+      "status": "available"
+    },
+    {
+      "province": "Burgos",
+      "locality": "Ibrillos",
+      "status": "available"
+    },
+    {
+      "province": "Burgos",
+      "locality": "Redecilla del Camino",
+      "status": "available"
+    },
+    {
+      "province": "Burgos",
+      "locality": "Santa María del Campo",
+      "status": "available"
+    },
+    {
+      "province": "Burgos",
+      "locality": "Torre",
+      "status": "available"
+    },
+    {
+      "province": "Ceuta",
+      "locality": "Ceuta",
+      "status": "available"
+    },
+    {
+      "province": "Ceuta",
+      "locality": "San José",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Alcalá de los Gazules",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Algeciras",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Barbate",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Benalup de Sidonia",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Benaocaz",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Cadiz",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Castellar de la Frontera",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Chiclana de la Frontera",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Chipiona",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Conil de la Frontera",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "El Campamento",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Espera",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Guadiaro",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Jerez de la Frontera",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Jimena de la Frontera",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "La Línea de la Concepción",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Los Barrios",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Los Naveros",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Palmones",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Paterna de Rivera",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Puente Mayorga",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "San Fernando",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Tarifa",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Ubrique",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Vejer de la Frontera",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Zahara de la Sierra",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Zahara de los Atunes",
+      "status": "available"
+    },
+    {
+      "province": "Cádiz",
+      "locality": "Zahora",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Adri",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Agullana",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Aiguaviva",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Albanyà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Albons",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Amer",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Anglès",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Arbúcies",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Arenys d'Empordà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Argelaguer",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Avinyonet de Puigventós",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Banyoles",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Batet",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Beget",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Begudà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Begur",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Bellcaire d'Empordà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Besalú",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Bescanó",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Beuda",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Biert",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Biure",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Blanes",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Bonmatí",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Bordils",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Borgonyà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Borrassà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Breda",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Brunyola",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Bàscara",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cabanelles",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cabanes",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cadaqués",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Calabuig",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Caldes de Malavella",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Calella de Palafrugell",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Calonge",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Camallera",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Campllong",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Camprodon",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Camós",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Canet d'Adri",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cantallops",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Capmany",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Capsec",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cartellà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Casavells",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cassà de la Selva",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Castell D'Emporda",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Castellar de la Muntanya",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Castellar de la Selva",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Castellfollit de la Roca",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Castelló d'Empúries",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Celrà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Centenys",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cervià de Ter",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cistella",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cladells",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cogolls",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Colera",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Colomers",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Constantins, Contestins",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Corçà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Crespià",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Cruïlles",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Darnius",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Domeny",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "El Torn",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Empúries",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Esclanyà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Espinavessa",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Espolla",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Esponellà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Estanyol",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Falgons",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Figueres",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Flaçà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Foixà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Fontanilles",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Fontclara",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Fontcoberta",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Fornells de la Selva",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Fortià",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Franciac",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Garrigoles",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Garriguella",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Garrigàs",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Gaüses",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Girona",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Granollers de Rocacorba",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Gualta",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Hostalric",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Jafre",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Joanetes",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Juià",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "La Miana",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "La Mota",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "La Pera",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "La Pinya",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Les Encies",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Les Serres",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Lladó",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Llagostera",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Llambilles",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Llampaies",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Llanars",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Llançà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Llers",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Lligordà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Lliurona",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Llofriu",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Lloret de Mar",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Llorà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Madremanya",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Maià de Montcal",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Marenyà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Masarac",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Massanes",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Mata",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Matajudaica",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Maçanet de Cabrenys",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Maçanet de la Selva",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Medinyà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Mieres",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Miànigues",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Mollet de Peralada",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Molló",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Monells",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Mont-ras",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Montagut",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Montfullá",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Montiró",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Montnegre",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Navata",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Oix",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Olives",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Olot",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Ordis",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Orfes",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Orriols",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Palafrugell",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Palamós",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Palau-sator",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Palau-saverdera",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Palol d'Onyar",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Palol de Revardit",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Pals",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Parets d'Empordà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Parlavà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Pau",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Pedrinyà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Peralada",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Peratallada",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Pont de Molins",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Pontós",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Porqueres",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Portbou",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Puigpardines",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Pujals dels Cavallers",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Pujals dels Pagesos",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Pujarnol",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Púbol",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Queixàs",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Rabós",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Rabós del Terri",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Regencós",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Riudarenes",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Riudaura",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Riudellots de la Creu",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Riudellots de la Selva",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Riumors",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Rocabruna",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Romanyà d'Empordà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Romanyà de la Selva",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Roses",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Rupià",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sadernes",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Saldet",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sales de Llierca",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Salitja",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Salt",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "San Dalmay",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Andreu Salou",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Aniol de Finestres",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Cebrià dels Alls",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Climent Sescebes",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Climent de Peralta",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Esteve d'en Bas",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Esteve de Llémena",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Feliu de Boada",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Feliu de Buixalleu",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Feliu de Guíxols",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Feliu de Pallerols",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Gregori",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Iscle de Colltort",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Jaume de Llierca",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Joan les Fonts",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Jordi Desvalls",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Julià de Ramis",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Julià del Llor",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Llorenç de la Muga",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Llorenç de les Arenes",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Martí",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Martí Vell",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Martí de Llémana",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Miquel de Campmajor",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Miquel de Fluvià",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Mori",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Pere Despuig",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Pere Pescador",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Salvador de Bianya",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sant Tomàs de Fluvià",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Santa Ceclina",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Santa Cristina d'Aro",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Santa Llogaia d'Àlguema",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Santa Margarida de Bianya",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Santa Maria de Finestres",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Santa Pau",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Santa Pellaya",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sarrià de Dalt",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sarrià de Ter",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Saus",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Serinyà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Serra de Daró",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Setcases",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sils",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Siurana",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Solíus",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Sous",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Talaixà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Taravaus",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Terradelles",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Terrades",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Torrent",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Torroella de Fluvià",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Torroella de Montgrí",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Tortellà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Tossa de Mar",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Tregurà de Baix",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Ullastret",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Ullà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Ultramort",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Usall",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vall-Llobrega",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vallcanera",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Valveralla",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Ventalló",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Verges",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vidreres",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vila-robau",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vila-sacra",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilabertran",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilablareix",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilacolum",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Viladamat",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Viladasens",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilademires",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilademuls",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilafant",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilafreser",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilajoan",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilajuïga",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilamacolum",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilamalla",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilamaniscle",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilamarí",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilanant",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilanna",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilanova de la Muga",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilarig",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilarnadal",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilatenim",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilaür",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilobí d'Onyar",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vilopriu",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "Vulpellac",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "el Far d'Empordà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "el Mallol",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "el Port de la Selva",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "el Sallent",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "els Horts",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "els Hostalets d'en Bas",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "l'Armentera",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "l'Escala",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "l'Estartit",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "l'Estela",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "la Bisbal d'Empordà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "la Canya",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "la Cellera de Ter",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "la Jonquera",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "la Selva de Mar",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "la Tallada d'Empordà",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "la Vajol",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "la Vall",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "les Corts",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "les Escaules",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "les Planes d'Hostoles",
+      "status": "available"
+    },
+    {
+      "province": "Girona",
+      "locality": "les Preses",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Agoncillo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Aguilar del Río Alhama",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ajamil",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Albelda de Iregua",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Alberite",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Alcanadre",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Aldeanueva de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Aldeanueva de Ebro",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Alesanco",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Alesón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Almarza de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ambas Aguas",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Anguciana",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Anguta",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Arenzana de Abajo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Arenzana de Arriba",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Arnedillo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Arnedo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Arrúbal",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ausejo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Autol",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Avellaneda",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Azofra",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Badarán",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Bañares",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Baños de Rioja",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Baños de Río Tobía",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Bergasa",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Bergasillas Bajera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Bezares",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Bobadilla",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Briones",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Briñas",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Buzarra",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cabezón de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cabretón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Calahorra",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Canillas de Río Tuerto",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Carbonera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Casalarreina",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Castañares de Rioja",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Castroviejo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cenicero",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cervera del Río Alhama",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cidamón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cihuri",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ciriñuela",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cirueña",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Clavijo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cordovín",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Corera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cornago",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Corporales",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cuzcurrita de Río Tirón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Cárdenas",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Daroca de Rioja",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "El Cortijo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "El Rasillo de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "El Redal",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "El Río",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "El Villar",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "El Villar de Arnedo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Enciso",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Entrena",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Estollo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Fuenmayor",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Galbárruli",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Galilea",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Gallinero de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Garranzo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Gimileo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Grañón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Grávalos",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Haro",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Herce",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Herramélluri",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Hervías",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Hormilla",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Hormilleja",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Hornillos de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Hornos de Moncalvillo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Igea",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Inestrillas",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Islallana",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Jalón de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Jubera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "La Monjía",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "La Santa",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Laguna de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Lagunilla del Jubera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Lardero",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Larriba",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Las Ruedas de Ocón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ledesma de la Cogolla",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Leiva",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Leza de Río Leza",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Logroño",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Los Molinos de Ocón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Mahave",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Manjarrés",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Manzanares de Rioja",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Matute",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Medrano",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Montalbo en Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Montemediano",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Morales",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Munilla",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Murillo de Calahorra",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Murillo de Río Leza",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Muro de Aguas",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Muro en Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Nalda",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Navajún",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Nestares",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Nieva de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Nájera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ochánduri",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ocón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Oliván",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ollauri",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Pajares",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Peciña",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Pedroso",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Peroblasco",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Peñaloscintos",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Pradejón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Pradillo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Préjano",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Quintanar de Rioja",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Rabanera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ribafrecha",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ribas de Tereso",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Rincón de Olivedo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Rincón de Soto",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Robres del Castillo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Rodezno",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Sajazarra",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "San Andrés",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "San Asensio",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "San Millán de la Cogolla",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "San Román de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "San Torcuato",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "San Vicente de la Sonsierra",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Santa Coloma",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Santa Engracia",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Santa Eulalia Bajera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Santo Domingo de la Calzada",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Sojuela",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Somalo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Sorzano",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Soto en Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Sotés",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Terroba",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Tirgo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Tobía",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Torrecilla en Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Torremontalbo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Torremuña",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Treguajantes",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Trevijano",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Tricio",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Tudelilla",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Turruncún",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Uruñuela",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Valdemadera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Valdeosera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Valtrujal",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Velasco",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ventas Blancas",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ventosa",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Viguera",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villalba de Rioja",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villamediana de Iregua",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villanueva de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villar de Torre",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villarejo",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villarroya",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villarta-Quintana",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villaseca",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villaverde de Rioja",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Villoslada de Cameros",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Zarratón",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Zarzosa",
+      "status": "available"
+    },
+    {
+      "province": "La Rioja",
+      "locality": "Ábalos",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Arbeca",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Belianes",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Cervià de les Garrigues",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Ciutadilla",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Fulleda",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Guimerà",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Maldà",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Montant",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Montornès de Segarra",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Rocallaura",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Tarrés",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "Vallbona de les Monges",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "el Vilosell",
+      "status": "available"
+    },
+    {
+      "province": "Lleida",
+      "locality": "els Omellons",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Alameda del Valle",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Alcobendas",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Aldea del Fresno",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Algete",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Alpedrete",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Aravaca",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Barajas de Madrid",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Becerril de la Sierra",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Boalo",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Braojos",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Buitrago del Lozoya",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Bustarviejo",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Canencia",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Cercedilla",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Cervera de Buitrago",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Chamartín",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Collado Mediano",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Concepción",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Daganzo de Arriba",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "El Pardo",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Fuencarral",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Garganta de los Montes",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Gargantilla del Lozoya",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Gascones",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Guadalix de la Sierra",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Guadarrama",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Horcajuelo de la Sierra",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Hoyo de Manzanares",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "La Acebeda",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "La Esperanza",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "La Hiruela",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Los Angeles",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Lozoya",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Madrid",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Majadahonda",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Manzanares el Real",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Miraflores de la Sierra",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Moralzarzal",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Navacerrada",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Navalafuente",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Navalagamella",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Navarredonda",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Nuevo Baztán",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Orusco",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Oteruelo del Valle",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Pedrezuela",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Perales de Tajuña",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Pinilla del Valle",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Piñuécar",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Pozuelo de Alarcón",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Prádena del Rincón",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Redueña",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Robledillo de la Jara",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Robledo de Chavela",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Robregordo",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "San Agustín del Guadalix",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "San Juan Bautista",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "San Lorenzo de El Escorial",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "San Mamés",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Santa María de la Alameda",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Serranillos del Valle",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Sieteiglesias",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Somosierra",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Torrelodones",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Valdemanco",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Valdemaqueda",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Valdemorillo",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Valdeolmos",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Venturada",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Villaconejos",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Villanueva del Pardillo",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Villavieja del Lozoya",
+      "status": "available"
+    },
+    {
+      "province": "Madrid",
+      "locality": "Zarzalejo",
+      "status": "available"
+    },
+    {
+      "province": "Málaga",
+      "locality": "Setenil de las Bodegas",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Aguadulce",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Alcalá del Río",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Alcolea del Río",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Algámitas",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Almensilla",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Badolatosa",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Benacazón",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Bollullos de la Mitación",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Bormujos",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Brenes",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Burguillos",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Camas",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Cantillana",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Carmona",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Carrión de los Céspedes",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Casariche",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Castilleja de Guzmán",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Castilleja de la Cuesta",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Cazalla de la Sierra",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Cañada Rosal",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Constantina",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Coria del Río",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Coripe",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Dos Hermanas",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "El Castillo de las Guardas",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "El Cuervo",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Espartinas",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Estepa",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Fuentes de Andalucía",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Gelves",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Gerena",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Gines",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Guadalcanal",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Herrera",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Huévar del Aljarafe",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "La Algaba",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "La Oliva",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "La Puebla de Cazalla",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "La Puebla del Río",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Lora de Estepa",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Lora del Río",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Mairena del Aljarafe",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Marchena",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Morón de la Frontera",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Olivares",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Osuna",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Palomares del Río",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Paradas",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Pedrera",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Peñaflor",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Pilas",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Pruna",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San Bartolome",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San Bernardo",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San Gil",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San Jose Obrero",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San José de la Rinconada",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San Juan de Aznalfarache",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San Julian",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San Lorenzo",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San Nicolás del Puerto",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "San Vicente",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Santa Catalina",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Santa Cruz",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Santa Marina",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Santiponce",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Sevilla",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Tocina",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Tomares",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Umbrete",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Utrera",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Valencina de la Concepción",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Villanueva de San Juan",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Villanueva del Ariscal",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Villanueva del Río",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Villanueva del Río y Minas",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Villaverde del Río",
+      "status": "available"
+    },
+    {
+      "province": "Sevilla",
+      "locality": "Écija",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Alcover",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Alforja",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Alió",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Barberà de la Conca",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Biure de Gaià",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Blancafort",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Bonastre",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Botarell",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Bràfim",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Cabra del Camp",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Calafell",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Cambrils",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Capafonts",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Conesa",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Constantí",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Creixell",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Duesaigües",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "El Pla de Santa Maria",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "El Rourell",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Falset",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Farena",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Forès",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Gratallops",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Juncosa",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "La Canonja",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "La Guàrdia dels Prats",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "La Riba",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "La Selva del Camp",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Les Piles",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Lilla",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Mont-ral",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Montbrió de la Marca",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Montferri",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Nulles",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Passanant",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Perafort",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Pira",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Poboleda",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Pontils",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Puigdelfí",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Renau",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Riudecanyes",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Riudoms",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Rocafort de Queralt",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Rojals",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Santes Creus",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Siurana de Prades",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Tarragona",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Torredembarra",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Torroja del Priorat",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Ulldemolins",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vallclara",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vallespinosa",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Valls",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vespella de Gaià",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vila-seca",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vilabella",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vilallonga del Camp",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vilanova d'Escornalbou",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vilanova de Prades",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vilaverd",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "Vimbodí",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "el Catllar",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "el Morell",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "els Garidells",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "els Pallaresos",
+      "status": "available"
+    },
+    {
+      "province": "Tarragona",
+      "locality": "les Borges del Camp",
+      "status": "available"
+    }
+  ]
+}
