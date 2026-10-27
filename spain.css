@@ -18,3 +18,15 @@
   .coverage-form { grid-template-columns: minmax(0, 1fr); }
   .country-nav { gap: .5rem 1rem; }
 }
+.coverage-map { margin: 1.5rem 0; }
+.coverage-map__canvas svg { display: block; width: 100%; height: auto; background: var(--paper-pale); border: 1px solid var(--line); border-radius: 8px; }
+.coverage-map__area { fill: var(--teal); stroke: var(--white); stroke-width: .8; vector-effect: non-scaling-stroke; cursor: pointer; }
+.coverage-map__area.is-limited { fill: var(--copper); }
+.coverage-map__area.is-active { fill: var(--ink-800); }
+.coverage-map__borders { fill: none; stroke: var(--ink-700); stroke-opacity: .28; stroke-width: .6; vector-effect: non-scaling-stroke; pointer-events: none; }
+.coverage-map__inset { fill: none; stroke: var(--muted); stroke-dasharray: 4 4; vector-effect: non-scaling-stroke; }
+.coverage-map figcaption { margin-top: .75rem; font-size: .9rem; color: var(--muted); }
+.coverage-map figcaption small { display: block; margin-top: .25rem; }
+.coverage-areas { columns: 2 18rem; column-gap: 2rem; padding-left: 1.25rem; margin-top: 1rem; font-size: .9rem; }
+.coverage-areas li { break-inside: avoid; margin-bottom: .35rem; }
+.coverage-areas li.is-active strong { color: var(--teal); }

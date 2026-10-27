@@ -49,3 +49,62 @@
     }
   });
 })();
+
+/* Public coverage map: area names, scope and outlines only. */
+(() => {
+  const figure = document.querySelector('[data-coverage-map]');
+  if (!figure) return;
+  const es = document.documentElement.lang === 'es';
+  const canvas = figure.querySelector('[data-coverage-map-canvas]');
+  const list = figure.querySelector('[data-coverage-areas]');
+  const NS = 'http://www.w3.org/2000/svg';
+  // Plain equirectangular grid; the Canary Islands move to an inset south-west of the peninsula.
+  const K = Math.cos(40 * Math.PI / 180);
+  const proj = ([lon, lat]) => {
+    if (lon < -13 && lat < 30) { lon += 6.2; lat += 7; }
+    return `${((lon + 12.5) * K * 60).toFixed(1)},${((44.2 - lat) * 60).toFixed(1)}`;
+  };
+  const W = Math.ceil(17.1 * K * 60), H = Math.ceil(9.8 * 60);
+  const scope = area => area.scope.map(p => p.whole ? p.province
+    : p.places.length ? `${p.province}: ${p.places.join(', ')}`
+      : `${p.province} (${p.municipalities} ${es ? 'de' : 'of'} ${p.total} ${es ? 'municipios' : 'municipalities'})`).join('; ');
+  const el = (name, attrs) => {
+    const node = document.createElementNS(NS, name);
+    for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v);
+    return node;
+  };
+  fetch(figure.dataset.url).then(r => { if (!r.ok) throw new Error('Map unavailable'); return r.json(); }).then(data => {
+    if (!Array.isArray(data.areas) || !Array.isArray(data.borders)) throw new Error('Invalid map');
+    const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': figure.getAttribute('aria-label') });
+    const a = proj([-18.4, 29.5]).split(','), b = proj([-13.2, 27.5]).split(',');
+    svg.append(el('rect', { class: 'coverage-map__inset', x: a[0], y: a[1], width: b[0] - a[0], height: b[1] - a[1] }));
+    const paths = [], items = [];
+    const activate = i => {
+      paths.forEach((p, k) => p.classList.toggle('is-active', k === i));
+      items.forEach((li, k) => li.classList.toggle('is-active', k === i));
+    };
+    data.areas.forEach((area, i) => {
+      const d = area.polygons.map(poly => poly.map(ring => 'M' + ring.map(proj).join('L') + 'Z').join('')).join('');
+      const path = el('path', { d, class: 'coverage-map__area' + (area.status === 'limited' ? ' is-limited' : '') });
+      const title = el('title', {});
+      title.textContent = `${area.name} — ${scope(area)}`;
+      path.append(title);
+      path.addEventListener('mouseenter', () => activate(i));
+      path.addEventListener('mouseleave', () => activate(-1));
+      path.addEventListener('click', () => activate(i));
+      svg.append(path); paths.push(path);
+      const li = document.createElement('li');
+      const name = document.createElement('strong');
+      name.textContent = area.name;
+      li.append(name, document.createTextNode(` — ${scope(area)}`));
+      li.addEventListener('mouseenter', () => activate(i));
+      li.addEventListener('mouseleave', () => activate(-1));
+      list.append(li); items.push(li);
+    });
+    svg.append(el('path', { class: 'coverage-map__borders', d: data.borders.map(l => 'M' + l.map(proj).join('L')).join('') }));
+    canvas.append(svg);
+  }).catch(() => {
+    canvas.textContent = es ? 'No se pudo cargar el mapa. Use el buscador o solicite una evaluación por correo.'
+      : 'The map could not be loaded. Use the search or request an assessment by email.';
+  });
+})();

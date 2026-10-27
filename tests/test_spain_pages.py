@@ -10,6 +10,9 @@ ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('coverage_builder', ROOT / 'scripts/build_spain_coverage.py')
 builder = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(builder)
+spec = importlib.util.spec_from_file_location('coverage_map_builder', ROOT / 'scripts/build_spain_coverage_map.py')
+map_builder = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(map_builder)
 
 
 class Page(HTMLParser):
@@ -87,6 +90,26 @@ class SpainTests(unittest.TestCase):
         data['availability'][0].pop('desde')
         data['places'].append(['Town', 40, -3, 0])
         self.assertEqual(export()['localities'], [])
+
+    def test_public_map_is_minimal(self):
+        data = json.loads((ROOT / 'MAGENHA_DATA/spain_coverage_map.json').read_text())
+        self.assertEqual(set(data), {'version', 'source', 'areas', 'borders'})
+        self.assertTrue(data['areas'])
+        for area in data['areas']:
+            self.assertEqual(set(area), {'name', 'status', 'scope', 'polygons'})
+            self.assertIn(area['status'], {'available', 'limited'})
+            for part in area['scope']:
+                self.assertEqual(set(part), {'province', 'whole', 'municipalities', 'total', 'places'})
+
+    def test_map_exporter_keeps_only_public_fields(self):
+        ring = [[0, 0], [1, 0], [1, 1], [0, 0]]
+        feature = {'properties': {'nombre': 'Diocese', 'servicio': 'si', 'diocesis': 'PRIVATE', 'nota': 'PRIVATE',
+                                  'ambito_partes': [{'provincia': 'P', 'toda': True, 'municipios': 2, 'total': 2, 'nombres': []}]},
+                   'geometry': {'coordinates': [[ring]]}}
+        out = map_builder.export({'features': [feature, {**feature, 'properties': {**feature['properties'], 'nombre': 'No', 'servicio': 'no'}}]})
+        self.assertEqual([a['name'] for a in out['areas']], ['Diocese'])
+        self.assertNotIn('PRIVATE', json.dumps(out))
+        self.assertEqual(map_builder.export({'features': [feature]}, {'Diocese'})['areas'], [])
 
 
 if __name__ == '__main__':
