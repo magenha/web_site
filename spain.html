@@ -16,8 +16,8 @@
   <link href="style.css" rel="stylesheet"/>
   <script defer="" src="script.js">
   </script>
-  <link href="spain.css" rel="stylesheet"/>
-  <script defer="" src="spain.js">
+  <link href="spain.css?v=20261029" rel="stylesheet"/>
+  <script defer="" src="spain.js?v=20261029">
   </script>
  </head>
  <body class="service-page spain-page">
@@ -210,37 +210,43 @@
        Where would you like to research?
       </h2>
       <p>
-       Search by province or locality. We show only identified localities with a confirmed operational route; a province with results does not necessarily have complete coverage.
+       Type your locality or province and we will tell you straight away whether we can research there: green means viable, red means not viable for now. If it does not appear, request an individual assessment.
       </p>
-      <figure aria-label="Map of the Spanish dioceses and areas where MAGENHA currently researches" class="coverage-map" data-coverage-map="" data-url="MAGENHA_DATA/spain_coverage_map.json">
-       <div class="coverage-map__canvas" data-coverage-map-canvas="">
-       </div>
-       <figcaption>
-        Dioceses and areas where we currently research. Point at or tap an area to see its name; the Canary Islands are shown in the dashed inset. The map shows each diocese’s present-day territory, approximated with municipal boundaries; it does not replace the individual assessment.
-        <small>
-         Municipal boundaries: Instituto Geográfico Nacional (CC BY 4.0), via es-atlas.
-        </small>
-       </figcaption>
-       <ul class="coverage-areas" data-coverage-areas="">
-       </ul>
-      </figure>
       <form class="inquiry-form coverage-form" data-coverage-form="" data-url="MAGENHA_DATA/spain_coverage.json" role="search">
        <label class="form-label" for="coverage-query">
         Province or locality
        </label>
-       <input aria-describedby="coverage-help" id="coverage-query" maxlength="100" name="query" placeholder="Enter a province or locality" required="" type="search"/>
+       <input aria-describedby="coverage-help" autocomplete="off" id="coverage-query" maxlength="100" name="query" placeholder="For example: Mondoñedo, Toledo, Lugo…" required="" type="search"/>
        <button class="button button--primary" type="submit">
         Search
        </button>
       </form>
       <p id="coverage-help">
-       Availability does not guarantee record preservation, consultation permission or an immediate appointment. No current coverage means we have no confirmed route, not that records do not exist.
+       Viable does not guarantee record preservation, consultation permission or an immediate appointment. Not viable means we have no confirmed route today, not that records do not exist.
       </p>
-      <p aria-live="polite" data-coverage-status="" role="status">
-       Enter a locality or province to check published coverage.
-      </p>
+      <div aria-live="polite" class="coverage-status" data-coverage-status="" role="status">
+       <p class="coverage-status__hint">
+        Type at least two letters of your locality or province.
+       </p>
+      </div>
       <ul class="coverage-results" data-coverage-results="">
       </ul>
+      <figure aria-label="Map of the Spanish dioceses: where MAGENHA researches and where it does not for now" class="coverage-map" data-coverage-map="" data-url="MAGENHA_DATA/spain_coverage_map.json">
+       <div class="coverage-map__legend" data-coverage-legend="">
+       </div>
+       <div class="coverage-map__canvas" data-coverage-map-canvas="">
+       </div>
+       <div aria-live="polite" class="coverage-map__info" data-coverage-info="">
+       </div>
+       <figcaption>
+        Dioceses where we research (green) and where we do not for now (hatched red). Point at or tap a diocese to see its details; the Canary Islands are shown in the dashed inset. The map shows each diocese’s present-day territory, approximated with municipal boundaries; it does not replace the individual assessment.
+        <small>
+         Municipal boundaries: Instituto Geográfico Nacional (CC BY 4.0), via es-atlas.
+        </small>
+       </figcaption>
+       <div class="coverage-areas" data-coverage-areas="">
+       </div>
+      </figure>
       <noscript>
        <p>
         Enable JavaScript to use the search, or request an assessment by email.

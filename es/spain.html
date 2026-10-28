@@ -16,8 +16,8 @@
   <link href="../style.css" rel="stylesheet"/>
   <script defer="" src="../script.js">
   </script>
-  <link href="../spain.css" rel="stylesheet"/>
-  <script defer="" src="../spain.js">
+  <link href="../spain.css?v=20261029" rel="stylesheet"/>
+  <script defer="" src="../spain.js?v=20261029">
   </script>
  </head>
  <body class="service-page spain-page">
@@ -210,37 +210,43 @@
        ¿Dónde desea investigar?
       </h2>
       <p>
-       Consulte por provincia o localidad. Mostramos únicamente localidades identificadas con una vía operativa confirmada; una provincia con resultados no tiene necesariamente cobertura completa.
+       Escriba su localidad o provincia y le diremos al momento si podemos investigar allí: en verde, viable; en rojo, no viable por ahora. Si no aparece, pida una evaluación individual.
       </p>
-      <figure aria-label="Mapa de las diócesis y zonas de España donde MAGENHA investiga actualmente" class="coverage-map" data-coverage-map="" data-url="../MAGENHA_DATA/spain_coverage_map.json">
-       <div class="coverage-map__canvas" data-coverage-map-canvas="">
-       </div>
-       <figcaption>
-        Diócesis y zonas donde investigamos actualmente. Señale o toque un área para ver su nombre; las islas Canarias aparecen en el recuadro discontinuo. El mapa muestra el territorio actual de cada diócesis, aproximado con los límites municipales; no sustituye la evaluación individual.
-        <small>
-         Límites municipales: Instituto Geográfico Nacional (CC BY 4.0), vía es-atlas.
-        </small>
-       </figcaption>
-       <ul class="coverage-areas" data-coverage-areas="">
-       </ul>
-      </figure>
       <form class="inquiry-form coverage-form" data-coverage-form="" data-url="../MAGENHA_DATA/spain_coverage.json" role="search">
        <label class="form-label" for="coverage-query">
         Provincia o localidad
        </label>
-       <input aria-describedby="coverage-help" id="coverage-query" maxlength="100" name="query" placeholder="Escriba una provincia o localidad" required="" type="search"/>
+       <input aria-describedby="coverage-help" autocomplete="off" id="coverage-query" maxlength="100" name="query" placeholder="Por ejemplo: Mondoñedo, Toledo, Lugo…" required="" type="search"/>
        <button class="button button--primary" type="submit">
         Consultar
        </button>
       </form>
       <p id="coverage-help">
-       La disponibilidad no garantiza conservación del documento, permiso de consulta ni una cita inmediata. Sin cobertura actual significa que no tenemos una vía confirmada, no que los documentos no existan.
+       Viable no garantiza la conservación del documento, el permiso de consulta ni una cita inmediata. No viable significa que hoy no tenemos una vía confirmada, no que los documentos no existan.
       </p>
-      <p aria-live="polite" data-coverage-status="" role="status">
-       Introduzca una localidad o provincia para consultar la cobertura publicada.
-      </p>
+      <div aria-live="polite" class="coverage-status" data-coverage-status="" role="status">
+       <p class="coverage-status__hint">
+        Escriba al menos dos letras de su localidad o provincia.
+       </p>
+      </div>
       <ul class="coverage-results" data-coverage-results="">
       </ul>
+      <figure aria-label="Mapa de las diócesis de España: dónde investiga MAGENHA y dónde no por ahora" class="coverage-map" data-coverage-map="" data-url="../MAGENHA_DATA/spain_coverage_map.json">
+       <div class="coverage-map__legend" data-coverage-legend="">
+       </div>
+       <div class="coverage-map__canvas" data-coverage-map-canvas="">
+       </div>
+       <div aria-live="polite" class="coverage-map__info" data-coverage-info="">
+       </div>
+       <figcaption>
+        Diócesis donde investigamos (verde) y donde por ahora no (rojo rayado). Señale o toque una diócesis para ver su ficha; las islas Canarias aparecen en el recuadro discontinuo. El mapa muestra el territorio actual de cada diócesis, aproximado con los límites municipales; no sustituye la evaluación individual.
+        <small>
+         Límites municipales: Instituto Geográfico Nacional (CC BY 4.0), vía es-atlas.
+        </small>
+       </figcaption>
+       <div class="coverage-areas" data-coverage-areas="">
+       </div>
+      </figure>
       <noscript>
        <p>
         Para usar el buscador active JavaScript o solicite la evaluación por correo.

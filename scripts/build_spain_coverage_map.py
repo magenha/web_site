@@ -1,4 +1,5 @@
 """Export the public coverage map: area names, scope and outlines only, never parishes or archive records.
+The areas with service and the dioceses without it ("sin_servicio": status unavailable) are both exported.
 
 Usage: python3 scripts/build_spain_coverage_map.py INPUT_GEOJSON OUTPUT_JSON [--hide NAME ...]
 The input is the internal explorer's Output/cobertura/cobertura.geojson (built by cobertura.py), kept
@@ -9,7 +10,7 @@ import json
 from pathlib import Path
 
 SOURCE = 'Municipal boundaries: es-atlas 0.6.0, CC BY 4.0 © Instituto Geográfico Nacional'
-STATUS = {'si': 'available', 'con reservas': 'limited'}
+STATUS = {'si': 'available', 'con reservas': 'limited', 'no': 'unavailable'}
 
 
 def point(p):
@@ -26,7 +27,7 @@ def ring(points):
 
 def export(source, hide=()):
     areas = []
-    for feature in source['features']:
+    for feature in source['features'] + source.get('sin_servicio', []):
         props = feature['properties']
         status = STATUS.get(str(props.get('servicio', '')).strip().lower())
         if not status or props['nombre'] in hide:

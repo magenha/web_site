@@ -57,17 +57,26 @@ Commit reviewed changes to `stare-branch` and push that branch to GitHub. Keep `
 
 - `spain.html` / `es/spain.html`: independent Spain service, 38 FAQs,
   Spain-specific terms and the existing browser-only email composer.
-- `spain.css` / `spain.js`: country navigation, accessible disclosures and
-  locality/province coverage search. Shared branding, navigation, page index,
-  form styles and mail draft/copy handling remain in `style.css` / `script.js`.
-- `MAGENHA_DATA/spain_coverage_map.json`: the coverage map (dioceses and zones with
-  service): area name, status, per-province scope, rounded outlines and province
-  borders only. Municipal boundaries: Instituto Geográfico Nacional, CC BY 4.0,
-  via es-atlas 0.6.0. Built by `scripts/build_spain_coverage_map.py` from the internal
-  `cobertura.geojson`; `--hide "Area name"` leaves an area off the public map.
-- `MAGENHA_DATA/spain_coverage.json`: public allowlist containing only province,
-  locality and an available status. No contacts, archive inventories, coordinates,
-  internal notes, rates or access arrangements are included.
+- `spain.css` / `spain.js`: country navigation, accessible disclosures and the
+  coverage search and map. The search answers as you type with one verdict (green
+  "viable" with a smile, red "not viable" with a sad face, amber when it depends on
+  the locality or the place is not in our data) and a card per locality; a card or
+  the verdict's "see it on the map" highlights its diocese. The map is green where we
+  research and hatched red where we do not for now, with a tooltip, a legend and a
+  detail card per diocese. Both pages load them as `spain.css?v=…` / `spain.js?v=…`:
+  change the version in both pages whenever either file changes, or browsers keep the
+  old copy (the two JSON files are always revalidated). Shared branding, navigation,
+  page index, form styles and mail draft/copy handling remain in `style.css` / `script.js`.
+- `MAGENHA_DATA/spain_coverage_map.json`: the coverage map (every diocese, with
+  service or without it for now): area name, status (`available`, `limited`,
+  `unavailable`), per-province scope, rounded outlines and province borders only.
+  Municipal boundaries: Instituto Geográfico Nacional, CC BY 4.0, via es-atlas 0.6.0.
+  Built by `scripts/build_spain_coverage_map.py` from the internal `cobertura.geojson`;
+  `--hide "Area name"` leaves an area off the public map.
+- `MAGENHA_DATA/spain_coverage.json`: public list containing only province,
+  locality, status (`available` or `unavailable`) and area (its diocese, as named on
+  the map), one locality per line. No contacts, archive inventories, coordinates,
+  internal notes, reasons, rates or access arrangements are included.
 
 Cuba remains at `service.html` / `es/service.html`, with its existing content and
 terms. The shared Research navigation groups Cuba and Spain; both service pages also
@@ -77,13 +86,14 @@ Coverage is a conservative snapshot of confirmed operational availability, not a
 promise of document survival, access or appointments. Province search lists
 covered localities and does not assert province-wide coverage. Unlisted places
 require individual assessment; failed data loading is not reported as no coverage.
-The current export (2026-10-27) uses 18 confirmed diocesan availability rules
-(Girona, Tarragona, Madrid, Alcalá de Henares, Getafe, Toledo, Sigüenza-Guadalajara,
-Ávila, Segovia, Calahorra y La Calzada-Logroño, Oviedo, Pamplona y Tudela,
-San Sebastián, Bilbao, Vitoria, Sevilla, Cádiz y Ceuta, Jerez de la Frontera) plus
-the parishes of the island of Fuerteventura. Locality names
+The current export (2026-10-28) covers every diocese except Zamora, Tenerife
+(San Cristóbal de La Laguna), Tarazona, Salamanca and Ávila, shown as not viable:
+67 map areas (62 viable, 5 not viable), 11,639 viable and 879 not viable localities.
+A locality with any confirmed route is viable. Locality names
 must match the internal place catalogue and coordinates within 3 km, uniquely;
-ambiguous matches and conditional availability rules are excluded.
+ambiguous matches, places without a province and conditional availability rules are
+excluded (those places get the amber "individual assessment" answer). The explorer's own corrections apply: a hidden parish is dropped and a
+moved one is matched where it now lies.
 
 To refresh from a separately maintained internal explorer, run:
 
