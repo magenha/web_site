@@ -826,6 +826,10 @@ h3 {
   gap: 1rem;
 }
 
+.region-cards--single {
+  grid-template-columns: minmax(0, 32rem);
+}
+
 .region-card {
   position: relative;
   display: flex;

@@ -78,9 +78,12 @@ Commit reviewed changes to `stare-branch` and push that branch to GitHub. Keep `
   the map), one locality per line. No contacts, archive inventories, coordinates,
   internal notes, reasons, rates or access arrangements are included.
 
-Cuba remains at `service.html` / `es/service.html`, with its existing content and
-terms. The shared Research navigation groups Cuba and Spain; both service pages also
-offer a country selector. The language switch preserves the section anchor.
+MAGENHA no longer offers research services in Cuba (removed from the public site on
+2026-11-13). Spain is the only research service: the navigation's "Research in Spain"
+link and every inquiry, terms, process and coverage link lead to `spain.html`.
+`service.html` / `es/service.html` keep only the Y-DNA/mtDNA Lineage Research Program,
+its program terms and the mission and outreach section. The language switch preserves
+the section anchor.
 
 Coverage is a conservative snapshot of confirmed operational availability, not a
 promise of document survival, access or appointments. Province search lists

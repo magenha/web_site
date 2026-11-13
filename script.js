@@ -157,8 +157,8 @@ if (inquiryForm) {
     return option ? option.textContent.trim() : "";
   };
 
-  const serviceFields = () => ["spain", "cuba"].includes(inquiryForm.dataset.service) ? [
-    `${isSpanish ? "Servicio" : "Service"}: MAGENHA Research — ${inquiryForm.dataset.service === "cuba" ? "Cuba" : (isSpanish ? "España" : "Spain")}`,
+  const serviceFields = () => inquiryForm.dataset.service === "spain" ? [
+    `${isSpanish ? "Servicio" : "Service"}: MAGENHA Research — ${isSpanish ? "España" : "Spain"}`,
     `${isSpanish ? "País de residencia" : "Country of residence"}: ${getValue("country")}`,
     `${isSpanish ? "Finalidad" : "Purpose"}: ${getSelectedText("purpose")}`
   ] : [];

@@ -42,7 +42,7 @@ class SpainTests(unittest.TestCase):
         self.assertEqual(parsed[0].ids, parsed[1].ids)
         for path, page in zip(pages, parsed):
             self.assertEqual(len(page.ids), len(set(page.ids)))
-            self.assertEqual(page.summaries, 48)  # Research menu, 38 FAQs and 9 terms disclosures
+            self.assertEqual(page.summaries, 46)  # 37 FAQs and 9 terms disclosures
             self.assertTrue({'country', 'purpose', 'name', 'email', 'places', 'period', 'client_status', 'request_type', 'goal', 'sources'} <= set(page.fields))
             for ref in page.refs:
                 u = urlsplit(ref)
@@ -57,7 +57,17 @@ class SpainTests(unittest.TestCase):
         for directory in [ROOT, ROOT / 'es']:
             for name in ['index.html', 'service.html', 'statistics.html']:
                 self.assertIn('spain.html', Page(directory / name).refs)
-            self.assertIn('service.html', Page(directory / 'spain.html').refs)
+            self.assertIn('service.html#lineage-program', Page(directory / 'spain.html').refs)
+
+    def test_no_research_service_in_cuba(self):
+        """Owner, 2026-11-13: only the Spain research service is offered."""
+        for directory in [ROOT, ROOT / 'es']:
+            for name in ['index.html', 'service.html', 'spain.html', 'statistics.html']:
+                text = (directory / name).read_text()
+                for gone in ['MAGENHA Research — Cuba', 'MAGENHA Cuba', 'region-card--cuba', 'data-service="cuba"',
+                             '>Cuba</a>', 'Cuban genealogy', 'genealogía cubana', 'Cuba and/or Spain', 'Cuba y/o España']:
+                    self.assertNotIn(gone, text, f'{directory.name}/{name}: {gone}')
+        self.assertNotIn('"cuba"', (ROOT / 'script.js').read_text())
 
     def test_public_dataset_is_minimal_and_unique(self):
         data = json.loads((ROOT / 'MAGENHA_DATA/spain_coverage.json').read_text())
