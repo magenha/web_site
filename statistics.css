@@ -14,8 +14,9 @@ html:not(.js) .statistics-status {
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(circle at 82% 28%, rgba(214, 173, 103, 0.18), transparent 26rem),
-    linear-gradient(135deg, var(--ink-950), #174f50);
+    linear-gradient(90deg, rgba(16, 43, 45, 0.78) 0%, rgba(16, 43, 45, 0.3) 55%, rgba(16, 43, 45, 0.45) 100%),
+    url("images/scenes/statistics-hero.jpg") center / cover no-repeat,
+    var(--ink-950);
   color: rgba(255, 253, 248, 0.84);
 }
 
@@ -99,34 +100,6 @@ html:not(.js) .statistics-status {
   letter-spacing: 0.08em;
   line-height: 1.4;
   text-transform: uppercase;
-}
-
-.statistics-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
-  gap: clamp(3rem, 8vw, 8rem);
-  padding-block: clamp(5.5rem, 9vw, 8rem);
-  border-bottom: 1px solid var(--line);
-}
-
-.statistics-intro h2 {
-  max-width: 530px;
-  margin-bottom: 0;
-  font-size: clamp(2.5rem, 4.2vw, 4rem);
-}
-
-.statistics-intro > div:last-child {
-  max-width: 720px;
-  padding-top: 1.6rem;
-}
-
-.statistics-intro > div:last-child p:first-child {
-  color: var(--ink-900);
-  font-size: 1.13rem;
-}
-
-.statistics-intro > div:last-child p:last-child {
-  margin-bottom: 0;
 }
 
 .statistics-status,
@@ -553,7 +526,7 @@ html:not(.js) .statistics-status {
   stroke: rgba(22, 56, 58, 0.42);
   stroke-width: 0.65;
   vector-effect: non-scaling-stroke;
-  transition: fill 180ms ease, opacity 180ms ease;
+  transition: fill 300ms ease, opacity 300ms ease;
 }
 
 .world-map__country[data-has-result="true"] {
@@ -732,9 +705,8 @@ html:not(.js) .statistics-status {
 
 @media (max-width: 1060px) {
   .statistics-hero__grid,
-  .statistics-intro,
-  .statistics-section__heading,
-  .statistics-section__heading--stacked > div:first-child {
+.statistics-section__heading,
+.statistics-section__heading--stacked > div:first-child {
     grid-template-columns: 1fr;
   }
 
@@ -810,9 +782,8 @@ html:not(.js) .statistics-status {
 
 @media (max-width: 560px) {
   .statistics-hero__grid,
-  .statistics-intro,
-  .statistics-section:not(.statistics-section--distribution),
-  .methodology-section {
+.statistics-section:not(.statistics-section--distribution),
+.methodology-section {
     width: min(100% - 2rem, var(--shell));
   }
 
@@ -870,5 +841,87 @@ html:not(.js) .statistics-status {
 @media (prefers-reduced-motion: reduce) {
   .statistics-status__spinner {
     animation: none;
+  }
+}
+
+/* Short, visible caveat right above the explorer; the full explanation folds open below it. */
+.statistics-caveat {
+  margin-block: clamp(2rem, 5vw, 3rem) 0;
+  padding: 1.1rem 1.3rem;
+  border-left: 4px solid var(--copper);
+  background: var(--paper);
+}
+.statistics-caveat__lead {
+  margin: 0;
+  color: var(--ink-900);
+  font-size: 0.98rem;
+}
+.statistics-caveat__more { margin-top: 0.7rem; }
+.statistics-caveat__more summary {
+  color: var(--teal);
+  font-size: 0.86rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.statistics-caveat__body { max-width: 760px; padding-top: 0.9rem; }
+.statistics-caveat__body h2 { margin-bottom: 0.8rem; font-size: clamp(1.5rem, 2.6vw, 2rem); }
+.statistics-caveat__body p { font-size: 0.92rem; }
+.statistics-caveat__body p:last-child { margin-bottom: 0; }
+
+/* Small screens: a shorter hero with the three figures side by side, so the country selector comes sooner. */
+@media (max-width: 780px) {
+  .statistics-hero__grid {
+    gap: 2rem;
+    padding-block: 3.5rem 2.25rem;
+  }
+
+  .statistics-summary {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .statistics-summary > div {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+    align-content: start;
+    padding: 1rem 0.6rem 0.2rem 0;
+    border-right: 1px solid rgba(255, 253, 248, 0.18);
+    border-bottom: 0;
+  }
+
+  .statistics-summary > div + div {
+    padding-left: 0.8rem;
+  }
+
+  .statistics-summary > div:last-child {
+    border-right: 0;
+  }
+
+  .statistics-summary dt {
+    font-size: clamp(1.45rem, 7vw, 2.1rem);
+  }
+
+  .statistics-summary dd {
+    font-size: 0.62rem;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Bars grow from zero whenever a table is redrawn, so a change of filter is visible at a glance. */
+.statistics-table__bar::before {
+  animation: statistics-bar-grow 450ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@keyframes statistics-bar-grow {
+  from { width: 0; }
+}
+
+/* The world-map picture brings its own circles. */
+.statistics-hero::before,
+.statistics-hero::after { display: none; }
+@media (max-width: 780px) {
+  .statistics-hero {
+    background:
+      linear-gradient(180deg, rgba(16, 43, 45, 0.55), rgba(16, 43, 45, 0.7)),
+      url("images/scenes/statistics-hero-900.jpg") center / cover no-repeat,
+      var(--ink-950);
   }
 }

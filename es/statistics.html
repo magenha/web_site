@@ -10,11 +10,24 @@
   <link rel="alternate" hreflang="en" href="https://magenha.org/statistics.html">
   <link rel="alternate" hreflang="es" href="https://magenha.org/es/statistics.html">
   <link rel="alternate" hreflang="x-default" href="https://magenha.org/statistics.html">
-  <link rel="icon" type="image/png" href="../logo.png">
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../statistics.css">
-  <script src="../script.js" defer></script>
-  <script src="../statistics.js" defer></script>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MAGENHA">
+  <meta property="og:title" content="Estadísticas de haplogrupos por país | MAGENHA">
+  <meta property="og:description" content="Explore las observaciones archivadas de haplogrupos de ADN-Y y ADNmt de MAGENHA por país, rama detallada y grupo principal.">
+  <meta property="og:url" content="https://magenha.org/es/statistics.html">
+  <meta property="og:image" content="https://magenha.org/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logotipo de MAGENHA — genealogía, archivos y linajes de ADN">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="../style.css?v=20261115g">
+  <link rel="stylesheet" href="../statistics.css?v=20261115b">
+  <script src="../script.js?v=20261115b" defer></script>
+  <script src="../statistics.js?v=20261115b" defer></script>
 </head>
 <body class="statistics-page">
   <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
@@ -28,7 +41,7 @@
     </div>
     <div class="shell nav-wrap">
       <a class="brand" href="index.html" aria-label="Inicio de MAGENHA">
-        <img src="../logo.png" alt="" width="48" height="58">
+        <img src="../images/brand/logo-header.png" alt="" width="48" height="58">
         <span class="brand__wordmark">MAGENHA</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-label-open="Abrir navegación" data-label-close="Cerrar navegación">
@@ -43,7 +56,7 @@
         <a href="spain.html">Investigación en España</a>
         <a href="service.html#lineage-program">Linajes de ADN</a>
         <a href="statistics.html" aria-current="page">Estadísticas</a>
-        <a href="spain.html#terms">Términos</a>
+        <a href="spain.html#terms">Condiciones</a>
         <a href="https://magenha.blogspot.com/">Blog</a>
         <a class="site-nav__language" href="../statistics.html" hreflang="en" lang="en" aria-label="View this page in English">EN</a>
         <a class="nav-cta" href="spain.html#contact">Enviar una consulta</a>
@@ -63,7 +76,7 @@
         <div class="statistics-hero__copy reveal">
           <p class="eyebrow eyebrow--light">Observaciones archivadas de haplogrupos</p>
           <h1>Explore linajes entre países.</h1>
-          <p>Este explorador recupera las antiguas estadísticas de MAGENHA por país y haplogrupo dentro del sitio público estático, sin servidor, cuenta ni solicitudes a mapas de terceros.</p>
+          <p>Elija un país para ver qué linajes paternos (ADN-Y) y maternos (ADNmt) aparecen en el archivo de MAGENHA, o elija un haplogrupo para ver en qué países se observa.</p>
           <a class="button button--paper" href="#country-explorer">Explorar los datos</a>
         </div>
         <dl class="statistics-summary reveal reveal--delay" aria-label="Resumen del conjunto de datos">
@@ -83,16 +96,17 @@
       </div>
     </section>
 
-    <section class="statistics-intro shell">
-      <div>
-        <p class="eyebrow">Lea el archivo con cautela</p>
-        <h2>Patrones de estos datos, no estimaciones poblacionales.</h2>
-      </div>
-      <div>
-        <p>Las observaciones proceden principalmente de exportaciones de DNA Relatives de 23andMe donadas voluntariamente, complementadas por un pequeño número de linajes documentados por MAGENHA. Forman una muestra de conveniencia con una representación cubana especialmente alta.</p>
+    <section class="statistics-caveat shell" aria-label="Cómo leer estos datos">
+      <p class="statistics-caveat__lead"><strong>Datos del archivo de MAGENHA, no estimaciones de la población de cada país.</strong> Un espacio sin datos puede significar cero o un valor oculto por privacidad.</p>
+      <details class="statistics-caveat__more">
+        <summary>Cómo se obtuvieron los datos y por qué hay valores ocultos</summary>
+        <div class="statistics-caveat__body">
+          <h2>Patrones de estos datos, no estimaciones poblacionales.</h2>
+          <p>Las observaciones proceden principalmente de exportaciones de DNA Relatives de 23andMe donadas voluntariamente, complementadas por un pequeño número de linajes documentados por MAGENHA. Forman una muestra de conveniencia con una representación cubana especialmente alta.</p>
         <p>Los porcentajes describen únicamente este archivo. No deben interpretarse como prevalencia nacional, encuesta representativa ni prueba sobre la ascendencia de una persona.</p>
         <p>Por privacidad, los desgloses por país y tipo requieren al menos 30 observaciones, y cada celda mostrada requiere al menos 5. También pueden ocultarse celdas adicionales para impedir que se recuperen recuentos raros mediante restas; por eso, un espacio sin datos puede significar cero o un valor oculto y las filas visibles pueden no sumar el 100&nbsp;%.</p>
-      </div>
+        </div>
+      </details>
     </section>
 
     <div class="statistics-status shell" data-statistics-status role="status" aria-live="polite">
@@ -329,7 +343,7 @@
     <div class="shell footer-grid">
       <div class="footer-brand">
         <a class="brand brand--footer" href="index.html">
-          <img src="../logo.png" alt="" width="42" height="51">
+          <img src="../images/brand/logo-header.png" alt="" width="42" height="51">
           <span class="brand__wordmark">MAGENHA</span>
         </a>
         <p>Mapa Genealógico de Haplogrupos</p>
@@ -347,6 +361,7 @@
         <h2>Información</h2>
         <a href="spain.html#terms">Términos y condiciones</a>
         <a href="spain.html#official">Aviso sobre usos legales</a>
+        <a href="cuba.html">Genealogía en Cuba</a>
         <a href="https://magenha.blogspot.com/">Blog de MAGENHA</a>
         <a href="../statistics.html" hreflang="en" lang="en">English</a>
         <a href="spain.html#contact">Contacto</a>

@@ -1,0 +1,275 @@
+/* Genealogy in Cuba: researcher directory cards and star ratings. Shared layout comes from style.css. */
+:root {
+  --star-on: #b07a1f;
+  --star-off: #dcd3c3;
+}
+
+/* .button sets display:inline-flex, which would otherwise override the hidden attribute. */
+.cuba-page [hidden] { display: none !important; }
+
+/* Cuba hero on the owner's parchment (map of Cuba and family-tree lines on the right); colours from .service-hero--light. */
+.cuba-hero { background: #f9e2bd url("images/scenes/cuba-hero.jpg") right center / cover no-repeat; }
+@media (max-width: 720px) {
+  .cuba-hero { background-image: url("images/scenes/cuba-hero-900.jpg"); background-position: 75% center; }
+}
+
+.cuba-page .service-hero h1 { font-size: clamp(2.8rem, 5.2vw, 4.8rem); }
+.cuba-hero__subtitle {
+  display: block;
+  margin-top: .6rem;
+  color: var(--ink-800);
+  font-size: .5em;
+  letter-spacing: -0.01em;     /* the h1's tight spacing is meant for its large size only */
+  line-height: 1.15;
+}
+.cuba-date-card h2 { font-size: clamp(1.6rem, 2.6vw, 2.1rem); }
+.cuba-spain-link { margin-top: 2.2rem; }
+
+.cuba-disclaimer {
+  margin-top: 1.5rem;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--copper);
+  background: var(--paper);
+  font-size: .9rem;
+}
+
+.cuba-pending { color: var(--muted) !important; font-style: italic; }
+
+/* Researcher card: one component for every entry; add a new <article> and the JSON ID, nothing else. */
+.researcher-list {
+  display: grid;
+  gap: 1.75rem;
+  margin-top: 2.5rem;
+}
+
+.researcher-card {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--teal);
+  background: var(--white);
+  box-shadow: 0 12px 32px rgba(16, 43, 45, .07);
+  scroll-margin-top: 1.5rem;   /* added to html's scroll-padding-top (7rem, the sticky header) when a #link opens it */
+}
+/* The entry someone arrived at through its shared link. */
+.researcher-card:target {
+  outline: 3px solid var(--gold);
+  outline-offset: 4px;
+}
+
+.page-index a.page-index__sub {
+  padding-left: 2rem;
+  font-size: .72rem;
+}
+
+.researcher-card__head {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+/* Logos and photos of any proportion fit inside the same square without cropping.
+   No authorised image yet: use the --empty variant with the neutral icon (see README). */
+.researcher-card__media {
+  display: grid;
+  place-items: center;
+  width: 112px;
+  height: 112px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.researcher-card__media img {
+  width: 100%;
+  height: 100%;
+  padding: .4rem;
+  object-fit: contain;
+}
+.researcher-card__media--empty {
+  background: var(--paper);
+  color: var(--muted);
+}
+
+.article-section .researcher-card__name {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+}
+.researcher-card .researcher-card__role {
+  margin: .3rem 0 0;
+  color: var(--copper);
+  font-size: .74rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.researcher-card__body p { font-size: .95rem; }
+.researcher-card__body p:last-child { margin-bottom: 0; }
+
+.researcher-card__contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .9rem 1.5rem;
+  margin: 1.4rem 0;
+  padding: 1.1rem 0;
+  border-block: 1px solid var(--line);
+}
+.researcher-card__contact dt {
+  margin-bottom: .2rem;
+  color: var(--muted);
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.researcher-card__contact dd { margin: 0; }
+.researcher-card__contact a {
+  color: var(--ink-900);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+  text-decoration-color: var(--teal);
+  text-underline-offset: .2em;
+}
+.researcher-card__contact a:hover { color: var(--copper); }
+
+.researcher-card__rating {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.researcher-card__rate { min-height: 2.75rem; }
+
+/* Red notice for an entry that no longer accepts requests (MAGENHA's own card). */
+.researcher-card .researcher-card__closed {
+  margin: 1.4rem 0 0;
+  padding: .9rem 1.1rem;
+  border-left: 4px solid #b3342b;
+  background: #fbe6e2;
+  color: #8c241c;
+  font-size: .92rem;
+}
+.researcher-card__closed strong {
+  display: block;
+  margin-bottom: .25rem;
+  font-size: .78rem;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.researcher-card .researcher-card__notice {
+  margin: 1.3rem 0 0;
+  color: var(--muted);
+  font-size: .8rem;
+}
+
+/* Stars: grey row underneath, gold row on top cut to the average. Shown only once the script runs. */
+.rating {
+  display: none;
+  flex-wrap: wrap;
+  gap: .35rem .7rem;
+  align-items: center;
+  margin: 0;
+  color: var(--ink-900) !important;
+  font-size: .9rem;
+  font-weight: 700;
+}
+.js .rating { display: flex; }
+
+.rating__stars {
+  position: relative;
+  display: inline-block;
+  color: var(--star-off);
+  font-family: "Segoe UI Symbol", "DejaVu Sans", "Noto Sans Symbols 2", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: .1em;
+  line-height: 1;
+  white-space: nowrap;
+}
+.rating__stars::before { content: "★★★★★"; }
+.rating__fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0;
+  overflow: hidden;
+  color: var(--star-on);
+}
+.rating__fill::before { content: "★★★★★"; }
+.rating--empty .rating__text,
+.rating--unavailable .rating__text { color: var(--muted); font-weight: 650; }
+
+/* Research resources: plain static cards in three groups, as research tools (logo strip, no colour band). */
+.resource-group { margin-top: 2.6rem; }
+.article-section .resource-group__title {
+  display: flex;
+  gap: .65rem;
+  align-items: center;
+  margin: 0 0 1rem;
+  font-size: clamp(1.35rem, 2.3vw, 1.65rem);
+}
+.resource-group__title svg { flex: none; color: var(--teal); }
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.resource-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1.3rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+/* Same-height logo strip on every resource card; logos of any proportion fit without cropping. */
+.resource-card__logo {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  margin-bottom: .9rem;
+}
+.resource-card__logo img {
+  width: auto;
+  max-width: min(200px, 100%);
+  height: auto;
+  max-height: 64px;
+  object-fit: contain;
+}
+.resource-card__logo--empty {
+  justify-content: center;
+  width: 64px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--muted);
+}
+.resource-card__name {
+  margin: 0 0 .55rem;
+  color: var(--ink-950);
+  font-family: var(--serif);
+  font-size: 1.12rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.resource-card p { margin: 0 0 .8rem; font-size: .88rem; }
+.resource-card .resource-card__subtitle { margin-bottom: .35rem; color: var(--ink-900); font-weight: 700; }
+.resource-card__sublinks { margin: 0 0 .9rem; padding: 0; font-size: .82rem; list-style: none; color: #485757; }
+.resource-card__sublinks li { margin-bottom: .35rem; }
+.resource-card .resource-card__link { margin: auto 0 0; padding-top: .3rem; }
+.resource-card a {
+  color: var(--ink-900);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+  text-decoration-color: var(--teal);
+  text-underline-offset: .2em;
+}
+.resource-card a:hover { color: var(--copper); }
+#resources .cuba-disclaimer { margin-top: 2.2rem; }
+
+@media (max-width: 720px) {
+  .researcher-card__head { grid-template-columns: 72px minmax(0, 1fr); gap: 1rem; }
+  .researcher-card__media { width: 72px; height: 72px; }
+  .researcher-card__rating { align-items: stretch; flex-direction: column; }
+  .researcher-card__rate { width: 100%; }
+  .resource-grid { grid-template-columns: 1fr; }
+}

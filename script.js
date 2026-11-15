@@ -4,7 +4,6 @@ const navToggle = document.querySelector(".nav-toggle");
 const siteNavigation = document.querySelector(".site-nav");
 
 function closeNavigation() {
-  document.querySelectorAll(".research-nav[open]").forEach(menu => { menu.open = false; });
   if (!navToggle || !siteNavigation) return;
   navToggle.setAttribute("aria-expanded", "false");
   siteNavigation.classList.remove("is-open");
@@ -60,40 +59,144 @@ document.querySelectorAll("[data-current-year]").forEach((year) => {
   year.textContent = String(new Date().getFullYear());
 });
 
-const revealItems = document.querySelectorAll(".reveal");
-if ("IntersectionObserver" in window) {
+const revealItems = [...document.querySelectorAll(".reveal")];
+const calmMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if ("IntersectionObserver" in window && !calmMotion) {
+  let revealObserverAlive = false;
   const revealObserver = new IntersectionObserver((entries, observer) => {
+    revealObserverAlive = true;
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
       entry.target.classList.add("is-visible");
+      entry.target.classList.remove("reveal--pending");
       observer.unobserve(entry.target);
     });
   }, { rootMargin: "0px 0px -8%", threshold: 0.08 });
 
-  revealItems.forEach((item) => revealObserver.observe(item));
+  revealItems.forEach((item) => {
+    // What is already on screen (or above it) is shown at once, so nothing blinks; the rest waits for its entrance.
+    if (item.getBoundingClientRect().top < window.innerHeight * 0.92) {
+      item.classList.add("is-visible");
+      return;
+    }
+    item.classList.add("reveal--pending");
+    revealObserver.observe(item);
+  });
+  // Safety net: an observer always reports at once; if it stays silent (some renderers), show everything.
+  setTimeout(() => {
+    if (revealObserverAlive) return;
+    revealItems.forEach((item) => { item.classList.remove("reveal--pending"); item.classList.add("is-visible"); });
+  }, 1500);
 } else {
   revealItems.forEach((item) => item.classList.add("is-visible"));
 }
 
-const indexLinks = [...document.querySelectorAll(".page-index a")];
+const pageIndex = document.querySelector(".page-index");
+const indexLinks = pageIndex ? [...pageIndex.querySelectorAll("nav a")] : [];
 const indexedSections = indexLinks
   .map((link) => document.querySelector(link.getAttribute("href")))
   .filter(Boolean);
 
-if (indexLinks.length && "IntersectionObserver" in window) {
-  const sectionObserver = new IntersectionObserver((entries) => {
-    const visible = entries
-      .filter((entry) => entry.isIntersecting)
-      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+// On narrow screens the side index becomes a sticky «On this page» bar: it names the current section and opens the list.
+// The button is hidden on wide screens by CSS; without JavaScript the plain list is shown.
+let indexCurrent = null;
+if (pageIndex && indexLinks.length) {
+  const indexNav = pageIndex.querySelector("nav");
+  const indexHeading = pageIndex.querySelector(":scope > p");
+  indexNav.id = indexNav.id || "page-index-links";
+  const indexToggle = document.createElement("button");
+  indexToggle.type = "button";
+  indexToggle.className = "page-index__toggle";
+  indexToggle.setAttribute("aria-expanded", "false");
+  indexToggle.setAttribute("aria-controls", indexNav.id);
+  const indexLabel = document.createElement("span");
+  indexLabel.className = "page-index__label";
+  indexLabel.textContent = indexHeading ? indexHeading.textContent.trim() : "";
+  indexCurrent = document.createElement("span");
+  indexCurrent.className = "page-index__current";
+  indexCurrent.textContent = indexLinks[0].textContent.trim();
+  indexToggle.append(indexLabel, indexCurrent);
+  pageIndex.insertBefore(indexToggle, indexNav);
 
-    if (!visible) return;
-    indexLinks.forEach((link) => link.removeAttribute("aria-current"));
-    const activeLink = indexLinks.find((link) => link.getAttribute("href") === `#${visible.target.id}`);
-    if (activeLink) activeLink.setAttribute("aria-current", "location");
-  }, { rootMargin: "-18% 0px -65%", threshold: [0, 0.2, 0.5] });
-
-  indexedSections.forEach((section) => sectionObserver.observe(section));
+  const setIndexOpen = (open) => {
+    pageIndex.classList.toggle("is-open", open);
+    indexToggle.setAttribute("aria-expanded", String(open));
+  };
+  indexToggle.addEventListener("click", () => setIndexOpen(!pageIndex.classList.contains("is-open")));
+  indexLinks.forEach((link) => link.addEventListener("click", () => setIndexOpen(false)));
+  document.addEventListener("click", (event) => {
+    if (!pageIndex.contains(event.target)) setIndexOpen(false);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !pageIndex.classList.contains("is-open")) return;
+    setIndexOpen(false);
+    indexToggle.focus();
+  });
 }
+
+// The current section is the last one whose top has passed a line 30% down the screen (reliable with long sections).
+if (indexedSections.length) {
+  let activeSection = null;
+  const updateActiveSection = () => {
+    const line = window.innerHeight * 0.3;
+    let current = indexedSections[0];
+    indexedSections.forEach((section) => {
+      if (section.getBoundingClientRect().top <= line) current = section;
+    });
+    if (current === activeSection) return;
+    activeSection = current;
+    indexLinks.forEach((link) => link.removeAttribute("aria-current"));
+    const activeLink = indexLinks.find((link) => link.getAttribute("href") === `#${current.id}`);
+    if (!activeLink) return;
+    activeLink.setAttribute("aria-current", "location");
+    if (indexCurrent) indexCurrent.textContent = activeLink.textContent.trim();
+  };
+  let indexFrame = 0;
+  window.addEventListener("scroll", () => {
+    if (!indexFrame) indexFrame = requestAnimationFrame(() => { indexFrame = 0; updateActiveSection(); });
+  }, { passive: true });
+  window.addEventListener("resize", updateActiveSection);
+  updateActiveSection();
+}
+
+// DNA program: the two direct lines. A button focuses its line (and redraws it); pressing it again shows both.
+document.querySelectorAll("[data-lineage-explainer]").forEach((box) => {
+  const buttons = [...box.querySelectorAll("[data-line]")];
+  const texts = [...box.querySelectorAll("[data-line-text]")];
+  const show = (line) => {
+    box.dataset.active = line;
+    buttons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.line === line)));
+    texts.forEach((text) => { text.hidden = text.dataset.lineText !== line; });
+  };
+  buttons.forEach((button) => button.addEventListener("click", () => {
+    show(box.dataset.active === button.dataset.line ? "both" : button.dataset.line);
+  }));
+});
+
+// Accessible tabs ([data-tabs]): click or arrow keys. Without JavaScript every panel is shown one after another.
+document.querySelectorAll("[data-tabs]").forEach((box) => {
+  const tabs = [...box.querySelectorAll('[role="tab"]')];
+  const panels = tabs.map((tab) => document.getElementById(tab.getAttribute("aria-controls")));
+  const select = (index, focus) => {
+    tabs.forEach((tab, i) => {
+      tab.setAttribute("aria-selected", String(i === index));
+      tab.tabIndex = i === index ? 0 : -1;
+      if (panels[i]) panels[i].hidden = i !== index;
+    });
+    if (focus) tabs[index].focus();
+  };
+  tabs.forEach((tab, i) => {
+    tab.addEventListener("click", () => select(i));
+    tab.addEventListener("keydown", (event) => {
+      const moves = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 };
+      if (!(event.key in moves)) return;
+      event.preventDefault();
+      select((moves[event.key] + tabs.length) % tabs.length, true);
+    });
+  });
+  box.classList.add("is-tabbed");
+  select(0);
+});
 
 const inquiryForm = document.querySelector("[data-inquiry-form]");
 
@@ -231,17 +334,3 @@ if (inquiryForm) {
     }
   });
 }
-
-// Native disclosures support keyboard and touch without custom menu roles.
-document.querySelectorAll(".research-nav").forEach(menu => {
-  document.addEventListener("click", event => {
-    if (!menu.contains(event.target)) menu.open = false;
-  });
-  menu.addEventListener("keydown", event => {
-    if (event.key === "Escape") {
-      event.stopPropagation();
-      menu.open = false;
-      menu.querySelector("summary").focus();
-    }
-  });
-});

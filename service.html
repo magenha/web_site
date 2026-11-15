@@ -10,9 +10,22 @@
   <link rel="alternate" hreflang="en" href="https://magenha.org/service.html">
   <link rel="alternate" hreflang="es" href="https://magenha.org/es/service.html">
   <link rel="alternate" hreflang="x-default" href="https://magenha.org/service.html">
-  <link rel="icon" type="image/png" href="logo.png">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MAGENHA">
+  <meta property="og:title" content="DNA Lineage Research Program | MAGENHA">
+  <meta property="og:description" content="MAGENHA’s Y-DNA/mtDNA Lineage Research Program: connecting haplogroups with documented direct paternal and maternal lines, plus the project’s mission and outreach.">
+  <meta property="og:url" content="https://magenha.org/service.html">
+  <meta property="og:image" content="https://magenha.org/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="MAGENHA logo — genealogy, archives and DNA lineages">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="style.css?v=20261115g">
+  <script src="script.js?v=20261115b" defer></script>
 <link rel="stylesheet" href="spain.css">
 </head>
 <body class="service-page">
@@ -27,7 +40,7 @@
     </div>
     <div class="shell nav-wrap">
       <a class="brand" href="index.html" aria-label="MAGENHA home">
-        <img src="logo.png" alt="" width="48" height="58">
+        <img src="images/brand/logo-header.png" alt="" width="48" height="58">
         <span class="brand__wordmark">MAGENHA</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-label-open="Open navigation" data-label-close="Close navigation">
@@ -51,7 +64,7 @@
   </header>
 
   <main id="main-content">
-    <section class="service-hero">
+    <section class="service-hero dna-hero">
       <div class="shell service-hero__grid">
         <div class="service-hero__copy reveal">
           <p class="eyebrow eyebrow--light">Y-DNA &amp; mtDNA Lineage Research Program</p>
@@ -87,6 +100,46 @@
           </div>
           <p class="article-lede">Clients who already have—or independently obtain—a relevant Y-DNA or mtDNA result may ask MAGENHA to evaluate the corresponding direct paternal or maternal lineage.</p>
           <p>The tested person does not have to be the client. It may be an appropriate relative who represents the relevant direct paternal line for Y-DNA or direct maternal line for mtDNA.</p>
+
+          <figure class="lineage-explainer" data-lineage-explainer data-active="both">
+            <div class="lineage-explainer__controls" role="group" aria-label="Choose a line">
+              <button class="lineage-explainer__button lineage-explainer__button--y" type="button" data-line="y" aria-pressed="false">Direct paternal line <span>Y-DNA</span></button>
+              <button class="lineage-explainer__button lineage-explainer__button--mt" type="button" data-line="mt" aria-pressed="false">Direct maternal line <span>mtDNA</span></button>
+            </div>
+            <svg class="lineage-explainer__tree" viewBox="0 0 640 320" role="img" aria-labelledby="lx-title lx-desc">
+              <title id="lx-title">The two direct lines across four generations</title>
+              <desc id="lx-desc">Tree with you, your parents, your 4 grandparents and your 8 great-grandparents. The direct paternal line goes up from father to father; the direct maternal line, from mother to mother.</desc>
+              <text class="lx-caption" x="320" y="18" text-anchor="middle">8 great-grandparents</text>
+              <path class="lx-link" d="M320 272 V244 H160 V215 M320 244 H480 V216 M160 185 V159 H80 V133 M160 159 H240 V133 M480 184 V159 H400 V133 M480 159 H560 V133 M80 107 V82 H40 V56 M80 82 H120 V56 M240 107 V82 H200 V56 M240 82 H280 V56 M400 107 V82 H360 V56 M400 82 H440 V56 M560 107 V82 H520 V56 M560 82 H600 V56"/>
+              <path class="lx-line lx-line--y" pathLength="1" d="M320 272 V244 H160 V215 M160 185 V159 H80 V133 M80 107 V82 H40 V56"/>
+              <path class="lx-line lx-line--mt" pathLength="1" d="M320 272 V244 H480 V216 M480 184 V159 H560 V133 M560 107 V82 H600 V56"/>
+              <rect class="lx-node lx-node--y" x="29.0" y="34.0" width="22" height="22" rx="3"/>
+              <circle class="lx-node " cx="120" cy="45" r="11.0"/>
+              <rect class="lx-node " x="189.0" y="34.0" width="22" height="22" rx="3"/>
+              <circle class="lx-node " cx="280" cy="45" r="11.0"/>
+              <rect class="lx-node " x="349.0" y="34.0" width="22" height="22" rx="3"/>
+              <circle class="lx-node " cx="440" cy="45" r="11.0"/>
+              <rect class="lx-node " x="509.0" y="34.0" width="22" height="22" rx="3"/>
+              <circle class="lx-node lx-node--mt" cx="600" cy="45" r="11.0"/>
+              <rect class="lx-node lx-node--y" x="67.0" y="107.0" width="26" height="26" rx="3"/>
+              <circle class="lx-node " cx="240" cy="120" r="13.0"/>
+              <rect class="lx-node " x="387.0" y="107.0" width="26" height="26" rx="3"/>
+              <circle class="lx-node lx-node--mt" cx="560" cy="120" r="13.0"/>
+              <rect class="lx-node lx-node--y" x="145.0" y="185.0" width="30" height="30" rx="3"/>
+              <circle class="lx-node lx-node--mt" cx="480" cy="200" r="16.0"/>
+              <rect class="lx-node lx-node--you" x="280" y="272" width="80" height="36" rx="18"/>
+              <text class="lx-you" x="320" y="295" text-anchor="middle">You</text>
+              <text class="lx-label" x="184" y="205">Father</text>
+              <text class="lx-label" x="456" y="205" text-anchor="end">Mother</text>
+              <text class="lx-label lx-label--minor" x="88" y="150">Paternal grandfather</text>
+              <text class="lx-label lx-label--minor" x="552" y="150" text-anchor="end">Maternal grandmother</text>
+              </svg>
+            <figcaption aria-live="polite">
+              <p data-line-text="both">Everyone has 8 great-grandparents, but each direct line follows only one of them: Y-DNA, the line from father to father; mtDNA, the line from mother to mother. Neither stands for your whole ancestry. Choose a line to see it.</p>
+              <p data-line-text="y" hidden><strong>Y-DNA · direct paternal line.</strong> It passes from father to son, so only the men of that line carry it. If you are a woman, it can be represented by your father, a brother or a male relative descending through men from the same ancestor.</p>
+              <p data-line-text="mt" hidden><strong>mtDNA · direct maternal line.</strong> Sons and daughters inherit it from their mother, but only women pass it on. It can be represented by you, your siblings, your mother or any relative descending through women from the same ancestor.</p>
+            </figcaption>
+          </figure>
 
           <div class="program-support">
             <article>
@@ -178,9 +231,12 @@
           <p>Documentary genealogy services are an ancillary fundraising activity supporting MAGENHA’s scientific work in genealogy and population genetics, not the project’s primary scientific purpose.</p>
           <p>Our public mission also promotes interest in genealogy, genetics, archaeology, population history, and related fields. Funds collected by the project are allocated exclusively through the United States or Spain and are not transferred to countries such as Cuba, Venezuela, or Nicaragua.</p>
           <div class="education-panel support-panel" id="support">
-            <p class="eyebrow eyebrow--light">Help keep knowledge accessible</p>
+            <div class="support-panel__intro">
+              <p class="eyebrow eyebrow--light">Help keep knowledge accessible</p>
             <h3>Subscribe. Join in. Support Rootscast.</h3>
             <p>Your support helps MAGENHA share genealogy, genetics and population history, and bring new conversations to Rootscast, our podcast. You do not need to be a research client to take part.</p>
+            </div>
+            <a class="rootscast-feature" href="https://www.youtube.com/watch?v=4pRHZPy0zCg&amp;list=PL4ZLJXcvcaiEcSIA3eUzVTVPy1C7Av0yt"><span class="rootscast-feature__media"><img src="images/scenes/rootscast-26.jpg" alt="" width="480" height="270" loading="lazy"><span class="rootscast-feature__play" aria-hidden="true"></span></span><span class="rootscast-feature__text"><span class="rootscast-feature__kicker">Featured episode · Rootscast 26 (in Spanish)</span><strong>Antes de 1492: el mundo indígena del Caribe</strong><span>With Jorge Ulloa Hung · Watch on YouTube <span aria-hidden="true">↗</span></span></span></a>
             <div class="support-options">
               <article><h4>YouTube</h4><p>Subscribe to our channel for free, watch the conversations and share them. To support our outreach and Rootscast with a small monthly contribution, choose “Join” on the channel.</p><div class="support-actions"><a href="https://www.youtube.com/@MAGENHAProject">Subscribe on YouTube ↗</a><a href="https://www.youtube.com/@MAGENHAProject/join">Join the channel ↗</a></div></article>
               <article><h4>Patreon</h4><p>Become a monthly supporter to get a closer look at Rootscast, help choose future guests and suggest questions for them. Membership benefits include discounts on genealogical research in Spain, subject to the applicable membership and assignment conditions. We may also organise live events.</p><div class="support-actions"><a href="https://www.patreon.com/c/magenha">Subscribe on Patreon ↗</a></div></article>
@@ -222,7 +278,7 @@
     <div class="shell footer-grid">
       <div class="footer-brand">
         <a class="brand brand--footer" href="index.html">
-          <img src="logo.png" alt="" width="42" height="51">
+          <img src="images/brand/logo-header.png" alt="" width="42" height="51">
           <span class="brand__wordmark">MAGENHA</span>
         </a>
         <p>Mapa Genealógico de Haplogrupos</p>
@@ -240,6 +296,7 @@
         <h2>Information</h2>
         <a href="#terms">Terms &amp; conditions</a>
         <a href="spain.html#official">Legal-purpose notice</a>
+        <a href="cuba.html">Genealogy in Cuba</a>
         <a href="https://magenha.blogspot.com/">MAGENHA Blog</a>
         <a href="es/service.html" hreflang="es" lang="es">Español</a>
         <a href="spain.html#contact">Contact</a>

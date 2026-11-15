@@ -253,7 +253,16 @@
       a ? h('span', { class: 'coverage-chip coverage-chip--available' }, h('span', { class: 'coverage-chip__swatch', 'aria-hidden': 'true' }), T.viable(a)) : null,
       u ? h('span', { class: 'coverage-chip coverage-chip--unavailable' }, h('span', { class: 'coverage-chip__swatch', 'aria-hidden': 'true' }), T.notViable(u)) : null);
   };
-  const verdict = (kind, title, meta, note, area) => {
+  // The verdict's action carries the place searched into the first-contact form («Relevant place(s)»), without
+  // erasing what the visitor may have written there already.
+  const placesField = document.querySelector('#inquiry-places');
+  const prefillPlace = place => {
+    if (!placesField || !place) return;
+    const current = placesField.value.trim();
+    if (!current) placesField.value = place.slice(0, 180);
+    else if (!normalise(current).includes(normalise(place))) placesField.value = `${current}; ${place}`.slice(0, 180);
+  };
+  const verdict = (kind, title, meta, note, area, place) => {
     const action = kind === 'unavailable' ? T.writeAnyway : T.assess;
     return h('div', { class: `coverage-verdict coverage-verdict--${kind}` }, face(kind, 64),
       h('div', { class: 'coverage-verdict__body' }, badge(kind),
@@ -261,7 +270,8 @@
         meta ? h('p', { class: 'coverage-verdict__meta' }, meta) : null,
         h('p', { class: 'coverage-verdict__note' }, note),
         h('div', { class: 'coverage-verdict__actions' },
-          h('a', { class: `button ${kind === 'available' ? 'button--primary' : 'coverage-button--outline'}`, href: '#contact' }, action),
+          h('a', { class: `button ${kind === 'available' ? 'button--primary' : 'coverage-button--outline'}`, href: '#contact',
+            onclick: () => prefillPlace(place) }, action),
           area ? h('button', { type: 'button', class: 'coverage-link', onclick: () => map.select(area, true) }, `${T.seeMap} ↓`) : null)));
   };
   const card = row => h('li', { class: `coverage-result is-${row.status}` },
@@ -308,22 +318,22 @@
     const province = dataset.filter(row => row.provinceNames.includes(query));
     let answer = null;
     if (exact.length && new Set(exact.map(r => r.province)).size > 1) {
-      answer = verdict('mixed', T.severalProvinces(raw), null, T.noteSeveral);
+      answer = verdict('mixed', T.severalProvinces(raw), null, T.noteSeveral, null, raw);
     } else if (exact.length) {
       const row = exact[0];
       const place = row.locality === row.province ? row.locality : `${row.locality} (${row.province})`;
       answer = row.status === 'available'
-        ? verdict('available', T.availableLocality(place), row.area, T.noteAvailable, row.area)
-        : verdict('unavailable', T.unavailableLocality(place), row.area, T.noteUnavailable, row.area);
+        ? verdict('available', T.availableLocality(place), row.area, T.noteAvailable, row.area, place)
+        : verdict('unavailable', T.unavailableLocality(place), row.area, T.noteUnavailable, row.area, place);
       map.select(row.area, false);
     } else if (province.length) {
       const [a, u] = counts(province);
       const name = province[0].province;
-      answer = !u ? verdict('available', T.availableProvince(name), chips(province), T.noteProvince)
-        : !a ? verdict('unavailable', T.unavailableProvince(name), chips(province), T.noteUnavailable)
-          : verdict('mixed', T.mixedProvince(name), chips(province), T.noteProvince);
+      answer = !u ? verdict('available', T.availableProvince(name), chips(province), T.noteProvince, null, name)
+        : !a ? verdict('unavailable', T.unavailableProvince(name), chips(province), T.noteUnavailable, null, name)
+          : verdict('mixed', T.mixedProvince(name), chips(province), T.noteProvince, null, name);
     } else if (!rows.length) {
-      answer = verdict('unknown', T.unknown(raw), null, T.noteUnknown);
+      answer = verdict('unknown', T.unknown(raw), null, T.noteUnknown, null, raw);
     }
     results.replaceChildren();
     more?.remove();

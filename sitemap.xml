@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://magenha.org/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/spain.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/spain.html"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/es/spain.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/spain.html"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/service.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/service.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/service.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/service.html"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/es/service.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/service.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/service.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/service.html"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/statistics.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/statistics.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/statistics.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/statistics.html"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/es/statistics.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/statistics.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/statistics.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/statistics.html"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/cuba.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/cuba.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/cuba.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/cuba.html"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/es/cuba.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/cuba.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/cuba.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/cuba.html"/>
+  </url>
+</urlset>

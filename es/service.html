@@ -10,9 +10,22 @@
   <link rel="alternate" hreflang="en" href="https://magenha.org/service.html">
   <link rel="alternate" hreflang="es" href="https://magenha.org/es/service.html">
   <link rel="alternate" hreflang="x-default" href="https://magenha.org/service.html">
-  <link rel="icon" type="image/png" href="../logo.png">
-  <link rel="stylesheet" href="../style.css">
-  <script src="../script.js" defer></script>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MAGENHA">
+  <meta property="og:title" content="Programa de Investigación de Linajes de ADN | MAGENHA">
+  <meta property="og:description" content="Programa de Investigación de Linajes ADN-Y/ADNmt de MAGENHA: conectar haplogrupos con líneas paternas y maternas directas documentadas, además de la misión y la divulgación del proyecto.">
+  <meta property="og:url" content="https://magenha.org/es/service.html">
+  <meta property="og:image" content="https://magenha.org/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logotipo de MAGENHA — genealogía, archivos y linajes de ADN">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="../style.css?v=20261115g">
+  <script src="../script.js?v=20261115b" defer></script>
 <link rel="stylesheet" href="../spain.css">
 </head>
 <body class="service-page">
@@ -27,7 +40,7 @@
     </div>
     <div class="shell nav-wrap">
       <a class="brand" href="index.html" aria-label="Inicio de MAGENHA">
-        <img src="../logo.png" alt="" width="48" height="58">
+        <img src="../images/brand/logo-header.png" alt="" width="48" height="58">
         <span class="brand__wordmark">MAGENHA</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-label-open="Abrir navegación" data-label-close="Cerrar navegación">
@@ -51,7 +64,7 @@
   </header>
 
   <main id="main-content">
-    <section class="service-hero">
+    <section class="service-hero dna-hero">
       <div class="shell service-hero__grid">
         <div class="service-hero__copy reveal">
           <p class="eyebrow eyebrow--light">Programa de Investigación de Linajes de ADN-Y y ADNmt</p>
@@ -87,6 +100,46 @@
           </div>
           <p class="article-lede">Los clientes que ya dispongan de un resultado pertinente de ADN-Y o ADNmt —o que lo obtengan de forma independiente— pueden solicitar a MAGENHA que evalúe el linaje paterno o materno directo correspondiente.</p>
           <p>La persona que se someta a la prueba no tiene que ser el cliente. Puede ser un familiar apropiado que represente la línea paterna directa correspondiente para ADN-Y o la línea materna directa para ADNmt.</p>
+
+          <figure class="lineage-explainer" data-lineage-explainer data-active="both">
+            <div class="lineage-explainer__controls" role="group" aria-label="Elegir una línea">
+              <button class="lineage-explainer__button lineage-explainer__button--y" type="button" data-line="y" aria-pressed="false">Línea paterna directa <span>ADN-Y</span></button>
+              <button class="lineage-explainer__button lineage-explainer__button--mt" type="button" data-line="mt" aria-pressed="false">Línea materna directa <span>ADNmt</span></button>
+            </div>
+            <svg class="lineage-explainer__tree" viewBox="0 0 640 320" role="img" aria-labelledby="lx-title lx-desc">
+              <title id="lx-title">Las dos líneas directas en cuatro generaciones</title>
+              <desc id="lx-desc">Árbol con usted, sus padres, sus 4 abuelos y sus 8 bisabuelos. La línea paterna directa sube de padre en padre; la materna directa, de madre en madre.</desc>
+              <text class="lx-caption" x="320" y="18" text-anchor="middle">8 bisabuelos</text>
+              <path class="lx-link" d="M320 272 V244 H160 V215 M320 244 H480 V216 M160 185 V159 H80 V133 M160 159 H240 V133 M480 184 V159 H400 V133 M480 159 H560 V133 M80 107 V82 H40 V56 M80 82 H120 V56 M240 107 V82 H200 V56 M240 82 H280 V56 M400 107 V82 H360 V56 M400 82 H440 V56 M560 107 V82 H520 V56 M560 82 H600 V56"/>
+              <path class="lx-line lx-line--y" pathLength="1" d="M320 272 V244 H160 V215 M160 185 V159 H80 V133 M80 107 V82 H40 V56"/>
+              <path class="lx-line lx-line--mt" pathLength="1" d="M320 272 V244 H480 V216 M480 184 V159 H560 V133 M560 107 V82 H600 V56"/>
+              <rect class="lx-node lx-node--y" x="29.0" y="34.0" width="22" height="22" rx="3"/>
+              <circle class="lx-node " cx="120" cy="45" r="11.0"/>
+              <rect class="lx-node " x="189.0" y="34.0" width="22" height="22" rx="3"/>
+              <circle class="lx-node " cx="280" cy="45" r="11.0"/>
+              <rect class="lx-node " x="349.0" y="34.0" width="22" height="22" rx="3"/>
+              <circle class="lx-node " cx="440" cy="45" r="11.0"/>
+              <rect class="lx-node " x="509.0" y="34.0" width="22" height="22" rx="3"/>
+              <circle class="lx-node lx-node--mt" cx="600" cy="45" r="11.0"/>
+              <rect class="lx-node lx-node--y" x="67.0" y="107.0" width="26" height="26" rx="3"/>
+              <circle class="lx-node " cx="240" cy="120" r="13.0"/>
+              <rect class="lx-node " x="387.0" y="107.0" width="26" height="26" rx="3"/>
+              <circle class="lx-node lx-node--mt" cx="560" cy="120" r="13.0"/>
+              <rect class="lx-node lx-node--y" x="145.0" y="185.0" width="30" height="30" rx="3"/>
+              <circle class="lx-node lx-node--mt" cx="480" cy="200" r="16.0"/>
+              <rect class="lx-node lx-node--you" x="280" y="272" width="80" height="36" rx="18"/>
+              <text class="lx-you" x="320" y="295" text-anchor="middle">Usted</text>
+              <text class="lx-label" x="184" y="205">Padre</text>
+              <text class="lx-label" x="456" y="205" text-anchor="end">Madre</text>
+              <text class="lx-label lx-label--minor" x="88" y="150">Abuelo paterno</text>
+              <text class="lx-label lx-label--minor" x="552" y="150" text-anchor="end">Abuela materna</text>
+              </svg>
+            <figcaption aria-live="polite">
+              <p data-line-text="both">Cada persona tiene 8 bisabuelos, pero cada línea directa sigue solo a uno de ellos: el ADN-Y, la línea de padre en padre; el ADNmt, la de madre en madre. Ninguna equivale a toda su ascendencia. Elija una línea para verla.</p>
+              <p data-line-text="y" hidden><strong>ADN-Y · línea paterna directa.</strong> Pasa de padre a hijo varón, así que solo la tienen los hombres de esa línea. Si usted es mujer, puede representarla su padre, un hermano o un pariente varón que descienda por línea masculina del mismo antepasado.</p>
+              <p data-line-text="mt" hidden><strong>ADNmt · línea materna directa.</strong> Hijos e hijas la heredan de su madre, pero solo las mujeres la transmiten. Pueden representarla usted, sus hermanos, su madre o cualquier pariente que descienda por línea femenina de la misma antepasada.</p>
+            </figcaption>
+          </figure>
 
           <div class="program-support">
             <article>
@@ -178,9 +231,12 @@
           <p>Los servicios de genealogía documental son una actividad complementaria de recaudación de recursos que apoya el trabajo científico de MAGENHA en genealogía y genética de poblaciones, no la finalidad científica principal del proyecto.</p>
           <p>Nuestra misión pública también promueve el interés por la genealogía, la genética, la arqueología, la historia de las poblaciones y campos afines. Los fondos recaudados por el proyecto se asignan exclusivamente a través de Estados Unidos o España y no se transfieren a países como Cuba, Venezuela o Nicaragua.</p>
           <div class="education-panel support-panel" id="support">
-            <p class="eyebrow eyebrow--light">Ayúdenos a seguir divulgando</p>
+            <div class="support-panel__intro">
+              <p class="eyebrow eyebrow--light">Ayúdenos a seguir divulgando</p>
             <h3>Suscríbase. Participe. Apoye Rootscast.</h3>
             <p>Su apoyo ayuda a MAGENHA a divulgar genealogía, genética e historia de las poblaciones y a llevar nuevas conversaciones a Rootscast, nuestro podcast. No necesita ser cliente de investigación para participar.</p>
+            </div>
+            <a class="rootscast-feature" href="https://www.youtube.com/watch?v=4pRHZPy0zCg&amp;list=PL4ZLJXcvcaiEcSIA3eUzVTVPy1C7Av0yt"><span class="rootscast-feature__media"><img src="../images/scenes/rootscast-26.jpg" alt="" width="480" height="270" loading="lazy"><span class="rootscast-feature__play" aria-hidden="true"></span></span><span class="rootscast-feature__text"><span class="rootscast-feature__kicker">Episodio destacado · Rootscast 26</span><strong>Antes de 1492: el mundo indígena del Caribe</strong><span>Con Jorge Ulloa Hung · Ver en YouTube <span aria-hidden="true">↗</span></span></span></a>
             <div class="support-options">
               <article><h4>YouTube</h4><p>Suscríbase gratis a nuestro canal, vea las conversaciones y compártalas. Para apoyar nuestra divulgación y Rootscast con una pequeña aportación mensual, pulse «Unirse» en el canal.</p><div class="support-actions"><a href="https://www.youtube.com/@MAGENHAProject">Suscribirse en YouTube ↗</a><a href="https://www.youtube.com/@MAGENHAProject/join">Unirse al canal ↗</a></div></article>
               <article><h4>Patreon</h4><p>Apóyenos con una suscripción mensual para conocer de primera mano lo que hacemos en Rootscast, participar en la elección de futuros invitados y proponerles preguntas. Las ventajas de la suscripción incluyen descuentos en investigaciones genealógicas en España, según las condiciones de la suscripción y del encargo. También podremos organizar eventos en vivo.</p><div class="support-actions"><a href="https://www.patreon.com/c/magenha">Suscribirse en Patreon ↗</a></div></article>
@@ -222,7 +278,7 @@
     <div class="shell footer-grid">
       <div class="footer-brand">
         <a class="brand brand--footer" href="index.html">
-          <img src="../logo.png" alt="" width="42" height="51">
+          <img src="../images/brand/logo-header.png" alt="" width="42" height="51">
           <span class="brand__wordmark">MAGENHA</span>
         </a>
         <p>Mapa Genealógico de Haplogrupos</p>
@@ -240,6 +296,7 @@
         <h2>Información</h2>
         <a href="#terms">Términos y condiciones</a>
         <a href="spain.html#official">Aviso sobre fines legales</a>
+        <a href="cuba.html">Genealogía en Cuba</a>
         <a href="https://magenha.blogspot.com/">Blog de MAGENHA</a>
         <a href="../service.html" hreflang="en" lang="en">English</a>
         <a href="spain.html#contact">Contacto</a>
