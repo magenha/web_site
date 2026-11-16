@@ -4,15 +4,15 @@
     "rating_count": 0
   },
   "lz_flores": {
-    "average_rating": null,
-    "rating_count": 0
+    "average_rating": 1.0,
+    "rating_count": 1
   },
   "magenha": {
     "average_rating": null,
     "rating_count": 0
   },
   "yumurigen": {
-    "average_rating": null,
-    "rating_count": 0
+    "average_rating": 5.0,
+    "rating_count": 6
   }
 }
