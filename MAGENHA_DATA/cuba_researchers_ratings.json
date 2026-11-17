@@ -1,18 +1,18 @@
 {
   "genesis_cuba": {
-    "average_rating": null,
-    "rating_count": 0
-  },
-  "lz_flores": {
-    "average_rating": 1.0,
+    "average_rating": 5.0,
     "rating_count": 1
   },
+  "lz_flores": {
+    "average_rating": 1.5,
+    "rating_count": 2
+  },
   "magenha": {
-    "average_rating": null,
-    "rating_count": 0
+    "average_rating": 5.0,
+    "rating_count": 5
   },
   "yumurigen": {
     "average_rating": 5.0,
-    "rating_count": 6
+    "rating_count": 8
   }
 }
