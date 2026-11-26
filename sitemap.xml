@@ -60,4 +60,16 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/cuba.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/cuba.html"/>
   </url>
+  <url>
+    <loc>https://magenha.org/log.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/log.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/log.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/log.html"/>
+  </url>
+  <url>
+    <loc>https://magenha.org/es/log.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magenha.org/log.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magenha.org/es/log.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magenha.org/log.html"/>
+  </url>
 </urlset>

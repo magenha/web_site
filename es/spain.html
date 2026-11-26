@@ -26,12 +26,15 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:locale:alternate" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
-  <link href="../style.css?v=20261115g" rel="stylesheet"/>
-  <script defer="" src="../script.js?v=20261115b">
+  <link href="../style.css?v=20261126e" rel="stylesheet"/>
+  <script defer="" src="../script.js?v=20261126a">
   </script>
+  <script defer="" src="../announcements.js?v=20261126a"></script>
   <link href="../spain.css?v=20261115c" rel="stylesheet"/>
   <script defer="" src="../spain.js?v=20261115b">
   </script>
+  <link href="../experience.css?v=20261126d" rel="stylesheet"/>
+  <script defer="" src="../experience.js?v=20261126c"></script>
  </head>
  <body class="service-page spain-page">
   <a class="skip-link" href="#main-content">
@@ -74,6 +77,7 @@
       Nuestra misión
      </a>
      <a href="spain.html" aria-current="page">Investigación en España</a>
+     <a href="log.html">Bitácora</a>
      <a href="service.html#lineage-program">
       Linajes de ADN
      </a>
@@ -133,18 +137,49 @@
      </aside>
     </div>
    </section>
+   <!-- Solicitudes abiertas: cartel del próximo viaje. data-closes = último día (incluido); pasado ese día la tarjeta pasa sola a «Plazo cerrado». -->
+   <section class="open-calls" id="open-calls" aria-labelledby="open-calls-title">
+    <div class="shell">
+     <article class="open-call" data-open-call data-closes="2026-11-30">
+      <a class="open-call__poster" href="../images/scenes/canarias-solicitudes.jpg" target="_blank" rel="noopener">
+       <img src="../images/scenes/canarias-solicitudes.jpg" width="720" height="900" loading="lazy" decoding="async" alt="Cartel de MAGENHA: Genealogía en Canarias. Oportunidad única. Solicitudes abiertas para buscar a tus antepasados. Visitamos los archivos diocesanos de La Laguna (Tenerife) y Las Palmas (Gran Canaria). Escríbenos y pídenos presupuesto: contactmagenha@gmail.com."/>
+      </a>
+      <div class="open-call__body">
+       <p class="open-call__status"><span class="open-call__dot" aria-hidden="true"></span><span data-closed-text="Plazo cerrado">Solicitudes abiertas</span></p>
+       <p class="eyebrow eyebrow--light">Próximo viaje · Canarias</p>
+       <h2 id="open-calls-title">Vamos a los archivos diocesanos de Canarias.</h2>
+       <p class="open-call__lede">Visitaremos en persona los archivos diocesanos de La Laguna y de Las Palmas. Cuéntenos qué le gustaría descubrir sobre su familia: podemos hacer una búsqueda puntual o ayudarle a reconstruir su genealogía.</p>
+       <ul class="open-call__places">
+        <li><strong>La Laguna</strong><span>Tenerife</span><small>Diócesis de San Cristóbal de La Laguna: Tenerife, La Palma, La Gomera y El Hierro</small></li>
+        <li><strong>Las Palmas</strong><span>Gran Canaria</span><small>Diócesis de Canarias: Gran Canaria, Lanzarote y Fuerteventura</small></li>
+       </ul>
+       <p class="open-call__note">Díganos la isla, la parroquia y la época que le interesan: le confirmamos si sus libros se consultan en estos archivos y le enviamos un presupuesto antes de cualquier pago.</p>
+       <div class="open-call__deadline">
+        <p class="open-call__date" data-closed-text="El plazo para este viaje terminó el 30 de noviembre.">Solicitudes hasta el <strong>30 de noviembre de 2026</strong>, inclusive.</p>
+        <p class="open-call__countdown" data-open-call-countdown data-closed-text="Escríbanos y le avisaremos del próximo viaje.">Hay pocas plazas.</p>
+       </div>
+       <div class="button-row">
+        <a class="button button--paper" href="#contact" data-prefill-places="Canarias (viaje a los archivos diocesanos de La Laguna y Las Palmas)" data-closed-text="Avísenme del próximo viaje" data-closed-href="mailto:contactmagenha@gmail.com?subject=Pr%C3%B3ximo%20viaje%20a%20archivos">Reservar mi búsqueda</a>
+        <a class="text-link text-link--light" href="mailto:contactmagenha@gmail.com?subject=Viaje%20a%20Canarias">contactmagenha@gmail.com <span aria-hidden="true">→</span></a>
+       </div>
+      </div>
+     </article>
+    </div>
+   </section>
    <div class="shell page-layout">
     <aside aria-label="En esta página" class="page-index">
      <p>
       En esta página
      </p>
      <nav>
+      <a href="#open-calls">Solicitudes abiertas: Canarias</a>
       <a href="#coverage">
        Consulta de cobertura
       </a>
       <a href="#scope">
        Qué investigamos
       </a>
+      <a href="#experience">Experiencia: bitácora de archivos</a>
       <a href="#process">
        Cómo funciona
       </a>
@@ -238,6 +273,45 @@
        MAGENHA —Mapa Genealógico de Haplogrupos— es un proyecto científico dedicado a la genealogía, los linajes uniparentales Y-DNA y mtDNA, la genética de poblaciones y la historia de las poblaciones. La investigación documental es una actividad complementaria que contribuye a sostener este trabajo científico.
       </p>
      </section>
+     <!-- Experiencia: tarjetas que enlazan a la bitácora (es/log.html). Sin nombres de personas. -->
+     <section class="article-section experience-section" id="experience">
+      <p class="eyebrow">Experiencia</p>
+      <h2>Bitácora de archivos.</h2>
+      <p>Casos reales y viajes recientes. En la bitácora contamos cada uno con fotos y detalle; para proteger la privacidad de las familias no publicamos nombres de personas.</p>
+      <ol class="trip-log">
+       <li class="trip-log__item trip-log__item--done">
+        <img class="trip-log__cover" src="../images/trips/santiago-fachada-600.jpg" width="600" height="450" loading="lazy" decoding="async" alt=""/>
+        <div class="trip-log__body">
+         <p class="trip-log__status">Caso real</p>
+         <p class="trip-log__when">Noviembre de 2026</p>
+         <h3 class="trip-log__what"><strong>Galicia</strong> De un bautismo a cinco generaciones</h3>
+         <p class="trip-log__note">Nos pidieron un solo bautismo. En 4 horas en el Archivo Histórico Diocesano de Santiago documentamos 19 antepasados en 5 generaciones.</p>
+         <p class="trip-log__note"><a href="log.html#galicia-2026">Leer el caso <span aria-hidden="true">→</span></a></p>
+        </div>
+       </li>
+       <li class="trip-log__item trip-log__item--done">
+        <img class="trip-log__cover" src="../images/trips/oviedo-archivo-600.jpg" width="600" height="450" loading="lazy" decoding="async" alt=""/>
+        <div class="trip-log__body">
+         <p class="trip-log__status">Viajes de calibración</p>
+         <p class="trip-log__when">Próximo viaje: fecha por anunciar</p>
+         <h3 class="trip-log__what"><strong>Asturias</strong> Tres generaciones por pack</h3>
+         <p class="trip-log__note">Dos viajes al archivo diocesano de Oviedo: de media, tres generaciones a partir de un antepasado por cada pack de 4 horas.</p>
+         <p class="trip-log__note"><a href="log.html#asturias-calibracion">Ver la entrada <span aria-hidden="true">→</span></a> · <a href="#contact" data-prefill-places="Asturias (próximo viaje al archivo diocesano de Oviedo)">Me interesa Asturias</a></p>
+        </div>
+       </li>
+       <li class="trip-log__item trip-log__item--open" data-open-call data-closes="2026-11-30">
+        <img class="trip-log__cover trip-log__cover--poster" src="../images/scenes/canarias-solicitudes.jpg" width="720" height="900" loading="lazy" decoding="async" alt=""/>
+        <div class="trip-log__body">
+         <p class="trip-log__status" data-closed-text="Plazo cerrado">Solicitudes abiertas</p>
+         <p class="trip-log__when">Principios de diciembre de 2026</p>
+         <h3 class="trip-log__what"><strong>Canarias</strong> La Laguna y Las Palmas</h3>
+         <p class="trip-log__note" data-closed-text="El plazo para este viaje terminó el 30 de noviembre.">Solicitudes hasta el 30 de noviembre, inclusive.</p>
+         <p class="trip-log__note"><a href="#open-calls">Ver el cartel y reservar <span aria-hidden="true">↑</span></a></p>
+        </div>
+       </li>
+      </ol>
+      <p class="experience-more"><a class="text-link" href="log.html">Ver la bitácora completa <span aria-hidden="true">→</span></a></p>
+     </section>
      <section class="article-section" id="process">
       <p class="eyebrow">
        Cómo funciona
@@ -248,6 +322,7 @@
       <p>
        1. Evaluación preliminar gratuita y breve. Envíenos su objetivo, localidad, fechas aproximadas y qué información posee. Comprobaremos si podemos aceptar razonablemente el encargo.
       </p>
+<div class="more" data-more data-more-label="Ver los pasos 2 a 4">
       <p>
        2. Punto de partida documental. Normalmente necesitamos certificados, bautismos, matrimonios, defunciones, documentos de hijos o familiares, lugares de nacimiento o residencia y referencias de archivos ya consultados. No tiene que demostrar toda su ascendencia. Excepcionalmente podemos aceptar búsquedas exploratorias, explicando sus incertidumbres.
       </p>
@@ -257,7 +332,8 @@
       <p>
        4. Investigación y entrega. Recibirá los resultados y un informe, también cuando la búsqueda sea negativa. Procuraremos actualizarle cada tres o cuatro semanas mientras el caso siga pendiente, o antes si hay avances relevantes. Los plazos dependen de citas, colaboradores y archivos; no se garantizan fechas.
       </p>
-     </section>
+</div>
+</section>
      <section class="article-section" id="fees">
       <p class="eyebrow">
        Modalidades y honorarios
@@ -268,6 +344,7 @@
       <p>
        Referencia orientativa para investigación por horas, no una tarifa garantizada para todos los encargos. El presupuesto depende de la localidad y archivo, documentación disponible, período histórico, información aportada, dificultad, desplazamientos, tiempo estimado y características de los resultados solicitados. Todos los importes se comunican antes de solicitar cualquier pago.
       </p>
+<div class="more" data-more data-more-label="Ver las dos modalidades y sus condiciones">
       <p>
        <strong>Búsqueda documental puntual.</strong> Para localizar un documento histórico concreto con datos suficientes, como un bautismo, matrimonio, defunción o asiento civil. Se puede presupuestar un encargo específico sin contratar varias horas. La investigación puede realizarse a distancia o mediante una consulta presencial, según la institución y el acceso disponible. El presupuesto acordado cubre el trabajo de investigación una sola vez; los gastos logísticos necesarios se estiman por separado. El presupuesto y las condiciones de pago se comunican antes de aceptar el encargo.
       </p>
@@ -287,11 +364,14 @@
        </strong>
        Los gastos extraordinarios se distinguen en el presupuesto. Las donaciones para apoyar MAGENHA son completamente voluntarias y no implican contraprestación.
       </p>
-     <section id="archive-visits" aria-labelledby="archive-visits-title">
+</div>
+<section id="archive-visits" aria-labelledby="archive-visits-title">
       <h3 id="archive-visits-title">Consultas presenciales y gastos de desplazamiento</h3>
       <p>Algunas investigaciones requieren consultas presenciales en archivos. En la investigación por horas, la consulta archivística forma parte de las horas contratadas y no se cobra como un servicio de investigación adicional. En las búsquedas puntuales, la investigación presencial necesaria queda cubierta por el presupuesto acordado para el encargo. El cliente paga el trabajo de investigación una sola vez, tanto si se realiza a distancia como presencialmente. Las transcripciones ordinarias y su preparación siguen incluidas en el tiempo de investigación contratado.</p>
+<div class="more" data-more data-more-label="Ver gastos de desplazamiento y logística">
       <p>Los gastos de transporte, alojamiento, manutención y demás logística necesaria se estiman y comunican por separado antes de cualquier pago. Estos gastos requieren aprobación y abono anticipado. Cuando un colaborador local puede acceder al archivo sin desplazamientos significativos, es posible que no se apliquen gastos logísticos adicionales. Las consultas compartidas pueden reducir los costes logísticos, que podrán repartirse proporcionalmente entre clientes cuando sea posible. Los costes de certificación y envío también se presupuestan aparte cuando corresponda. No se garantiza acceso inmediato ni citas disponibles.</p>
-      </section>
+</div>
+</section>
      </section>
      <section class="article-section" id="deliverables">
       <p class="eyebrow">
@@ -303,6 +383,7 @@
       <p>
        MAGENHA no vende fotografías de archivos históricos. Nuestros entregables son documentos elaborados por el equipo a partir de las fuentes consultadas, utilizando los formatos de MAGENHA.
       </p>
+<div class="more" data-more data-more-label="Ver qué incluye cada parte">
       <p>
        <strong>
         Transcripción literal:
@@ -327,7 +408,8 @@
        </strong>
        búsquedas, períodos revisados, fuentes consultadas, documentos identificados, resultados, obstáculos y posibles vías de continuación. Las búsquedas negativas también aportan conocimiento.
       </p>
-      <figure class="deliverable-sample" data-tabs>
+</div>
+<figure class="deliverable-sample" data-tabs>
         <figcaption class="deliverable-sample__head">
           <span class="deliverable-sample__badge">Muestra ficticia de un entregable</span>
           <span class="deliverable-sample__note">Datos inventados para ilustrar el formato: no corresponden a ninguna persona ni documento real.</span>
@@ -355,10 +437,12 @@
           <dl class="sample-fields sample-fields--report"><div><dt>Objetivo</dt><dd>Localizar el bautismo de María Josefa (h. 1786).</dd></div><div><dt>Revisado</dt><dd>Bautismos, libros 3.º y 4.º (1775–1794).</dd></div><div><dt>Resultado</dt><dd>Localizado: fol. 42 v., asiento 3.</dd></div><div><dt>Nuevas vías</dt><dd>Matrimonio de Juan Antonio Pérez y Josefa García (h. 1780) y bautismos de sus hermanos.</dd></div></dl>
         </div>
       </figure>
+<div class="more" data-more data-more-label="Fotografías y permisos">
       <p>
        Solo entregaremos fotografías, digitalizaciones o reproducciones originales cuando estén autorizadas. Las transcripciones y extractos respetarán las condiciones de cada archivo, que no son necesariamente las mismas que para una fotografía. Publicar o redistribuir materiales depende de su naturaleza, los permisos del repositorio y los derechos aplicables.
       </p>
-     </section>
+</div>
+</section>
      <section class="article-section" id="official">
       <p class="eyebrow">
        Documentación oficial
@@ -369,13 +453,15 @@
       <p>
        Podemos gestionar certificaciones literales o extractos oficiales, copias expedidas por archivos, certificaciones eclesiásticas, apostillas, legalizaciones, traducciones oficiales y envíos nacionales e internacionales. La disponibilidad depende de la institución, documento y país de destino.
       </p>
+<div class="more" data-more data-more-label="Ver gestión, costes y trámites">
       <p>
        La gestión administrativa se presupuesta aparte. Los documentos que puedan tramitarse juntos podrán agruparse, sin cobrar automáticamente una gestión por documento. Los costes de obtención, certificación, legalización, traducción y envío se comunican separadamente y se abonan conforme al presupuesto aprobado. Un certificado gratuito del Registro Civil no se presenta como sujeto a una tasa oficial: nuestros honorarios de gestión son un concepto distinto.
       </p>
       <p>
        Podemos ayudar a obtener documentos para nacionalidad, inmigración, herencias u otros procedimientos, pero no proporcionamos asesoramiento jurídico ni garantizamos su aceptación. Usted debe confirmar los requisitos de la autoridad receptora. Si necesita una certificación literal, confirmaremos su disponibilidad antes de comprometer gastos adicionales; no todos los archivos pueden expedir el documento exacto solicitado.
       </p>
-     </section>
+</div>
+</section>
      <section class="article-section" id="faq">
       <p class="eyebrow">
        Respuestas concretas
@@ -1012,6 +1098,7 @@
      <a href="spain.html#coverage">
       Zonas de investigación
      </a>
+        <a href="log.html">Bitácora: casos y viajes</a>
      <a href="service.html#lineage-program">
       Programa de linajes de ADN
      </a>

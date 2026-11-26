@@ -15,6 +15,16 @@ This repository contains the static website published at [magenha.org](https://m
 - `statistics.css` / `statistics.js` — explorer styles and browser-side calculations/map rendering
 - `cuba.html` / `es/cuba.html` — Genealogy in Cuba: end of new Cuba cases and the directory of independent researchers
 - `cuba.css` / `cuba.js` — researcher and resource cards, star ratings and the suggestion-form link
+- `log.html` / `es/log.html` — «Archive log» / «Bitácora de archivos» (in the menu and footer of every page): blog-like
+  log of real cases and trips, newest first, with the owner's photos and the before/after family tree. **No personal names**
+  (owner's rule, 26 Nov 2026): people appear by kinship, dates by year. The Spain page shows cards that link here
+- `experience.css` / `experience.js` — Spain page and the log (EN and ES): the «Solicitudes abiertas» poster band
+  (`#open-calls`), the experience cards (`#experience`), the log entries and the before/after tree. `?lugar=…` in a
+  link to `spain.html#contact` fills the contact form's places field. An open call is any element with
+  `data-open-call data-closes="YYYY-MM-DD"` (last day included): until then it shows a countdown; after it, it turns
+  to «Plazo cerrado» by itself and swaps the texts/links given in `data-closed-text` / `data-closed-href`.
+  `data-prefill-places` on a link carries the trip into the contact form's places field. To announce the next trip,
+  change the poster, texts and `data-closes`; when a trip is done, move it to «Realizado» in the trips log
 - `images/` — every picture the pages use, as light web copies:
   - `images/brand/` — `logo-header.png` (header/footer) and `logo-card.jpg` (MAGENHA's Cuba card)
   - `images/directory/` — researcher logos (`<id>-256.jpg`) and resource logos (`<id>-logo.jpg|png`)
@@ -22,6 +32,9 @@ This repository contains the static website published at [magenha.org](https://m
     (with `-900` copies for phones), `lineage-tree`, `cta-path`, `rootscast-banner`, `spain-region`,
     `footer`, `process`, `record-lineage` (background of the home scene), the transparent header roots
     `roots-left.png` / `roots-right.png`, and the episode thumbnail `rootscast-26.jpg`
+    and the open-call poster `canarias-solicitudes.jpg` (from `_fuentes/MAGENHA_Canarias.png`)
+  - `images/trips/` — the owner's photos of archive trips (Santiago de Compostela, Oviedo), web copies without
+    metadata (`-600` copies for small places); originals in `_fuentes/viajes/`. Never photos of archive books
 - `_fuentes/` — local only, git-ignored: the owner's original images (2–3 MB each) the web copies
   come from, and working notes. Never published; regenerate a web copy from here when a picture changes
 - `MAGENHA_DATA/haplogroup_statistics/` — disclosure-controlled aggregate statistics and local map geometry served by GitHub Pages
@@ -235,3 +248,21 @@ only its explicit public field allowlist; it does not copy the original explorer
   as a band at the bottom.
 - Pictures must be text-free (the pages give every text in both languages), keep the left side calm
   for headings, show only fictitious material (never real archive books) and stay in the site palette.
+
+## Read more (`data-more`)
+
+Owner's rule (26 Nov 2026): long sections show their first paragraph (the summary) and the rest opens with a button.
+Wrap the rest in `<div class="more" data-more data-more-label="Ver …">…</div>` right after that first paragraph;
+`script.js` adds the button (label from `data-more-label`, «Mostrar menos» / «Show less» when open) on every page.
+Without JavaScript and when printing everything is shown; `hidden="until-found"` lets the browser's find-in-page open a
+block, and a link to an id inside a block opens it. Keep the EN and ES pages with the same blocks. Used today in Spain
+(process, fees, archive visits, deliverables ×2, official documents), Service (terms, about), Cuba (changes) and the log.
+FAQs and Spain terms already use `<details>`.
+
+## Open-request notice (`announcements.js`)
+
+A small floating notice on every page (EN and ES) announces the trips with open requests. **To announce a new trip,
+edit only the `AVISOS` list at the top of `announcements.js`** (id, last day `closes`, poster image, ES/EN texts and the
+link). The notice appears a moment after the page loads, stays until the last day (included) and a visitor can close
+it (remembered in that browser only). On the page that holds the poster it steps aside while the poster is on screen.
+Remember to update the Spain page band (`#open-calls`) and the log (`#proximos`) for the same trip.

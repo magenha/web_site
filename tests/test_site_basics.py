@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = ['index', 'spain', 'service', 'statistics', 'cuba']
+NAMES = ['index', 'spain', 'service', 'statistics', 'cuba', 'log']
 PAGES = [ROOT / f'{n}.html' for n in NAMES] + [ROOT / 'es' / f'{n}.html' for n in NAMES]
 
 
@@ -66,7 +66,7 @@ class SiteBasicsTests(unittest.TestCase):
 
     def test_navigation_labels_match_across_pages(self):
         menus = {page: Head(page).nav for page in PAGES}
-        for lang_pages in (PAGES[:5], PAGES[5:]):
+        for lang_pages in (PAGES[:len(NAMES)], PAGES[len(NAMES):]):
             first = menus[lang_pages[0]]
             for page in lang_pages[1:]:
                 self.assertEqual(menus[page], first, page.relative_to(ROOT))

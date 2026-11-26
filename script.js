@@ -334,3 +334,53 @@ if (inquiryForm) {
     }
   });
 }
+
+// Read more ([data-more]): a section shows its first paragraph and the rest opens with a button placed just above it.
+// Without JavaScript, and when printing, everything is shown. hidden="until-found" lets the browser's find-in-page
+// open a block (Chrome, Edge); other browsers treat it as plain hidden. A link to an id inside a block opens it.
+(() => {
+  const blocks = [...document.querySelectorAll("[data-more]")];
+  if (!blocks.length) return;
+  const es = document.documentElement.lang === "es";
+  const lessText = es ? "Mostrar menos" : "Show less";
+  const moreText = es ? "Leer más" : "Read more";
+  const openers = new Map();
+  blocks.forEach((block, index) => {
+    block.id = block.id || `more-${index + 1}`;
+    block.classList.add("more--js");
+    const label = block.dataset.moreLabel || moreText;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "more-toggle";
+    button.setAttribute("aria-controls", block.id);
+    const text = document.createElement("span");
+    const icon = document.createElement("span");
+    icon.className = "more-toggle__icon";
+    icon.setAttribute("aria-hidden", "true");
+    button.append(text, icon);
+    const set = (open) => {
+      if (open) block.removeAttribute("hidden");
+      else block.setAttribute("hidden", "until-found");
+      button.setAttribute("aria-expanded", String(open));
+      text.textContent = open ? lessText : label;
+    };
+    button.addEventListener("click", () => set(block.hasAttribute("hidden")));
+    block.addEventListener("beforematch", () => set(true));
+    block.before(button);
+    set(false);
+    openers.set(block, () => set(true));
+  });
+  const openTarget = () => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    const target = id && document.getElementById(id);
+    if (!target) return;
+    blocks.forEach((block) => {
+      if (block.contains(target) && block.hasAttribute("hidden")) {
+        openers.get(block)();
+        target.scrollIntoView();
+      }
+    });
+  };
+  window.addEventListener("hashchange", openTarget);
+  openTarget();
+})();

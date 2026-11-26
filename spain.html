@@ -26,12 +26,15 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="es_ES">
   <meta name="twitter:card" content="summary_large_image">
-  <link href="style.css?v=20261115g" rel="stylesheet"/>
-  <script defer="" src="script.js?v=20261115b">
+  <link href="style.css?v=20261126e" rel="stylesheet"/>
+  <script defer="" src="script.js?v=20261126a">
   </script>
+  <script defer="" src="announcements.js?v=20261126a"></script>
   <link href="spain.css?v=20261115c" rel="stylesheet"/>
   <script defer="" src="spain.js?v=20261115b">
   </script>
+  <link href="experience.css?v=20261126d" rel="stylesheet"/>
+  <script defer="" src="experience.js?v=20261126c"></script>
  </head>
  <body class="service-page spain-page">
   <a class="skip-link" href="#main-content">
@@ -74,6 +77,7 @@
       Our mission
      </a>
      <a href="spain.html" aria-current="page">Research in Spain</a>
+     <a href="log.html">Archive log</a>
      <a href="service.html#lineage-program">
       DNA lineages
      </a>
@@ -133,18 +137,49 @@
      </aside>
     </div>
    </section>
+   <!-- Open requests: the next trip's poster. data-closes = last day (included); after it the card turns to «Closed» by itself. -->
+   <section class="open-calls" id="open-calls" aria-labelledby="open-calls-title">
+    <div class="shell">
+     <article class="open-call" data-open-call data-closes="2026-11-30">
+      <a class="open-call__poster" href="images/scenes/canarias-solicitudes.jpg" target="_blank" rel="noopener">
+       <img src="images/scenes/canarias-solicitudes.jpg" width="720" height="900" loading="lazy" decoding="async" alt="MAGENHA poster in Spanish: Genealogy in the Canary Islands. A unique opportunity. Requests open to search for your ancestors. We visit the diocesan archives of La Laguna (Tenerife) and Las Palmas (Gran Canaria). Write to us for a quotation: contactmagenha@gmail.com."/>
+      </a>
+      <div class="open-call__body">
+       <p class="open-call__status"><span class="open-call__dot" aria-hidden="true"></span><span data-closed-text="Closed">Requests open</span></p>
+       <p class="eyebrow eyebrow--light">Next trip · Canary Islands</p>
+       <h2 id="open-calls-title">We are visiting the Canary Islands’ diocesan archives.</h2>
+       <p class="open-call__lede">We will visit the diocesan archives of La Laguna and Las Palmas in person. Tell us what you would like to discover about your family: we can carry out a targeted search or help you rebuild your genealogy.</p>
+       <ul class="open-call__places">
+        <li><strong>La Laguna</strong><span>Tenerife</span><small>Diocese of San Cristóbal de La Laguna: Tenerife, La Palma, La Gomera and El Hierro</small></li>
+        <li><strong>Las Palmas</strong><span>Gran Canaria</span><small>Diocese of the Canaries: Gran Canaria, Lanzarote and Fuerteventura</small></li>
+       </ul>
+       <p class="open-call__note">Tell us the island, parish and period you are interested in: we will confirm whether those books can be consulted in these archives and send you a quotation before any payment.</p>
+       <div class="open-call__deadline">
+        <p class="open-call__date" data-closed-text="Requests for this trip closed on 30 November.">Requests until <strong>30 November 2026</strong>, inclusive.</p>
+        <p class="open-call__countdown" data-open-call-countdown data-closed-text="Write to us and we will let you know about the next trip.">Places are limited.</p>
+       </div>
+       <div class="button-row">
+        <a class="button button--paper" href="#contact" data-prefill-places="Canary Islands (trip to the diocesan archives of La Laguna and Las Palmas)" data-closed-text="Tell me about the next trip" data-closed-href="mailto:contactmagenha@gmail.com?subject=Next%20archive%20trip">Book my search</a>
+        <a class="text-link text-link--light" href="mailto:contactmagenha@gmail.com?subject=Canary%20Islands%20trip">contactmagenha@gmail.com <span aria-hidden="true">→</span></a>
+       </div>
+      </div>
+     </article>
+    </div>
+   </section>
    <div class="shell page-layout">
     <aside aria-label="On this page" class="page-index">
      <p>
       On this page
      </p>
      <nav>
+      <a href="#open-calls">Open requests: Canary Islands</a>
       <a href="#coverage">
        Check coverage
       </a>
       <a href="#scope">
        What we research
       </a>
+      <a href="#experience">Experience: archive log</a>
       <a href="#process">
        How it works
       </a>
@@ -238,6 +273,45 @@
        MAGENHA —Mapa Genealógico de Haplogrupos— is a scientific project studying genealogy, Y-DNA and mtDNA uniparental lineages, population genetics and population history. Documentary research is a complementary activity that helps sustain this scientific work.
       </p>
      </section>
+     <!-- Experience: cards that link to the archive log (log.html). No personal names. -->
+     <section class="article-section experience-section" id="experience">
+      <p class="eyebrow">Experience</p>
+      <h2>Archive log.</h2>
+      <p>Real cases and recent trips. In the log we tell each one with photos and detail; to protect families’ privacy we do not publish personal names.</p>
+      <ol class="trip-log">
+       <li class="trip-log__item trip-log__item--done">
+        <img class="trip-log__cover" src="images/trips/santiago-fachada-600.jpg" width="600" height="450" loading="lazy" decoding="async" alt=""/>
+        <div class="trip-log__body">
+         <p class="trip-log__status">Real case</p>
+         <p class="trip-log__when">November 2026</p>
+         <h3 class="trip-log__what"><strong>Galicia</strong> From one baptism to five generations</h3>
+         <p class="trip-log__note">We were asked for a single baptism. In 4 hours at the Diocesan Historical Archive of Santiago we documented 19 ancestors across 5 generations.</p>
+         <p class="trip-log__note"><a href="log.html#galicia-2026">Read the case <span aria-hidden="true">→</span></a></p>
+        </div>
+       </li>
+       <li class="trip-log__item trip-log__item--done">
+        <img class="trip-log__cover" src="images/trips/oviedo-archivo-600.jpg" width="600" height="450" loading="lazy" decoding="async" alt=""/>
+        <div class="trip-log__body">
+         <p class="trip-log__status">Calibration trips</p>
+         <p class="trip-log__when">Next trip: date to be announced</p>
+         <h3 class="trip-log__what"><strong>Asturias</strong> Three generations per pack</h3>
+         <p class="trip-log__note">Two trips to the diocesan archive of Oviedo: on average, three generations from one ancestor per 4-hour pack.</p>
+         <p class="trip-log__note"><a href="log.html#asturias-calibracion">See the entry <span aria-hidden="true">→</span></a> · <a href="#contact" data-prefill-places="Asturias (next trip to the diocesan archive of Oviedo)">I’m interested in Asturias</a></p>
+        </div>
+       </li>
+       <li class="trip-log__item trip-log__item--open" data-open-call data-closes="2026-11-30">
+        <img class="trip-log__cover trip-log__cover--poster" src="images/scenes/canarias-solicitudes.jpg" width="720" height="900" loading="lazy" decoding="async" alt=""/>
+        <div class="trip-log__body">
+         <p class="trip-log__status" data-closed-text="Closed">Requests open</p>
+         <p class="trip-log__when">Early December 2026</p>
+         <h3 class="trip-log__what"><strong>Canary Islands</strong> La Laguna and Las Palmas</h3>
+         <p class="trip-log__note" data-closed-text="Requests for this trip closed on 30 November.">Requests until 30 November, inclusive.</p>
+         <p class="trip-log__note"><a href="#open-calls">See the poster and book <span aria-hidden="true">↑</span></a></p>
+        </div>
+       </li>
+      </ol>
+      <p class="experience-more"><a class="text-link" href="log.html">See the full archive log <span aria-hidden="true">→</span></a></p>
+     </section>
      <section class="article-section" id="process">
       <p class="eyebrow">
        How it works
@@ -248,6 +322,7 @@
       <p>
        1. A brief, free preliminary assessment. Tell us your goal, locality, approximate dates and what information you hold. We will check whether we can reasonably accept the request.
       </p>
+<div class="more" data-more data-more-label="See steps 2 to 4">
       <p>
        2. A documentary starting point. We normally need certificates, baptism, marriage or death records, records of children or relatives, places of birth or residence and references to archives already consulted. You do not need to prove your entire ancestry. We may exceptionally accept exploratory searches, explaining their uncertainties.
       </p>
@@ -257,7 +332,8 @@
       <p>
        4. Research and delivery. You receive the results and a report, including when a search is unsuccessful. We aim to update you every three or four weeks while the case remains pending, or sooner when significant progress occurs. Timing depends on appointments, collaborators and archives; dates are not guaranteed.
       </p>
-     </section>
+</div>
+</section>
      <section class="article-section" id="fees">
       <p class="eyebrow">
        Research arrangements and fees
@@ -268,6 +344,7 @@
       <p>
        An indicative starting point for hourly research, not a guaranteed rate for every assignment. Your quotation depends on the locality and archive, available records, historical period, information supplied, difficulty, travel, estimated time and the nature of the requested results. All charges are communicated before any payment is requested.
       </p>
+<div class="more" data-more data-more-label="See both arrangements and their conditions">
       <p>
        <strong>Targeted Document Search.</strong> For a specific historical record with sufficient identifying information, such as a baptism, marriage, death or civil entry. An individual assignment can be quoted without booking several hours. Research may be conducted remotely or through an archive visit, depending on the institution and available access. The agreed quotation covers the research work once; any necessary logistical expenses are estimated separately. The quotation and payment terms are provided before accepting the assignment.
       </p>
@@ -287,11 +364,14 @@
        </strong>
        Extraordinary expenses are identified separately in the quotation. Donations to support MAGENHA are entirely voluntary and involve no service in return.
       </p>
-     <section id="archive-visits" aria-labelledby="archive-visits-title">
+</div>
+<section id="archive-visits" aria-labelledby="archive-visits-title">
       <h3 id="archive-visits-title">Archive Visits and Travel Expenses</h3>
       <p>Some investigations require in-person archive visits. For hourly research, the archive consultation is included within the contracted research hours, not charged as an additional research service. For targeted searches, any necessary in-person research is covered by the agreed assignment quotation. The client pays for the research work only once, whether it is performed remotely or in person. Ordinary transcriptions and their preparation remain included in the contracted research time.</p>
+<div class="more" data-more data-more-label="See travel and logistics expenses">
       <p>Travel, accommodation, meals and other necessary logistical expenses are estimated and communicated separately before any payment. These expenses require approval and advance payment. When a local collaborator can access the archive without significant travel, additional logistical expenses may not apply. Shared archive visits may reduce logistical costs, which can be allocated proportionally between clients where possible. Certification and shipping costs are also quoted separately where applicable. Immediate access and available appointments are not guaranteed.</p>
-      </section>
+</div>
+</section>
      </section>
      <section class="article-section" id="deliverables">
       <p class="eyebrow">
@@ -303,6 +383,7 @@
       <p>
        MAGENHA does not sell photographs of historical archives. Our deliverables are documents prepared by the team from the sources consulted, using MAGENHA formats.
       </p>
+<div class="more" data-more data-more-label="See what each part includes">
       <p>
        <strong>
         Literal transcription:
@@ -327,7 +408,8 @@
        </strong>
        searches, periods reviewed, sources consulted, records identified, results, obstacles and possible next steps. Negative searches also contribute knowledge.
       </p>
-      <figure class="deliverable-sample" data-tabs>
+</div>
+<figure class="deliverable-sample" data-tabs>
         <figcaption class="deliverable-sample__head">
           <span class="deliverable-sample__badge">Fictitious sample of a deliverable</span>
           <span class="deliverable-sample__note">Invented data to show the format: they do not belong to any real person or record.</span>
@@ -355,10 +437,12 @@
           <dl class="sample-fields sample-fields--report"><div><dt>Goal</dt><dd>Find María Josefa’s baptism (c. 1786).</dd></div><div><dt>Searched</dt><dd>Baptisms, books 3 and 4 (1775–1794).</dd></div><div><dt>Result</dt><dd>Found: fol. 42v, entry 3.</dd></div><div><dt>Next steps</dt><dd>Marriage of Juan Antonio Pérez and Josefa García (c. 1780) and baptisms of their other children.</dd></div></dl>
         </div>
       </figure>
+<div class="more" data-more data-more-label="Photographs and permissions">
       <p>
        We provide photographs, scans or reproductions of originals only when authorised. Transcriptions and extracts respect each archive’s conditions, which are not necessarily the same as those for a photograph. Publication or redistribution depends on the material’s nature, repository permissions and applicable rights.
       </p>
-     </section>
+</div>
+</section>
      <section class="article-section" id="official">
       <p class="eyebrow">
        Official documents
@@ -369,13 +453,15 @@
       <p>
        We can arrange full official certificates or official extracts, archive-issued copies, ecclesiastical certificates, apostilles, legalisation, official translations and domestic or international shipping. Availability depends on the institution, document and destination country.
       </p>
+<div class="more" data-more data-more-label="See handling, costs and procedures">
       <p>
        Administrative handling is quoted separately. Documents that can be processed together may be grouped, without automatically charging a separate handling fee per document. Obtaining, certification, legalisation, translation and shipping costs are communicated separately and paid under the approved quotation. A free civil registry certificate is not presented as carrying an official fee: our handling fees are a separate item.
       </p>
       <p>
        We can help obtain documents for nationality, immigration, inheritance or other procedures, but provide no legal advice or guarantee of acceptance. You must confirm the receiving authority’s requirements. If you need a full certificate, we will confirm its availability before committing additional expenses; not every archive can issue the exact document requested.
       </p>
-     </section>
+</div>
+</section>
      <section class="article-section" id="faq">
       <p class="eyebrow">
        Practical answers
@@ -1012,6 +1098,7 @@
      <a href="spain.html#coverage">
       Research areas
      </a>
+        <a href="log.html">Archive log: cases and trips</a>
      <a href="service.html#lineage-program">
       DNA lineage program
      </a>

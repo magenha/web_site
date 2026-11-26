@@ -2379,3 +2379,248 @@ html:not(.js) .lineage-explainer__controls { display: none; }
   object-position: 80% center;
   border: 1px solid rgba(255, 253, 248, 0.16);
 }
+
+/* Read more ([data-more], script.js): the first paragraph stays; the rest opens with this button. */
+.more-toggle {
+  display: inline-flex;
+  gap: 0.55rem;
+  align-items: center;
+  margin: 0.1rem 0 1.4rem;
+  padding: 0.5rem 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--ink-900);
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1.3;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.more-toggle:hover {
+  border-color: var(--copper);
+  color: var(--copper);
+}
+
+.more-toggle__icon {
+  flex: none;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform 180ms ease;
+}
+
+.more-toggle[aria-expanded="true"] .more-toggle__icon {
+  transform: translateY(2px) rotate(-135deg);
+}
+
+.article-section > .more > p,
+.article-section > .more > ul,
+.article-section > .more > ol {
+  max-width: 720px;
+}
+
+.more--js:not([hidden]) {
+  animation: more-open 260ms ease both;
+}
+
+@keyframes more-open {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .more--js:not([hidden]) {
+    animation: none;
+  }
+}
+
+@media print {
+  [data-more][hidden] {
+    display: block !important;
+  }
+
+  .more-toggle {
+    display: none;
+  }
+}
+
+/* Floating notice for open requests (announcements.js): appears on every page until the deadline, can be closed. */
+.notice {
+  position: fixed;
+  z-index: 150;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 0.85rem;
+  align-items: start;
+  width: min(390px, calc(100% - 2rem));
+  padding: 0.85rem 0.75rem 0.85rem 0.85rem;
+  border: 1px solid rgba(214, 173, 103, 0.55);
+  border-radius: 10px;
+  background: var(--ink-950);
+  box-shadow: 0 22px 50px rgba(16, 43, 45, 0.35);
+  color: rgba(255, 253, 248, 0.78);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(1.25rem);
+  transition: opacity 320ms ease, transform 320ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.notice.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+}
+
+.notice.is-visible.is-covered {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(1.25rem);
+}
+
+.notice p {
+  margin: 0;
+}
+
+.notice__image img {
+  width: 72px;
+  height: 90px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.notice__badge {
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+  margin-bottom: 0.25rem !important;
+  color: var(--gold);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.notice__dot {
+  flex: none;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #6fd39b;
+  animation: notice-pulse 2.2s ease-out infinite;
+}
+
+@keyframes notice-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(111, 211, 155, 0.6); }
+  70% { box-shadow: 0 0 0 0.5rem rgba(111, 211, 155, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(111, 211, 155, 0); }
+}
+
+.notice__title {
+  color: var(--white);
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  line-height: 1.15;
+}
+
+.notice__text {
+  margin-top: 0.2rem !important;
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
+.notice__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.9rem;
+  margin-top: 0.55rem !important;
+  font-size: 0.76rem;
+}
+
+.notice__action {
+  color: var(--gold);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.notice__more {
+  color: rgba(255, 253, 248, 0.75);
+}
+
+.notice__action:hover,
+.notice__more:hover {
+  color: var(--white);
+}
+
+.notice__close {
+  width: 1.9rem;
+  height: 1.9rem;
+  margin: -0.35rem -0.2rem 0 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: rgba(255, 253, 248, 0.7);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.notice__close:hover {
+  background: rgba(255, 253, 248, 0.12);
+  color: var(--white);
+}
+
+@media (max-width: 720px) {
+  .notice {
+    right: 0.75rem;
+    bottom: 0.75rem;
+    left: 0.75rem;
+    width: auto;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+  }
+
+  .notice__image img {
+    width: 54px;
+    height: 68px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .notice,
+  .notice.is-visible.is-covered {
+    transition: none;
+    transform: none;
+  }
+
+  .notice__dot {
+    animation: none;
+  }
+}
+
+@media print {
+  .notice {
+    display: none;
+  }
+}
+
+/* With «Archive log / Bitácora» in the menu, the desktop bar is a little more compact so it never touches the logo
+   (the content is 1180px wide on any desktop, so this holds at every width). */
+@media (min-width: 1201px) {
+  .site-nav {
+    gap: 0.85rem;
+  }
+
+  .site-nav > a {
+    font-size: 0.8rem;
+  }
+
+  .nav-cta {
+    padding: 0.6rem 0.85rem;
+  }
+}
