@@ -29,11 +29,11 @@
   <link href="style.css?v=20261126e" rel="stylesheet"/>
   <script defer="" src="script.js?v=20261126a">
   </script>
-  <script defer="" src="announcements.js?v=20261126a"></script>
+  <script defer="" src="announcements.js?v=20261128b"></script>
   <link href="spain.css?v=20261115c" rel="stylesheet"/>
   <script defer="" src="spain.js?v=20261115b">
   </script>
-  <link href="experience.css?v=20261126d" rel="stylesheet"/>
+  <link href="experience.css?v=20261128a" rel="stylesheet"/>
   <script defer="" src="experience.js?v=20261126c"></script>
  </head>
  <body class="service-page spain-page">
@@ -137,30 +137,31 @@
      </aside>
     </div>
    </section>
-   <!-- Open requests: the next trip's poster. data-closes = last day (included); after it the card turns to «Closed» by itself. -->
+   <!-- Open requests: next visit to Madrid (since 28 November 2026). No closing date yet: when there is one, add
+        data-closes="YYYY-MM-DD" to the <article>, write it in .open-call__date and repeat it in es/log.html, log.html and
+        announcements.js (closes). After that day the card turns to «Closed» by itself. -->
    <section class="open-calls" id="open-calls" aria-labelledby="open-calls-title">
     <div class="shell">
-     <article class="open-call" data-open-call data-closes="2026-11-30">
-      <a class="open-call__poster" href="images/scenes/canarias-solicitudes.jpg" target="_blank" rel="noopener">
-       <img src="images/scenes/canarias-solicitudes.jpg" width="720" height="900" loading="lazy" decoding="async" alt="MAGENHA poster in Spanish: Genealogy in the Canary Islands. A unique opportunity. Requests open to search for your ancestors. We visit the diocesan archives of La Laguna (Tenerife) and Las Palmas (Gran Canaria). Write to us for a quotation: contactmagenha@gmail.com."/>
+     <article class="open-call" data-open-call>
+      <a class="open-call__poster" href="images/scenes/madrid-solicitudes.jpg" target="_blank" rel="noopener">
+       <img src="images/scenes/madrid-solicitudes.jpg" width="720" height="900" loading="lazy" decoding="async" alt="MAGENHA poster in Spanish: Genealogy in Madrid. Next visit. Requests open to search for your ancestors. Diocesan Historical Archive of Madrid. Write to us for a quotation: contactmagenha@gmail.com."/>
       </a>
       <div class="open-call__body">
        <p class="open-call__status"><span class="open-call__dot" aria-hidden="true"></span><span data-closed-text="Closed">Requests open</span></p>
-       <p class="eyebrow eyebrow--light">Next trip · Canary Islands</p>
-       <h2 id="open-calls-title">We are visiting the Canary Islands’ diocesan archives.</h2>
-       <p class="open-call__lede">We will visit the diocesan archives of La Laguna and Las Palmas in person. Tell us what you would like to discover about your family: we can carry out a targeted search or help you rebuild your genealogy.</p>
+       <p class="eyebrow eyebrow--light">Next visit · Madrid</p>
+       <h2 id="open-calls-title">We are visiting the Diocesan Historical Archive of Madrid.</h2>
+       <p class="open-call__lede">We will visit the Diocesan Historical Archive of Madrid in person. Tell us what you would like to discover about your family: we can carry out a targeted search or help you rebuild your genealogy.</p>
        <ul class="open-call__places">
-        <li><strong>La Laguna</strong><span>Tenerife</span><small>Diocese of San Cristóbal de La Laguna: Tenerife, La Palma, La Gomera and El Hierro</small></li>
-        <li><strong>Las Palmas</strong><span>Gran Canaria</span><small>Diocese of the Canaries: Gran Canaria, Lanzarote and Fuerteventura</small></li>
+        <li><strong>Madrid</strong><span>Diocesan Historical Archive</span><small>Archdiocese of Madrid</small></li>
        </ul>
-       <p class="open-call__note">Tell us the island, parish and period you are interested in: we will confirm whether those books can be consulted in these archives and send you a quotation before any payment.</p>
+       <p class="open-call__note">Tell us the parish and period you are interested in: we will confirm whether those books can be consulted in this archive and send you a quotation before any payment.</p>
        <div class="open-call__deadline">
-        <p class="open-call__date" data-closed-text="Requests for this trip closed on 30 November.">Requests until <strong>30 November 2026</strong>, inclusive.</p>
-        <p class="open-call__countdown" data-open-call-countdown data-closed-text="Write to us and we will let you know about the next trip.">Places are limited.</p>
+        <p class="open-call__date" data-closed-text="Requests for this visit have closed.">Closing date for requests: <strong>to be announced</strong>.</p>
+        <p class="open-call__countdown" data-open-call-countdown data-closed-text="Write to us and we will let you know about the next trip.">Write to us now and we will let you know as soon as the date is set.</p>
        </div>
        <div class="button-row">
-        <a class="button button--paper" href="#contact" data-prefill-places="Canary Islands (trip to the diocesan archives of La Laguna and Las Palmas)" data-closed-text="Tell me about the next trip" data-closed-href="mailto:contactmagenha@gmail.com?subject=Next%20archive%20trip">Book my search</a>
-        <a class="text-link text-link--light" href="mailto:contactmagenha@gmail.com?subject=Canary%20Islands%20trip">contactmagenha@gmail.com <span aria-hidden="true">→</span></a>
+        <a class="button button--paper" href="#contact" data-prefill-places="Madrid (visit to the Diocesan Historical Archive of Madrid)" data-closed-text="Tell me about the next trip" data-closed-href="mailto:contactmagenha@gmail.com?subject=Next%20archive%20trip">Book my search</a>
+        <a class="text-link text-link--light" href="mailto:contactmagenha@gmail.com?subject=Madrid%20visit">contactmagenha@gmail.com <span aria-hidden="true">→</span></a>
        </div>
       </div>
      </article>
@@ -172,7 +173,7 @@
       On this page
      </p>
      <nav>
-      <a href="#open-calls">Open requests: Canary Islands</a>
+      <a href="#open-calls">Open requests: Madrid</a>
       <a href="#coverage">
        Check coverage
       </a>
@@ -299,14 +300,14 @@
          <p class="trip-log__note"><a href="log.html#asturias-calibracion">See the entry <span aria-hidden="true">→</span></a> · <a href="#contact" data-prefill-places="Asturias (next trip to the diocesan archive of Oviedo)">I’m interested in Asturias</a></p>
         </div>
        </li>
-       <li class="trip-log__item trip-log__item--open" data-open-call data-closes="2026-11-30">
-        <img class="trip-log__cover trip-log__cover--poster" src="images/scenes/canarias-solicitudes.jpg" width="720" height="900" loading="lazy" decoding="async" alt=""/>
+       <li class="trip-log__item trip-log__item--open is-closed">
+        <img class="trip-log__cover trip-log__cover--poster" src="images/scenes/canarias-cupo-completo.jpg" width="720" height="900" loading="lazy" decoding="async" alt=""/>
         <div class="trip-log__body">
-         <p class="trip-log__status" data-closed-text="Closed">Requests open</p>
+         <p class="trip-log__status">Fully booked</p>
          <p class="trip-log__when">Early December 2026</p>
          <h3 class="trip-log__what"><strong>Canary Islands</strong> La Laguna and Las Palmas</h3>
-         <p class="trip-log__note" data-closed-text="Requests for this trip closed on 30 November.">Requests until 30 November, inclusive.</p>
-         <p class="trip-log__note"><a href="#open-calls">See the poster and book <span aria-hidden="true">↑</span></a></p>
+         <p class="trip-log__note">Requests closed. Thank you for your interest!</p>
+         <p class="trip-log__note"><a href="images/scenes/canarias-cupo-completo.jpg" target="_blank" rel="noopener">See the poster <span aria-hidden="true">→</span></a></p>
         </div>
        </li>
       </ol>

@@ -24,7 +24,9 @@ This repository contains the static website published at [magenha.org](https://m
   `data-open-call data-closes="YYYY-MM-DD"` (last day included): until then it shows a countdown; after it, it turns
   to «Plazo cerrado» by itself and swaps the texts/links given in `data-closed-text` / `data-closed-href`.
   `data-prefill-places` on a link carries the trip into the contact form's places field. To announce the next trip,
-  change the poster, texts and `data-closes`; when a trip is done, move it to «Realizado» in the trips log
+  change the poster, texts and `data-closes`; when a trip is done, move it to «Realizado» in the trips log. To close
+  a call early (e.g. «Cupo completo»), drop `data-open-call`, add the class `is-closed` and write the closed texts
+  directly, as done for the Canary Islands on 28 Nov 2026 (poster `images/scenes/canarias-cupo-completo.jpg`)
 - `images/` — every picture the pages use, as light web copies:
   - `images/brand/` — `logo-header.png` (header/footer) and `logo-card.jpg` (MAGENHA's Cuba card)
   - `images/directory/` — researcher logos (`<id>-256.jpg`) and resource logos (`<id>-logo.jpg|png`)
@@ -259,10 +261,15 @@ block, and a link to an id inside a block opens it. Keep the EN and ES pages wit
 (process, fees, archive visits, deliverables ×2, official documents), Service (terms, about), Cuba (changes) and the log.
 FAQs and Spain terms already use `<details>`.
 
-## Open-request notice (`announcements.js`)
+## Trips notice (`announcements.js`)
 
-A small floating notice on every page (EN and ES) announces the trips with open requests. **To announce a new trip,
-edit only the `AVISOS` list at the top of `announcements.js`** (id, last day `closes`, poster image, ES/EN texts and the
-link). The notice appears a moment after the page loads, stays until the last day (included) and a visitor can close
-it (remembered in that browser only). On the page that holds the poster it steps aside while the poster is on screen.
+A small floating notice on every page (EN and ES) announces a trip with open requests, or simply invites visitors to
+stay tuned for upcoming trips. **Edit only the `AVISOS` list at the top of `announcements.js`** (id, optional last day
+`closes`, image, ES/EN texts, link and an optional second link `more`/`moreHref`). The first valid entry is shown a
+moment after the page loads. With `closes` it counts the days left and disappears after the last day (included);
+without it, it stays until removed from the list. A visitor can close it (remembered in that browser only, per `id`:
+use a new id so everyone sees a new notice). On the page its link points to it steps aside while that part is on
+screen. Since 28 Nov 2026 it announces the next visit to the Diocesan Historical Archive of Madrid (open requests,
+closing date not set yet: no `closes`). The Canary Islands trip («cupo completo») stays as a card in the Spain page
+and the log; the Spain band `#open-calls` holds Madrid.
 Remember to update the Spain page band (`#open-calls`) and the log (`#proximos`) for the same trip.

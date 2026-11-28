@@ -664,7 +664,7 @@
 }
 
 .trip-log__note a {
-  display: inline-block;
+  display: inline;
   color: var(--ink-900);
   font-weight: 800;
   text-decoration: none;
